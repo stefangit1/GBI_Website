@@ -1,0 +1,119 @@
+<div class="post_info">
+  <h1>Riskmanagement</h1>
+  <nav>
+    <ul>
+      <li><a href="#einleitung">1 Introduction</a></li>
+      <ul>
+        <li><a href="#voraussetzung">1.1 Prerequisite</a></li>
+      </ul>
+
+      <li><a href="#was_risiko">2 What is Risk Management?</a></li>
+      <ul>
+        <li><a href="#bsp_risk">2.1 Example: What is Risk?</a></li>
+        <li><a href="#risk_mit">2.2 Example: Risk with Management</a></li>
+      </ul>
+
+      <li><a href="#korr_rr">3 Correlation Risk/Return</a></li>
+      <ul>
+        <li><a href="#problem_theorie">3.1 Problem of Theory</a></li>
+        <li><a href="#verh_opt">3.2 Optimizing R/R Ratio</a></li>
+        <ul>
+          <li><a href="#zustand_one">3.2.1 State 1: More Loss Trades Than Profitable Ones</a></li>
+          <li><a href="#zustand_two">3.2.2 State 2: Loss and Profit Trades Are Identical</a></li>
+          <li><a href="#zustand_three">3.2.3 State 3: More Profitable Than Loss Trades</a></li>
+        </ul>
+        <li><a href="#problem_rr">3.3 Problem of Optimizing R/R Ratio</a></li>
+      </ul>
+      <li><a href="#posi_gr">4 Determining Position Size for Optimal Risk/Reward Ratio</a></li>
+      <ul>
+        <li><a href="#wie_viel">4.1 How Much to Risk?</a></li>
+        <li><a href="#welche_gr">4.2 Which Contract Size Is Suitable?</a></li>
+        <ul>
+          <li><a href="#zu_groß">4.2.1 Too Large Positions</a></li>
+          <li><a href="#zu_klein">4.2.2 Too Small Positions</a></li>
+          <li><a href="#gesunde_m">4.2.3 The Healthy Middle Ground</a></li>
+        </ul>
+      </ul>
+      <li><a href="#behauptung">5 Assertion</a></li>
+      <li><a href="#tipps">6 Tips and Tricks</a></li>
+      <ul>
+        <li><a href="#excel">6.1 Excel Table</a></li>
+      </ul>
+    </ul>
+  </nav>
+
+  <h2 id="einleitung">1 Introduction</h2>
+  <p>We think that if we agree that risk is one of the most important topics, not just in finance but in any activity we undertake, then you'll agree with us. Humans are built to weigh risks to decide whether something is worth doing. Therefore, we've dedicated an entire chapter to risk management to present our views on optimal decision-making.</p>
+  
+  <h3 id="voraussetzung">1.1 Prerequisite</h3>
+  <p>For this course, we assume that you have completed our beginner's course or are already somewhat familiar with the world of trading. If you do not have this knowledge yet, it would be beneficial, as previously mentioned, to work through our course series step by step.</p>
+
+  <h2 id="was_risiko">2 What is Risk Management?</h2>
+  <p>What do we mean by risk management? It wouldn't be helpful to show you some predefined formula that no one would want to understand, so we try to explain it with illustrative examples.</p>
+  
+  <h3 id="bsp_risk">2.1 Example: What is Risk?</h3>
+  <p>In our example, we delve a little into the mathematics of probability. Mr. Risk participates in a gambling game. In front of him are 3 doors. 2 of the 3 doors double his stake, but if he chooses the wrong door, he loses everything. He takes the risk and plays the game. His chance of choosing the right door is 2/3, but his risk of choosing the wrong one is 1/3. He chooses correctly. His €10 turns into €20. The host asks him again, "Do you want to play again?" He says "YES". Again, he approaches a door and chooses correctly. Now he has €40. The probability of choosing correctly is 1/3 higher than the wrong one, but the 1/3 risk remains, and with each further action, he could choose incorrectly. He could continue playing and take the risk, or he could take his profit, but we leave the rest open.</p>
+  
+  <h3 id="risk_mit">2.2 Example: Risk with Management</h3>
+  <p>What if in our example, Mr. Risk could choose how much money he loses if he picks the wrong door? Wouldn't this game be a money-printing machine? Let's say Mr. Risk proposes that if he chooses the right door, he doubles his winnings, but if he chooses the wrong one, he only loses €5. This game would be an excellent offer for the player and would reduce the risk because even if he doesn't choose correctly, he doesn't lose everything, and he can reassess whether to try again after each round. We try to follow a similar principle in trading, but how we optimize and perfectly adjust our risk/reward ratio will be explained later.</p>
+
+  <h2 id="korr_rr">3 Correlation Risk/Return</h2>
+  <p>If we consistently choose correctly with a 50% probability in our trades and limit our loss to €5 and our gain to €5, meaning a ratio of 1/1, then after several trades, we would have neither a loss nor a gain. Now there are two ways to achieve a profit. The first would be to increase the probability of making a correct trade. Let's say we increase the probability of predicting the correct outcome from 50% to 70%. How we achieved this remains unclear for now and doesn't concern us. Then, with an RR (Risk/Reward) ratio of 1/1, we would make a profit over time. Since it is very difficult to increase the probability of a desired trade and usually only professionals or algorithms succeed, we must resort to the second option. What if our probability remained at 50%, but we adjusted our risk/reward ratio? If we adjust it to 1/2, we win only half of our positions in frequent trading, but we would earn twice as much on the winning ones as we could lose, and thus we would make a profit over time.</p>
+  
+  <h3 id="problem_theorie">3.1 Problem of Theory</h3>
+  <p>In theory, this sounds very simple, but it would be nice if it were just as easy in practice. For example, we can never determine the probability of a direction. We may have a hunch, which is speculation, but we never have an exact number. This makes it difficult to calculate to be profitable over time.</p>
+  
+  <h3 id="verh_opt">3.2 Optimizing R/R Ratio</h3>
+  <p>We do have an option to optimize our ratio. We only give you one way to approach this, but you will find countless others on the internet. We recommend actively trading on a demo account for an extended period. Set the stop-loss and take-profits to a ratio of 1/1. For example, if the maximum loss per trade is €5, then the maximum gain is also €5. Another condition is that you never interrupt the positions before reaching the SL or TP and always let them run out. After a period that you have set for yourself, say about 1 month, but it can be longer, evaluate the results. Set the gains and losses in relation without considering the profit and loss. There are now 3 states, one of which will apply to your evaluation.</p>
+  
+  <h4 id="zustand_one">3.2.1 State 1: More Loss Trades Than Profitable Ones</h4>
+  <p>If this happens, we recommend that you look at the winning trades. Did the price continue to rise after reaching the take profit? If it didn't move in the right direction after reaching the TP, then it's necessary not to work on risk management but to focus on technical analysis for now, as any adjustment would be pointless. However, if the price continued to rise, then the questions arise: How far and how often did it rise? If the price, for example, always went twice as far in the direction of the entered position after reaching the TP, you can adjust your RR ratio from 1/1 to 1/2 and potentially be profitable. Depending on "how far and how often," it makes sense to optimize accordingly.</p>
+  
+  <h4 id="zustand_two">3.2.2 State 2: Loss and Profit Trades Are Identical</h4>
+  <p>In this case, it is no longer necessary to set the loss/profit ratio excessively high. We need to look at "how far and how often" again. The only difference now is that if the price always moved twice as far after reaching the TP in your favor, you should not set the RR ratio to 1/2 but to 1/1.5 to be profitable. Therefore, instead of €5 TP, it should be €7.5.</p>
+  
+  <h4 id="zustand_three">3.2.3 State 3: More Profitable Than Loss Trades</h4>
+  <p>This is the best situation you could have achieved. Now you don't need to change anything about the RR ratio, but you should make sure to be aware of this during future trades.</p>
+  
+  <h3 id="problem_rr">3.3 Problem of Optimizing R/R Ratio</h3>
+  <p>Setting the optimal ratio is difficult. We don't have a number to quantify how far the price could move after hitting the take profit. You can, however, improve over time and become more profitable.</p>
+
+  <h2 id="posi_gr">4 Determining Position Size for Optimal Risk/Reward Ratio</h2>
+  <p>Now that we know our desired RR ratio, we need to determine the appropriate position size.</p>
+  
+  <h3 id="wie_viel">4.1 How Much to Risk?</h3>
+  <p>A good approach is always to risk no more than 1% of the capital in your account. It's difficult to recover from a large loss, because to make up for a 50% loss of the total capital, you would need to double your capital after the loss, which means earning 200%. For example, if you have a deposit of €500, you should not risk more than €5 to remain sustainably active in the market. You need to understand that this business is not a gamble; instead, your goal is to scale up your account. If you gain €10 from a trade, then 1% is no longer €5, but €5.10.</p>
+  
+  <h3 id="welche_gr">4.2 Which Contract Size Is Suitable?</h3>
+  <p>What a contract is has already been explained in the beginner's course. Additionally, we are not covering calculations here, but rather trying to determine an optimal size. If you need a pip calculator, you can use our position size calculator in the Fibonacci Expert Advisor's user interface. If you do not know what a pip is, we also recommend reading our beginner's course.</p>
+  <br>
+  <p>The larger the position, the shorter the distance it needs to travel to reach the desired target, as even small price changes can significantly impact the profit or loss of large positions. However, with smaller positions, the price needs to move a greater distance up or down to hit our take profit (TP). The question now is how large our positions should be to find an optimal balance between a short and long distance. Therefore, we will now examine both options and find a good compromise.</p>
+  
+<h4 id="zu_groß">4.2.1 Too Large Positions</h4>
+  <p>Large positions might seem advantageous because they require less price movement to generate profits. However, why don’t we size our positions significantly larger? The reason is that the market doesn’t always move in a single direction; there are also economic phases that push the price in the opposite direction. This might sound complicated now, but we will go through an example trade to illustrate.</p>
+	<br>
+ <h5>Example for Large Position:</h5> 
+	<p>As mentioned earlier, we should never risk more than 1% of our capital. Suppose our account is funded with €500, which means our maximum loss is €5. The upper line represents our Take Profit, and the lower line represents our Stop Loss. The entry into the trade is marked by a point. Our Risk-Reward (RR) ratio is 1:1.</p>
+<img src="../logistic/upload_files/courses/Riskmanagement/risk1.jpg" alt="Risikomanagement_1">
+	<p>Wir sehen, dass wir in der Zukunft unseren TP erreicht hätten, doch wir wurden viel zu früh ausgestoppt, was uns den Trade gekostet hat. Doch warum ist das so? Wie wir bereits erwähnt haben, ist bei großen Positionen schnell 1% unseres Kapitals erreicht, weswegen uns kein Spielraum bleibt, indem der Kurs sich bewegen könnte. Viele denken sich auch, dass dies nicht so oft vorkommt, doch Sie werden häufiger als gedacht, aufgrund von zu engen Stop Loss ausgestoppt.
+	<br>Bei zu großen Positionen wird uns der StopLoss zum Verhängnis. Was machen wir? Wir verkleinern unsere Position.</p>
+
+  <h4 id="zu_klein">4.2.2 Too Small Positions</h4>
+  <p>With smaller positions, the price has a larger range to reach our Stop Loss. However, the issue here is not with the Stop Loss but with the Take Profit, and you'll soon see why.</p>
+	<h5>Example for Small Position:</h5>
+		<p>As mentioned earlier, we should never risk more than 1% of our capital. Suppose our account is again funded with €500, which means our maximum loss is €5. The upper line represents our Take Profit, and the lower line represents our Stop Loss. The entry into the trade is marked by a point. Our Risk-Reward (RR) ratio is 1:1.</p>
+		<img src="../logistic/upload_files/courses/Riskmanagement/risk2.jpg" alt="Risikomanagement_2">
+
+  <h4 id="gesunde_m">4.2.3 The Healthy Middle Ground</h4>
+  <p>Therefore, you should find the right balance to optimize your risk/reward ratio and determine the position size that fits your trading strategy.</p>
+
+  <h2 id="behauptung">5 Assertion</h2>
+  <p>So far, we have covered all the steps necessary to make your trading as successful as possible. But to be successful, you need to understand all aspects of trading, especially risk management.</p>
+
+  <h2 id="tipps">6 Tips and Tricks</h2>
+  <p>We'd like to end this chapter with a few tips and tricks.</p>
+  
+  <h3 id="excel">6.1 Excel Table</h3>
+  <p>We strongly recommend creating an Excel table to document your trades and regularly check your progress. This allows you to see whether you've made the right decisions and adjust your trading strategy accordingly.</p>
+<img src="../logistic/upload_files/courses/Riskmanagement/risk3.jpg" alt="Risikomanagement_3">
+</div>

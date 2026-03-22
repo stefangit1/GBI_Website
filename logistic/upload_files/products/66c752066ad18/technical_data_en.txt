@@ -1,0 +1,4 @@
+Operating system:
+Windows10/11
+Version: V3_0
+64-Bit

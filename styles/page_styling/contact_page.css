@@ -1,0 +1,190 @@
+body {
+    font-family: Bahnschrift;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+label{
+    font-family: Bahnschrift;
+}
+
+.center_content_contactpage {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.hauptform{
+    display: flex;
+    flex-direction: row;
+}
+.contactform_block{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-text-phone-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    height: 50px;
+    background-color: #3e8e41;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.intro-text-phone-box p{
+    color: white;
+}
+
+.intro-text-times {
+    margin-top: 20px;
+    display: flex;
+}
+.intro-text-times li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.kategorie_explain{
+    width: 90%;
+    height: 300px;
+    background-color: lightgreen;
+    padding-left: 10%;
+}
+.kategorie_explain p ,strong{ font-family: Bahnschrift; font-size: 16px;}
+
+.info_container_contact{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(240,240,240);
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top:20px;
+}
+.info_container_contact p, h3{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.info_container_contact img{
+    width: 100px;
+    height: 100px;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text_contact"],
+input[type="email"],
+.contact_page_textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #555;
+    background-color: #f9f9f9;
+}
+
+textarea {
+    height: 120px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.intro-text {
+    max-width: 50%;
+    margin: 0 auto 20px 0; /* Links ausgerichtet mit etwas Abstand unten */
+    padding: 20px;
+    font-family: Bahnschrift;
+    color: #333333;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Leichtes Grau für Kontrast */
+    border-left: 4px solid lightgreen; /* Blaue Linie links für Akzent */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 15px;
+    font-family: Bahnschrift;
+}
+
+.intro-text p {
+    font-size: 1.1em;
+    margin-bottom: 0;
+    font-family: Bahnschrift;
+}
+@media (max-width: 768px) {
+    .hauptform {
+        display: flex;
+        flex-direction: column; /* Stapelt die Elemente untereinander */
+        align-items: center; /* Zentriert die Elemente horizontal */
+    }
+
+    .intro-text, .contactform_block {
+        max-width: 90%; /* Nimmt fast die gesamte Breite ein, aber mit etwas Abstand */
+        margin: 0 auto 20px auto; /* Zentriert beide Blöcke und sorgt für Abstand nach unten */
+    }
+
+    .intro-text {
+        order: 1; /* Stellt sicher, dass der Einleitungstext immer oben ist */
+    }
+
+    .contactform_block {
+        order: 2; /* Kontaktformular folgt dem Text */
+    }
+    .kategorie_explain{
+        height: 450px;
+    }
+    .info_container_contact{
+        height: 500px;
+    }
+}

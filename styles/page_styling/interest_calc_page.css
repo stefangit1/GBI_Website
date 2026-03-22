@@ -1,0 +1,170 @@
+.title_zinsrechner {
+    text-align: center; /* Zentriert den Titel */
+    margin-bottom: 20px; /* Abstand nach unten für ein klareres Layout */
+}
+label{
+    font-family: Bahnschrift;
+}
+
+.title_zinsrechner h1 {
+    font-size: 2.5em; /* Größerer, auffälliger Titel */
+    color: #2c3e50; /* Dunkelblau für einen professionellen Look */
+    font-weight: 600; /* Fettgedruckter Text */
+    margin: 0; /* Kein zusätzlicher Abstand um den Titel herum */
+    font-family: Bahnschrift;
+}
+
+.container {
+    display: flex; /* Flexbox-Layout für ein anpassbares Layout */
+    justify-content: space-between; /* Gleichmäßiger Abstand zwischen Formular und Tabelle */
+    gap: 30px; /* Abstand zwischen den beiden Containern */
+    padding: 20px; /* Innenabstand für Luftigkeit */
+    background-color: #f9f9f9; /* Leichtes Grau für den Hintergrund des Containers */
+    border-radius: 10px; /* Abgerundete Ecken für ein weiches Design */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Leichter Schatten für Tiefe */
+}
+
+.form-container {
+    flex: 1; /* Nimmt den verfügbaren Raum gleichmäßig ein */
+    padding: 20px; /* Polsterung für den Formularcontainer */
+    background-color: #ffffff; /* Weißer Hintergrund für Klarheit */
+    border-radius: 10px; /* Abgerundete Ecken */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Schatten für das Formular */
+}
+
+.form-container form {
+    display: flex; /* Flexbox für Formularfeld-Layout */
+    flex-direction: column; /* Vertikale Anordnung der Formularfelder */
+}
+
+.form-container label {
+    font-size: 1.1em; /* Etwas größere Schrift für Labels */
+    color: #333; /* Dunkelgrauer Text für die Labels */
+    margin-bottom: 5px; /* Leichter Abstand unterhalb der Labels */
+}
+
+.form-container input[type="number"],
+.form-container select,
+.form-container input[type="checkbox"] {
+    font-size: 1em; /* Standardgröße für Eingabefelder */
+    padding: 8px; /* Innenabstand für Eingabefelder */
+    margin-bottom: 15px; /* Abstand unterhalb der Eingabefelder */
+    border: 1px solid #ccc; /* Leichter Rand um die Felder */
+    border-radius: 5px; /* Leicht abgerundete Ecken */
+}
+
+.form-container input[type="submit"] {
+    padding: 10px 20px; /* Polsterung für den Button */
+    background-color: #3498db; /* Blau für den Button-Hintergrund */
+    color: white; /* Weißer Text für den Button */
+    border: none; /* Kein Rand für den Button */
+    border-radius: 5px; /* Abgerundete Ecken */
+    cursor: pointer; /* Hand-Cursor für Interaktivität */
+    font-size: 1em; /* Standardgröße für den Button-Text */
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #2980b9; /* Dunkleres Blau bei Hover */
+}
+
+.table-container {
+    flex: 2; /* Größerer Raum für die Tabelle */
+    padding: 20px; /* Polsterung für den Tabellencontainer */
+    background-color: #ffffff; /* Weißer Hintergrund für Klarheit */
+    border-radius: 10px; /* Abgerundete Ecken */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Schatten für den Tabellencontainer */
+}
+
+.table-container h2 {
+    font-size: 1.5em; /* Größerer Text für den Tabellentitel */
+    color: #2c3e50; /* Dunkelblau für den Tabellentitel */
+    margin-bottom: 15px; /* Abstand unterhalb des Titels */
+}
+
+.table-container table {
+    width: 100%; /* Tabelle füllt den verfügbaren Platz aus */
+    border-collapse: collapse; /* Entfernt die doppelten Ränder */
+}
+
+.table-container th,
+.table-container td {
+    padding: 12px; /* Innenabstand für Tabellenzellen */
+    text-align: left; /* Linksbündiger Text */
+    border-bottom: 1px solid #ddd; /* Leichter Rand unterhalb der Zellen */
+}
+
+.table-container th {
+    background-color: #f2f2f2; /* Leichtes Grau für Tabellenüberschriften */
+    font-weight: 600; /* Fettgedruckte Tabellenüberschriften */
+}
+
+.table-container td {
+    font-size: 1em; /* Standardgröße für Tabelleninhalt */
+    color: #555; /* Mittelgrauer Text für Tabelleninhalt */
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Ändert die Flexbox-Ausrichtung auf vertikal */
+        gap: 20px; /* Reduziert den Abstand zwischen den Containern */
+    }
+
+    .table-container table, .table-container th, .table-container td {
+        display: block; /* Block-Layout für Tabellelemente */
+        width: 100%; /* Tabellenzellen füllen den gesamten verfügbaren Platz aus */
+    }
+
+    .table-container th,
+    .table-container td {
+        text-align: right; /* Text wird rechtsbündig, um die Label-Text-Ausrichtung zu unterstützen */
+        padding: 10px; /* Reduziert die Polsterung */
+        position: relative; /* Ermöglicht die Positionierung des Pseudoelements */
+        border-bottom: none; /* Entfernt die unteren Rahmen */
+    }
+
+    .table-container th::before,
+    .table-container td::before {
+        content: attr(data-label); /* Fügt die Labels vor den Zelleninhalten hinzu */
+        position: absolute;
+        left: 0;
+        width: 50%; /* Beschriftung nimmt die linke Hälfte der Zelle ein */
+        padding-left: 10px; /* Abstand zwischen der linken Zellgrenze und dem Label */
+        font-weight: bold; /* Hebt die Labels hervor */
+        text-align: left; /* Label-Text wird linksbündig */
+        color: #333; /* Farbe des Labels */
+    }
+
+    .table-container th:last-child,
+    .table-container td:last-child {
+        border-bottom: 1px solid #ddd; /* Fügt nur dem letzten Element eine Grenze hinzu */
+    }
+}
+
+.title_zinsrechner {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Bahnschrift;
+}
+
+.title_zinsrechner h1 {
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    font-family: Bahnschrift;
+}
+
+.title_zinsrechner p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    color: #555555;
+    margin-bottom: 0;
+    font-family: Bahnschrift;
+}

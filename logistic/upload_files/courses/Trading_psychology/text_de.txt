@@ -1,0 +1,57 @@
+<div class="post_info">
+    <h1>Tradingpsychologie</h1>
+<nav>
+    <ul>
+        <li><a href="#einleitung">1 Einleitung</a></li>
+        <li><a href="#fehler">2 Fehler „Es war so und es wird immer so sein“</a></li>
+        <li><a href="#nachrennen">3 Problem des Nachrennens</a></li>
+        <li><a href="#wissen">4 Glauben es zu wissen ist nicht wissen</a></li>
+        <li><a href="#schnellesGeld">5 Schnelles Geld</a></li>
+        <li><a href="#alleWege">6 Alle Wege führen nach Rom</a></li>
+        <li><a href="#system">7 Das System dahinter</a></li>
+        <li><a href="#muster">8 Das Problem der Muster</a></li>
+        <li><a href="#stagnation">9 Stagnierte Gewinne und Verluste</a></li>
+    </ul>
+</nav>
+
+        <h2 id="einleitung">1 Einleitung</h2>
+        <p>Warum ist dieses Thema so wichtig, dass es eine eigene Gruppierung verdient? Es ist so, dass viele Fehler und Verluste geschrieben werden, nicht durch die Strategien, sondern durch undiszipliniertes Handeln. Es gibt mehrere Wege, diese Fehlentscheidungen gewinnen zu lassen. Unsere zwei wichtigsten Kandidaten sind hier die Emotion und die Ungeduld. Ein weiterer Antagonist unserer Geschichte ist die Faulheit. Doch wir werden Ihnen jetzt die häufigsten Fehler näherbringen, um Sie vor dem großen Unglück zu bewahren.</p>
+
+
+        <h2 id="fehler">2 Fehler „Es war so und es wird immer so sein“</h2>
+        <p>Einst lebte ein Fischer in einer Bootshütte, auf einem großen See, den wir Moneysee nennen. Er fischte jeden Tag und fing auch jeden Tag gut, weswegen er sich keine Gedanken darum machte, was passieren würde, wenn er auf einmal nichts mehr fangen würde. Bis jetzt lebte er gut, er hatte jeden Tag was zum Essen. Doch als eines Tages aus heiterem Himmel die Temperatur drastisch anstieg und sich dadurch das Plankton im See radikal vermehrte, starben alle Fische aus. Er hatte für heute noch genügend Fisch, aber der See war tot und er hatte keine Nahrungsquelle mehr. Den Rest der Geschichte können Sie selbst interpretieren.</p>
+        <p>Die Moral ist, nur weil es bis jetzt gut läuft, heißt es nicht, dass es immer so sein wird. Man braucht Ersatz oder einen Plan B. Es ist zu riskant auf das aktuelle Bild zu vertrauen, denn es kann sich jederzeit alles ändern.</p>
+
+    
+        <h2 id="nachrennen">3 Problem des Nachrennens</h2>
+        <p>Ist einst ein Verlust geschrieben, wird wie verrückt dem verlorenen Kapital hinterhergelaufen, in der Hoffnung wieder auf den vorherigen Saldo zu kommen. In dieser Aktion kommen zwei Personen aus dem Schatten hervor. Herr Emotion und Frau Ungeduld. Herr Emotion ist wütend und frustriert. Er fühlt sich schlecht, denn er verliert ungern Geld. Er versucht den Verlust mit allen Kräften, in einer gewissen Selbstverzweiflung wieder einzuholen. Frau Ungeduld, die Ehefrau von Herrn Emotion, stimmt ihren Gatten zu, doch Sie braucht das Geld unbedingt jetzt, sonst kann sie nachts nicht schlafen. Was die beiden vergessen haben, dass diese Methode so gut wie nie funktioniert und wenn nicht sogar die Lage verschlimmert. Denn abgesehen von der undisziplinierten Vorgehensweise, haben die beiden vergessen, dass sie 100% Profit machen müssen, um den 50% Verlust wieder decken zu können. Das bedeutet, wenn man die Hälfte verliert, muss das Kapital verdoppelt werden, um wieder Bare zu sein. Doch dies ist leichter gesagt als getan und mit den beiden Personen im Hinterkopf wird man schnell dazu verleitet, noch größere Fehler einzugehen. Daher ist es wichtig, nach einem Verlust aufzuhören und sich erstmal ein bisschen zu entspannen, um wieder klaren Kopf zu bekommen. Oder das Trading wird auf den nächsten Tag verschoben, was eventuell sogar noch effizienter ist.</p>
+    
+
+  
+        <h2 id="wissen">4 Glauben es zu wissen ist nicht wissen</h2>
+        <p>Oft sehen wir in verschiedenen Social Media Kursen, Trader, die meinen, sie können vorhersagen, was passiert. Sie sehen irgendwelche Muster und versuchen deren Kurs besser zu vermarkten, durch gezeigte Profite oder eingegangene Trades „Die sie unbedingt teilen müssen“. Zwar können wir aus dem Chart herauslesen, was passieren könnte und so die Wahrscheinlichkeit auf ein richtiges Ergebnis erhöhen, doch diese wird nie 100% erreichen. Sie dürfen dies nicht falsch interpretieren, indem Sie denken, wir behaupten technische Analyse funktioniert nicht. Nein, wir behaupten, dass Sie sich fernhalten sollten von dem Gedanken, dass es sicher ist und zu 100% richtig, in welche Richtung der Trend tendiert. Bedenken Sie immer, dass Sie glauben es zu wissen und die Rechnung einmal nicht aufgehen könnte, denn riskieren Sie einmal zu viel, weil der Gedanke besteht, dass man in die Zukunft schauen kann, dann kann dies schnell ein Ende haben und große Verluste werden geschrieben. Doch mit einem guten Risikomanagement, welches wir in einem anderen Kurs durchgehen werden, sollte dieses Problem auch zu beseitigen sein.</p>
+   
+
+
+        <h2 id="schnellesGeld">5 Schnelles Geld</h2>
+        <p>Viele beginnen mit dem Trading, weil gedacht wird, dass man schnell und einfach sehr reich wird. Doch der Weg zum tatsächlichen konstanten Erfolg im Trading ist ein sehr langer Weg und erfordert sehr viel Lernen und Üben. Es kann schon sein, dass es einige nach wenigen Monaten schaffen, wirklich Erfolg zu haben, aber im Durchschnitt kann dies 1 – 3 Jahre dauern, um wirklich professionell Geld damit zu verdienen. Lassen Sie sich nicht unterkriegen von Personen, die behaupten „ich habe es in 1 Monat geschafft, mit dem Trading mehrere Tausende von Euros zu verdienen“. Entweder Sie werden belogen, oder Ihnen wird versucht, ein Kurs zu verkaufen. Es gibt auch mehrere gute Sprichwörter hierfür: „Gut Ding braucht Weile“ oder „Nur Unkraut wächst schnell“. Halten Sie sich an diese Redewendungen und Sie werden merken, dass konstante Verbesserung über einen längeren Zeitraum mehr Sinn ergibt, als das schnelle Geld.</p>
+
+
+
+        <h2 id="alleWege">6 Alle Wege führen nach Rom</h2>
+        <p>Ein schönes Sprichwort, das abgeändert auf das Trading noch mehr Bedeutung findet. „Alle Wege führen nach Rom, manche dauern länger und manche kürzer, manche sind steinig und manche sind eben. Doch jeder, der nicht von seinem Weg nach Rom abkommt, wird irgendwann auch tatsächlich ankommen“. Was meinen wir damit? Jeder hat seine eigene Methodik, wie er versucht, Geld im Handel zu verdienen. Es gibt hierfür kein schlechter oder besser, denn einer ist zwar kürzer, aber geht bergauf, wobei der andere länger ist, aber dafür eine gerade Straße. Je nachdem, welchen Weg man einschlagen möchte, muss dieser dann auch gegangen werden. Ist man einmal vom Weg abgekommen oder möchte währenddessen einen anderen wählen, verirrt man sich oder man muss wieder von null starten. Verlorene Zeit und verlorene Anstrengung. Also bleiben Sie bei dem, wie Sie traden möchten. Es ist logisch, dass Sie Ihre Strategie anpassen und die Werte optimieren müssen, doch schlagen Sie nicht eine komplett neue Richtung ein, nur weil Ihnen der Weg zu ewig oder zu schwer vorkommt.</p>
+
+
+ 
+        <h2 id="system">7 Das System dahinter</h2>
+        <p>Viele starten direkt mit der technischen Analyse und verstehen nicht wirklich, was da alles gerade passiert. Es wird nicht verstanden, die Kohärenz zwischen Währung und Erzen (USD / OIL), welche News welches Ausmaß in der Wirtschaft haben, wie man mit Risiko umgeht (Risikomanagement), wie der Kurs sich bildet und noch viele weitere Einheiten, die man eigentlich lernen sollte. Alles, wofür sich die meisten Beginner interessieren, ist, wie ich irgendwelche Linien in den Chart einzeichne, die mir irgendein YouTuber erklärt hat, der Kurse verkaufen muss, weil er mit dem Trading zu wenig Geld verdient. Liebe Leser, wir bitten Sie, versuchen Sie das System dahinter zu verstehen. Kaufen Sie sich Bücher über das Trading oder generell einfach über das Finanzwesen, um die Wirtschaftspolitik zu verstehen. In den Büchern steht das Wissen dieser Welt, weil nur ein Bruchteil der Information dessen finden Sie im Internet. Da wir hier keine Werbung für Autoren machen möchten, bitten wir Sie, bei Interesse um qualitative Bücher, uns eine Nachricht per Mail zu schreiben oder uns per unserer Hotline anzurufen und wir geben Ihnen ein paar gute Tipps.</p>
+   
+
+   
+        <h2 id="muster">8 Das Problem der Muster</h2>
+        <p>So ziemlich jeder, der mit dem Aktien/Forex/Erz Handel schon einmal etwas am Hut hatte, wird sie kennen: die bestimmten Muster. Sie tauchen immer wieder im Chart auf, schauen aus wie ein M, W, wie ein Kanal, wie eine Flagge oder sonstigen Symbolen. Doch was ist jetzt das Problem daran? Immerhin gibt es die Muster schon immer und sie funktionieren auch, oder? Kann schon sein, dass diese auch funktionieren, doch wir müssen jetzt kurz ein bisschen spekulieren. Wenn wir im Chart in der Vergangenheit zurückscrollen, werden wir immer wieder Muster erkennen und diese auch einzeichnen können und die danach folgenden Regeln erkennen können. Doch wenn wir wieder zurück in die Gegenwart gehen, wo sich der Kurs gerade bildet, was sehen wir da? Nichts, richtig? Wir können nur spekulieren, dass es dieses oder dieses Muster wird, aber wissen können wir es nicht. Sobald dann ein Muster gebildet wurde, schreien wir auf und sagen „Ich hab’s doch gewusst“, falls aber nicht, dann vergessen wir, dass wir eben noch versucht haben, etwas zu sehen, das nicht da ist. Ein weiteres Problem ist, dass während der Bildung der Regelmäßigkeit, wir nicht wissen, welche sich nun gerade bildet und sobald wir sehen, welche es nun wirklich ist, kann es sein, dass wir zu spät sind. Wir möchten Ihnen hier nicht abschlagen, mit Mustern zu traden, wir möchten dieses Thema nur hinterfragen und wenn es bei Ihnen funktioniert und Sie diesen Weg auch gehen, dann ist das völlig legitim, denn um auf das vorherige Thema aufzugreifen „Alle Wege führen nach Rom“.</p>
+    
+        <h2 id="stagnation">9 Stagnierte Gewinne und Verluste</h2>
+        <p>Sie sind jetzt an einem Punkt angelangt, wo Sie nicht mehr wissen, was Sie falsch machen. Sie verlieren kein Geld, aber andersrum verdienen auch keins. Einmal gibt’s Gewinne und einmal Verluste, im selben Ausmaß. Was nun? Dies ist eine schwierige Frage, denn an diesen Punkt verzweifeln viele und geben auf. Sie müssen es positiv sehen, denn Sie befinden sich gerade am Kipppunkt zum profitablen Trader. Doch ab hier kann Ihnen keiner weiterhelfen. Es ist zwar möglich weiterzulernen und besser zu werden, doch ab jetzt sind Sie auf Ihre eigene Strategie angewiesen. Das Einzige, was wir Ihnen mitgeben können, ist, dokumentieren Sie alles, was Sie machen. Dokumentieren Sie Ihre Tagesverfassung, die Trades, die Vorgehensweise und seien Sie diszipliniert. Ist einmal die Barriere durchbrochen, geht es nur mehr steil bergauf. Ich wünsche Ihnen viel Erfolg.</p>
+  
+</div>

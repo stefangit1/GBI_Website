@@ -1,0 +1,228 @@
+<div class="post_info">
+    <nav>
+ 	<h1>Marktstruktur</h1>
+	<ul>
+        <li><a href="#einleitung">1 Einleitung</a></li>
+        <li><a href="#irrglaube-forex-markt">2 Irrglaube Forex Markt</a></li>
+        <li><a href="#marktstruktur">3 Was ist die Marktstruktur</a></li>
+        <li><a href="#trenderfassung">4 Trenderfassung</a></li>
+            <ul>
+                <li><a href="#was-ist-ein-trend">4.1 Was ist ein Trend</a></li>
+                <li><a href="#richtung-des-trends">4.2 In welche Richtung zeigt der Trend</a></li>
+                <li><a href="#zeitdimensionierung">4.3 Zeitdimensionierung </a></li>
+                    <ul>
+                        <li><a href="#primar-und-sekundar-trends">4.3.1 Primär und Sekundär Trends</a></li>
+                        <li><a href="#zeitendimensionierung-im-chart">4.3.2 Passende Zeitendimensionierung im Chart</a></li>
+                        <li><a href="#fehlinterpretationen">4.3.3 Mögliche Fehlinterpretationen</a></li>
+                    </ul>
+                <li><a href="mit-trend-handeln">4.4 Mit einem Trend handeln</a></li>
+                    <ul>
+                        <li><a href="#angebot-nachfrage">4.4.1 Angebot Nachfrage</a></li>
+                        <li><a href="#support-resistance">4.4.1.1 Support/Resistance</a></li>
+                        <li><a href="#supply-demand">4.4.1.2 Supply/Demand</a></li>
+                        <li><a href="#einsteigen-und-verlassen">4.4.2 Wann Einsteigen und wann Verlassen?</a></li>
+                    </ul>
+                <li><a href="#abschlussworte">4.5 Abschlussworte</a></li>
+            </ul>
+
+        <li><a href="#technische_analyse">5 Technische Analyse</a></li>
+            <ul>
+                <li><a href="#kerzen">5.1 Kerzen</a></li>
+                <li><a href="#muster">5.2 Muster</a></li>
+            </ul>
+        <li><a href="#trendwenden">6 Trendwenden</a></li>
+        <li><a href="#positionsaufbau">7 Positionsaufbau</a></li>
+        <li><a href="#mathematische-ereignisse">8 Mathematische Ereignisse</a></li>
+            <ul>
+                <li><a href="#leonard-fibonacci">8.1 Leonard Fibonacci</a></li>
+                <li><a href="#fibonacci">8.2 Fibonacci</a></li>
+                    <ul>
+                        <li><a href="#fibonacci-zahlen">8.2.1 Fibonacci Zahlen</a></li>
+                        <li><a href="#fibonacci-im-trading">8.2.2 Fibonacci im Trading</a></li>
+                        <li><a href="#fibonacci-anwenden">8.2.3 Fibonacci im Trading anwenden</a></li>
+                        <li><a href="#fibonacci-zu-schwer">8.2.4 Fibonacci zu schwer?</a></li>
+                    </ul>
+            </ul>
+        <li><a href="#literaturverzeichnis">9 Literaturverzeichnis</a></li>
+    </ul>
+</nav>
+
+	<h2 id="einleitung">1 Einleitung</h2>
+		<p>In diesen Kurs besprechen wir die Marktstruktur hinter einem Symbol, das wir traden möchten. Was genau wir als Marktstruktur definieren, werden wir noch in dieser Weiterbildung erläutern. Doch wozu dieses Thema? Um festzustellen, ob wir jetzt eine Long oder Short Position eingehen sollen, müssen wir zuerst verstehen, in welche Richtung der Markt sich bewegt und ob eventuell eine Wende bevorsteht.</p>
+	
+	<h2 id="irrglaube-forex-markt">2 Irrglaube Forex Markt</h2>
+		<p>Wir müssen noch einen Irrglauben aufdecken, bevor wir zum tatsächlichen Thema kommen. Der Forex Markt ist in Wirklichkeit kein echter Markt. Es gibt keinen zentralen Server oder dergleichen, wo alle Transaktionen erfasst werden. Das bedeutet wir können kein Volumen erfassen. Falls sie einmal sehen, dass Volumen erfasst wird bei einem Devisenhandel, dann ist dies das interne Handelsvolumen des Brokers, aber nicht des weltweiten Handels
+		Wir müssen das ganze wie unzählige Wechselstuben sehen. Jeder tauscht zirka für den gleichen Kurs, und können sich auch untereinander Konkurrieren. Vielleicht weiß die Wechselstube links neben der rechten Wechselstube, zirka wie viel die Rechte getauscht hat, aber eine Wechselstube in Kroatien wird wahrscheinlich nie mit einer aus Deutschland oder Österreich kommunizieren. Es gibt zwar einen Marktplatz im Forex Handel, doch einen vereinheitlichten, einzelnen Markt wird es vermutlich nie geben.</p>
+	
+	<h2 id="marktstruktur">3 Was ist die Marktstruktur</h2>
+		<p>Dieses Wort wird in jeder Branche unterschiedlich definiert, weswegen wir für unseren Kurs eine eigene vereinfachte Version festschreiben.<br></p>
+		<p>Unsere Definition: Die Marktstruktur beinhaltet die Themen der Preisentwicklung, Trenderfassung, Trendwenden, Analyse von Angebot und Nachfrage, sowie des Positionsaufbaus und typischen mathematischen vorkommenden Ereignissen.<br></p>
+		<p>Dies hört sich jetzt erstmals sehr umfangreich an. Es ist auch möglich dieses Thema enorm zu erweitern und die Information unverständlich und überflüssig weiterzugeben, doch wir versuchen es so leicht wie möglich und für einen Anfänger auszulegen. Auch wenn wir meinen, dass dieser Kurs für Anfänger ist, sind Sie danach auch gleichzeitig ein Experte. Hört sich Paradox an und ist es auch, doch vieles der Information, die nicht gebraucht wird, kürzen wir für Sie weg und fokussieren uns dabei aufs wesentliche, womit Sie alles Nötige besitzen um professionell zu handeln.<br></p>
+	
+	<h2 id="trenderfassung">4 Trenderfassung</h2>
+		<h3 id="was-ist-ein-trend">4.1 Was ist ein Trend</h3>
+			<p>Ein Trend ist ein Synonym für eine momentan bestehende Richtung des Marktes. Bedeutet so viel wie, steigt der Kurs über längeren Zeitraum, sprechen wir vom Aufwärtstrend (im Englischen Uptrend). Fällt der Kurs über einen längeren Zeitraum, ist es ein Abwärtstrend (im Englischen Downtrend). Wir werden später noch zu Beispielen kommen, um das Thema besser veranschaulichen zu können. Es gibt noch einen Sonderfall, der Sich Seitwärtstrend nennt. Dieser findet dann statt, wenn der Kurs nicht nach oben und nicht nach unten geht, sondern quasi in einer gewissen Bandbreite in Höhe und Tiefe stagniert und nur in die Seite geht, sprich eigentlich derselbe Kurs über längeren Zeitraum bleibt.</p>
+		<h3 id="richtung-des-trends">4.2 In welche Richtung zeigt der Trend</h3>
+			<p>Es wird immer gesagt, dass es am Anfang schwierig ist einen Trend zu erkennen und zu bestimmen und den muss ich auch zustimmen. Es ist so, dass man den Trend schnell richtig ausfindig machen kann, doch oftmals, gerade bei Anfänger, werden die Charts in zu kleinen Zeiteinheiten betrachtet, oder kleine Ausbrecher aus dem Haupttrend missinterpretiert. Doch nach diesem Kurs werden Sie ein Gespür dafür bekommen, worauf Sie aufpassen müssen und was wirklich „Eingeloggt“ werden kann.</p>
+			<p><br>Schauen wir uns zunächst einzeln die verschiedenen Trends an und gehen hiernach zu den Missinterpretationen über. Für die nächsten Beispielbilder spielt die Dimensionierung der Zeit noch keine Rolle.</p>
+			<img src="../logistic/upload_files/courses/Market_structure/1.jpg" alt="Downtrend">
+			<p>Ich denke hier ist es eindeutig zu sehen, dass es sich um einen Abwärtstrend handelt. Der Kurs fällt eindeutig abwärts. </p>
+			<img src="../logistic/upload_files/courses/Market_structure/2.jpg" alt="Uptrend">
+			<p>Hier sehen wir einen Aufwärtstrend, denn der Kurs bewegt sich eindeutig nach oben</p>
+			<img src="../logistic/upload_files/courses/Market_structure/3.jpg" alt="Sidewaytrend">
+			<p>Hier handelt es sich um eine Seitswärtstrend, auch genannt Seitwärtsphase. Es gibt zwar immer wieder Artefakte/Turbolenzen (Ausbrecher nach oben und unten), doch wenn wir uns die Kursentwicklung von Anfang bis Ende betrachten, sehen wir, dass sich der Preis nicht verändert hat.</p>
+		
+		<h3 id="zeitdimensionierung">4.3 Zeitdimensionierung</h3>
+			<p>Wie wir bereits vorher erwähnt haben, ist es leicht zu erkennen, aber relativ schwer den Trend über eine Zeit zu bestimmen oder zu erkennen, ob dieser Abschnitt nur ein Ausreißer eines übergeordneten Trends ist. Deswegen gehen wir den Ganzen auf den Grund, um ein bisschen Licht ins Dunkle zu bringen</p>
+			<h4 id="primar-und-sekundar-trends">4.3.1 Primär und Sekundär Trends</h4>
+				<p>Zuerst müssen wir im genaueren Betrachten, wie wir die Trends in einer Hierarchie einstufen können, um so zu entscheiden, auf welcher Ebene wir handeln möchten. Für eine bessere Veranschaulichung nehmen wir uns wieder ein Beispiel her.</p>
+				<img src="../logistic/upload_files/courses/Market_structure/4.jpg" alt="Primär/Sekundär">
+				<p>In diesen Chart wird ein Zeitraum von 7 Jahren abgebildet. Wir sehen, dass es einmal Berg auf und einmal Tal abwärts geht. Nun werden wir mit einer Line markieren, wo wir die Primärtrends finden.</p>
+				<img src="../logistic/upload_files/courses/Market_structure/5.jpg" alt="Primär/Sekundär">
+				<p>Wir sehen wir haben 2 primäre Aufwärts -und 2 primäre Abwärtstrends. Zum Schluss folgt ein Seitwärtstrend. Wenn wir den ersten Aufwärtstrend genauer unter die Lupe nehmen, finden wir darin mehrere kleinere Sekundärbewegungen, die vom aktuellen Aufwärts kurzzeitig abweichen und somit einen Sekundärtrends bilden, die wir ebenfalls mit blauen Pfeilen markiert haben.</p>
+				<img src="../logistic/upload_files/courses/Market_structure/6.jpg" alt="Primär/Sekundär">
+				<p>Wenn wir jetzt in einen der untergeordneten Trends näher betrachten würden, würden wir wieder mehrere kleine Untergeordnete finden. Im Prinzip kann man nicht genau sagen, welcher Trend gerade aktuell ist, denn es kommt immer auf die Zeitdimensionierung an. Wenn wir statt 7 Jahren, 20 nehmen würden, wären unsere Primärtrends eventuell untergeordnete Sekundärtrends in einem überliegenden Abwärtstrend. Bedeutet wir betrachten die Analyse als relativ, indem wir uns einen Zeitrahmen nehmen und dessen ersten sichtbaren Trends als primär bezeichnen und die darin liegenden als sekundär.
+				<br>Jetzt werden Sie sich sicher Fragen: „In welcher Zeit muss ich den Chart für diese Trendanalyse betrachten, um optimale Ergebnisse zu erzielen?“. Das ist eine gute Frage, die wir im nächsten Kapitel klären werden.</p>
+
+			<h4 id="zeitendimensionierung-im-chart">4.3.2 Passende Zeitendimensionierung im Chart</h4>
+				<p>Jetzt stellt sich die Frage, in welcher Zeit wir den Chart betrachten müssen, um optimal den momentanen Trend zu erfassen. Hierfür gibt es keine richtige Antwort, da es jeden Individual liegt, auf welche Zeit seine Trades ausgerichtet sind. Wird man eine Position über Monate offenlassen, wird sich wahrscheinlich eine sehr große Zeiteinheit eignen, da er den Trend der letzten Jahre verfolgen möchte. Einer der innerhalb eines Tages eine Position eingeht und wieder schließt wird sich wahrscheinlich den tagesaktuellen Trend oder den Trend der Woche anschauen. Daher geben wir Ihnen jetzt eine Vorgehensweise mit, wie Sie für Sie die passende Zeit bestimmen können.</p>
+				<p><br>Sie können für diese Analyse jedes passende Programm verwenden, doch falls Sie noch nicht wissen welches Sie nehmen, empfehlen wir TradingView. In TradingView, unter MegaChart [TradingView, eingesehen am 05.07.2024], kann das zu untersuchendes Symbol, genaustens skaliert werden, um so perfekt unsere Richtung herauszufinden.</p>
+				<img src="../logistic/upload_files/courses/Market_structure/7.jpg" alt="time scale change">
+				<p>Hier finden Sie einen Button, wo Sie die Zeit anpassen können. So wird bei Einheit T [Tag] eine Kerze einem Tag entsprechen und bei M[Monat], die Kerze einen Monat. Was genau eine Kerze ist und wie wir diese lesen können, klären wir später.</p>
+				<p>Vorgehensweise: Zunächst wechseln wir in eine große Zeiteinheit wie die Woche und betrachten den Chart. Wir sehen, dass sich über die letzten 10 Jahre ein Abwärtstrend durchgesetzt hat. Doch die letzten 10 Jahre interessieren uns nicht wirklich, weshalb wir in eine kleinere Zeiteinheit gehen. Wir wechseln also vom Wochenchart in den Tageschart, indem wir die Einheit Tag wählen. Nun werden wir schon spezifischer, denn wir sehen, dass von 2021- 2023 eindeutig ein steiler Abwärtstrend stattgefunden hat.</p>
+				<img src="../logistic/upload_files/courses/Market_structure/8.jpg" alt="scale chart">
+				<p>In beiden Einheiten [W und T] sehen wir in der Vergangenheit eindeutig einen Abwärtstrend, wobei der im Wochenchart, der Primäre wäre. Im Tageschart würden wir den Primären Abwärtstrend nicht erkennen, weshalb wir uns von einer hohen Zeiteinheit herunterarbeiten. Im Tageschart sehen wir nun auch einen kleinen Downtrend, doch ab 2023 ist ein Aufschwung in Blick, weshalb der Kurs beginnt, wieder zu steigen. Für einen Trader, der über mehrere Wochen oder sogar Monate handeln möchte, wäre dies nun schon der Endstand. Er weiß nun das er Richtung Grund handeln sollte und den Trend folgen sollte. Doch für Trader, die innerhalb einer Woche oder eines Tages handeln möchten, wäre diese Analyse zu ungenau und würde ihm auch nicht viel helfen, weswegen wir weiter nach unten Skalieren müssen. Wir wechseln also </p>
+				<img src="../logistic/upload_files/courses/Market_structure/9.jpg" alt="scale chart">
+				<p>Da wir uns seit 2023 in einer Seitwärtsphase befinden, wird es ab hier schwierig zu erkenn, in welche Richtung wir handeln sollen. Wir würden Anfängern raten, sich aus so einer Phase zurückzuhalten und abzuwarten, in welche Richtung der Kurs dreht. Wir können nur aus den vorherigen Skalierungen den Entschluss ziehen, dass wir uns in einem Abwärtstrend befinden, doch genau bestätigen können wir es auch nicht. Es ist möglich die kleinen Konjekturen innerhalb der Bandbreite dieser Seitwärtsbewegung zu handeln, doch dies würde den Rahmen dieses Kurses sprengen, weshalb wir dies auf einen Fortgeschrittenen Marktstruktur Kurs auslegen werden. Eventuell wird über dieses Thema eine Kursreihe auf YouTube erscheinen, um Ihnen Bildlich besser zu erklären, wie genau wir den aktuellen Trend bestimmen können.</p>
+	
+			<h4 id="fehlinterpretationen">4.3.3 Mögliche Fehlinterpretationen</h4>
+				<p>Wenn man nicht nach einer solchen Vorgehensweise, wie wir Sie vorhin erklärt haben, vorgeht, dann kann es dazu führen, dass man zwar den momentanen Trend erkennt, doch dieser aufgrund der fehlenden Gesamtbildinformation, sich schnell wieder in die Richtung des aktuellen Primärtrends dreht. Dieses Ereignis sorgt schnell für Verwirrung und lässt glauben, die Trendanalyse wäre falsch gewesen. Deshalb ist es immer besser, das Gesamtbild zu betrachten und dann Schritt für Schritt in das Detail zu gehen.</p>
+		
+		<h3 id="mit-trend-handeln">4.4 Mit einem Trend handeln</h3>
+				<p>Jetzt wo wir bestimmen können, ob es wahrscheinlicher ist, dass der Kurs fällt oder steigt, sollten wir auch noch darüber sprechen, wie genau wir diesem Zustand folgen. Wir ergänzen, im Kapitel Trendwenden, wie wir gegen diesen Zustand handeln, doch zuerst bleiben wir einmal Nachmacher und folgen der Mehrheit.</p>
+			<h4 id="angebot-nachfrage">4.4.1 Angebot Nachfrage</h4>
+				<p>Vielleicht haben Sie schon einst die Begriffe (Support/Resistance oder Supply/Demand). Auch wenn diese 2 Paare nicht das selbe bedeuten, ist der Hintergrund, der Bildung dieser Zonen, doch der selbe. </p>
+			<h4 id="support-resistance">4.4.1.1 Support/Resistance</h4>
+				<p>Auf Deutsch „Unterstützung/Widerstand“ sind Zonen, in einem Chart, bei denen die Masse bereit ist zu verkaufen oder zu kaufen. Diese imaginären Zonen werden gebildet, durch Abprallen des Kurses an einem bestimmten Level. Im folgenden Beispiel sehen wir eine Support Zone, da der Kurs von oben gekommen ist und durch die Mehrheit, ab einem bestimmten Level [Zone: Schwarz eingerahmt], wieder nach oben gedrückt wurde.</p>
+				<img src="../logistic/upload_files/courses/Market_structure/10.jpg" alt="resistance zone">
+				<p>Wir sehen gleichzeitig auch eine Resistance Zone, die wir jetzt ebenfalls schwarz eingerahmt haben.</p>
+				<img src="../logistic/upload_files/courses/Market_structure/11.jpg" alt="support zone">
+				<p>Hier war die Mehrheit dafür zu verkaufen. Allgemein kann man diese Zonen, wie eine Burg betrachten. Sie wird von den Mitspielern verteidigt und versucht zu halten. Da relativ viele Menschen auf dieser Welt nach solchen Zonen handeln, kann man davon ausgehen, dass diese funktionieren können. Doch es ist nicht von Dauer die Burg zu verteidigen, weil wie wir im Chart sehen, wird diese Zone, nach wiederholten berühren, dann doch durchbrochen.
+				<br>Was jetzt? Schauen wir uns den Chart noch etwas länger an.</p>
+				<img src="../logistic/upload_files/courses/Market_structure/12.jpg" alt="both zones">
+				<p>Ist eine Widerstands Zone einmal durchbrochen, wird sie klarerweise zur Unterstützung Zone. Ist eine Unterstützung Zone einmal durchbrochen, dann wird Sie zur Widerstand Zone. In unserem Beispiel, wurde also unsere Resistance Zone zum Support und wir sehen schön, dass der Kurs nach dem Durchbrechen, an unsere Zone angetoucht hat. Als er dann doch wieder durchbrochen ist, hat der Widerstand nicht funktioniert, doch unsere Zone wurde wieder zum Support, der dann wieder funktioniert hat.</p>
+			<h4 id="supply-demand">4.4.1.2 Supply/Demand</h4>
+				<p>Auf Deutsch “Angebot/Nachfrage“ meinen Experten, dass dies mit Support/Resistance nichts zu tun hat. Da müssen wir Ihnen leider recht geben, doch wo wir Ihnen zustimmen, ist dass man die beiden Dinge nicht gleich interpretieren kann. Es wird meist gesagt, dass man diese beiden Dinge nicht vermischen darf, doch im Prinzip ist Support/Resistance, also die Zonenbildung, dort wo am meisten Angebot oder Nachfrage herrscht. Im Prinzip bilden beide Methoden dieselben Zonen und wir würden für einen Anfänger zwischen den beiden Paaren nicht differenzieren, da es sonst sehr schnell zu Verwirrung kommt.</p>
+			<h4 id="einsteigen-und-verlassen">4.4.2 Wann Einsteigen und wann Verlassen?</h4>
+				<p>Dies ist ein ergänzender Part zum Thema des Risikomanagement, weshalb wir uns hier nicht mit Risiko und Ertrag, sowie Zahlen oder Mathematik beschäftigen, wie im vorher erwähnten Kurs, sondern uns genau fokussieren, wann genau wir handeln sollten.
+				<br>Fassen wir zusammen wir wissen jetzt, wie der Trend läuft, wir wissen jetzt aus den Risikomanagement Kurs wie groß wir unsere Positionen gestalten sollten, wir wissen, was Konjunkturen sind und wir wissen wie Support/Resistance Zonen funktionieren.
+				Wir werden jetzt gemeinsam mit Ihnen einen Chart analysieren:</p>
+				<img src="../logistic/upload_files/courses/Market_structure/13.jpg" alt="chart">
+				<p>Wir möchten unseren Trade über eine längere Zeit laufen lassen, weswegen wir uns den Chart in einer großen Einheit ansehen, wie den Wochenchart. Wir betrachten und erkennen eindeutig einen Abwärtstrend.</p>
+				<p><br>Zunächst werden wir uns eine Gelegenheit suchen, in der wir gut in den Trade einsteigen können. Wir sehen uns den Chart an und suchen uns zunächst die Widerstands Zonen, da wir ja eine Short Position eingehen werden und so teuer wie möglich einsteigen und so günstig wie möglich austeigen möchten.</p>
+				<img src="../logistic/upload_files/courses/Market_structure/14.jpg" alt="search trend">
+				<img src="../logistic/upload_files/courses/Market_structure/15.jpg" alt="search trend">
+				<p>Da wir uns in einem Abwärtstrend befinden, interessiert uns der Support nicht. Uns bleiben jetzt zwei Möglichkeiten. A: Wir warten bis der Kurs bis zur Widerstandszone hochwandert und steigen dann mit einer Short Position ein oder B: Wir hoffen, dass der Kurs die Support Zone durchbricht und diese somit zur Widerstands Zone. Noch einen Tipp. Nie direkt beim ersten Kontakt mit der Zone handeln. Erst warten, bis sich bestätigt, dass der Kurs wirklich abprallt, weil die Möglichkeit auf das Durchbrechen immer besteht. Kommen wir zurück zu Fall B. Unser Kurs bricht jetzt durch die Support Zone und macht diese zum Widerstand. Wir warten also, ob sich dies noch bestätigt, indem wir den Kurs zusehen, wie er von unten auf die ehemalige Support Zone zuwandert und dann wieder umdreht. Erst hiernach gehen wir unsere Short Position ein.</p>
+		<h3 id="abschlussworte">4.5 Abschlussworte</h3>
+				<p>Es ist sehr schwierig diese ganze Information gleich zu verstehen und noch schwieriger ist, diese auch gleich in der Praxis profitabel einzusetzen. Doch Übung macht den Meister und nach einigen Trainingsstunden – Empfehlung Demokonto-, werden Sie Ihre ersten konstanten Profite schreiben können.</p>
+	<h2 id="technische_analyse">5 Technische Analyse</h2>
+				<p>Zur technischen Analyse gehört eigentlich auch das Zonenverhalten, welches wir vorher besprochen haben, doch dieses werden wir hier nicht neu aufgreifen. Daher springen wir in eine tiefere Ebene und betrachten nicht einen Trend, sondern sehen uns an, wie wir aus einer Kerze lesen können, was diese aussagt.</p>
+		<h3 id="kerzen">5.1 Kerzen</h3>
+			<p>Wissen Sie noch wie wir beim Thema Zeitdimensionierung, wie wir Ihnen mitgeteilt haben, dass Sie die Zeit von Woche „W“ zu Tag „T“ umstellen sollen. Diese Zeit bestimmt wie viel Zeit in einer Kerze zusammengefasst wird. Doch zuerst was ist eine Kerze und wie sieht diese aus?</p>
+				<h4>5.1.1 Wie ist eine Kerze aufgebaut?</h4>
+					<p>Es gibt zwei Arten von Kerzen eine Bullische und eine Bärische. Eine Bullische ist eine Kerze, die den Preis nach oben treibt und eine Bärische eine die den Preis nach unten treibt. </p>
+					<img src="../logistic/upload_files/courses/Market_structure/16.jpg" alt="bullishe candle">
+					<img src="../logistic/upload_files/courses/Market_structure/17.jpg" alt="bullishe candle">
+				<h4>5.1.2 Wie ist ein Chart aus Kerzen aufgebaut?</h4>
+					<p>Ein Chart aus Kerzen ist so aufgebaut, dass wir eine Kerze haben und die nachfolgende Kerze am Schluss der vorherigen Kerze beginnt. Das heißt Eröffnung der neuen Kerze beginnt immer am Schluss der alten.</p>
+					<img src="../logistic/upload_files/courses/Market_structure/18.jpg" alt="bullishe candle">
+				<h4>5.1.3 Was können Kerzen aussagen?</h4>
+					<p>Der Körper, das ist der große Teil der Kerze beinhaltet nicht so viel Information wie die Dochte. Die Dochte ist der kleine Teil über und unter dem großen Teil.</p>
+					<img src="../logistic/upload_files/courses/Market_structure/19.jpg" alt="candle1">
+					<p>Wenn wir uns diese Kerze genauer ansehen, dann merken wir, dass der Kurs schon ziemlich tief war, doch es wurde gekauft, weswegen der Preis wieder noch oben ging. Wir sehen einen deutlichen Kaufdrang der Menschen.</p>
+					<img src="../logistic/upload_files/courses/Market_structure/20.jpg" alt="candle2">
+					<p>Der Körper dieser Bullischen Kerze ist zwar sehr positiv groß, doch ab es wurde stark zurück verkauft, weswegen der Preis stark nach unten gedrückt wird.</p>
+					<img src="../logistic/upload_files/courses/Market_structure/21.jpg" alt="candle3">
+					<p>Es gibt aber auch solche Fälle. Hier ist es sehr ausgewogen zwischen Kaufen und Verkaufen. Diese Kerze bringt zum Ausdruck, dass der Markt sich nicht wirklich einig ist.</p>
+					<p><br>Allgemein kann man davon ausgehen, dass die Länge des Dochts die Meinung in eine Richtung verstärkt. Wenn Sie sich doch einen Chart einmal ansehen, werden Sie merken, dass es oft so ist, dass zwar 6 Kerzen in einer Reihe darauf hinweisen, dass die meisten gerade verkaufen, doch die Käuferseite trotzdem gewinnt und der Kurs steigt. Gerade für Einsteiger kann dieses Kerzenlesen, einen sehr schnell in die Ruinen treiben, weswegen wir abraten sich an Kerzen zu orientieren und auf die vorher besprochene Strategie zu setzen. Trotzdem finden wir, dass jeder der mit dem Trading schon etwas zu tun hatte, wissen muss, was Kerzen sind und wie diese aufgebaut sind. Eventuell bringen wir einen eigenen Kurs für Sie heraus, wo wir Ihnen im Detail erklären, wie man eine Kerze interpretieren könnte.</p>
+
+		<h3 id="muster">5.2 Muster</h3>
+			<p>Wenn Sie wissen möchten, warum wir auf keine Muster eingehen werden, dann lesen Sie sich den Tradingpsychologie Kurs durch. Dort gehen wir ausführlich darauf ein, warum wir von Muster (engl. Patterns) abraten. Oder zumindest für einen Anfänger nicht für sinnvoll halten.</p>
+
+	<h2 id="trendwenden">6 Trendwenden</h2>
+		<p>Auf Trendwenden zu spekulieren ist eine Sache, die sehr schnell in die Hose gehen kann, doch wenn die Position aufgeht, sind auch enorme Profite enthalten. Es ist leider nun so, dass das Risiko Korrelation mit dem Ertrag steht. Es ist durch Risikomanagement möglich dieses Verhältnis zu verlagern, doch zu 100% auslöschen wird nicht funktionieren. Deswegen würden wir Trendwenden erst empfehlen, wenn Sie wirklich über längere Zeit profitabel getradet haben. Doch wir werden trotzdem auf dieses Thema eingehen, um Ihnen einen Einblick in die Thematik zu verschaffen.  </p>
+		<h3>6.1 Warum sind Trendwenden erkenn so schwer?</h3>
+			<p>Stellen Sie sich eine Schüssel voller Informationen vor. Auf 99% das Zetteln in der Schüssel steht „FOLGEN“ und auf 1% der kleinen Zettelchen steht „NICHT FOLGEN“. Jetzt gibt es 10 Teilnehmer, die aus dieser Schüssel einmal ziehen. Der Zettel wird nach den Lesen wieder zurückgelegt, welches jeden die gleiche Chance bietet. Was denken Sie? Welches Szenario trifft ein? Natürlich die Mehrheit wird zu einer sehr hohen Wahrscheinlichkeit folgen. Die Wahrscheinlichkeit, dass mindestens 6 Menschen die 1% ziehen, ist enorm klein. Dieses Phänomen sind wir unsere eigene Psychologie zu verschulden, da der Mensch lieber sicher der Masse folgt. Und sich gegen eine Masse zu stellen wird zu einer sehr hohen Wahrscheinlichkeit scheitern. Fassen wir zusammen: Selbst, wenn wir erkennen, dass eine Trendwende bevorstehen könnte, müssten es die Mehrheit auch erkennen, um wirklich den Markt umzustimmen, weshalb Trendwenden zu handeln ein reiner Selbstmord sein kann, gerade für Anfänger.
+			Außerdem gibt es ein weiteres Problem. Eine Konjunktur in die andere Richtung, wird auch sehr häufig als Trendwende betrachtet. Es wird eine Position eingegangen und im Endeffekt dreht sich wieder der Kurs in die Richtung des fortlaufenden Trends.</p>
+	
+	<h2 id="positionsaufbau">7 Positionsaufbau</h2>
+		<p>Fortlaufend zum Kurs über Risikomanagement haben wir ein Thema, welches nicht häufig von Kursen wie diesen bearbeitet wird. Es ist für viele irrelevant, doch wir empfinden es als Schande sich einer so mächtigen Einheit nicht zu bedienen. Es ist üblich, dass zum passenden Zeitpunkt die volle Position eingegangen wird. Dies ist völlig in Ordnung und wird von uns auch teilweise genutzt, doch wir bieten Ihnen jetzt eine weiter Methode, eine Position über mehrere Positionen aufzubauen, um so das Risiko auf mehrere Positionen zu verteilen.</p>
+		<p><br>Für diese Vorgehensweise nehmen wir unsere eigentliche geplante Positionsgröße her und teilen die auf drei kleinere Positionen auf, die in Summe wieder die Große ergeben. </p>
+		<p><br>Angenommen wir haben jetzt einen Aufwärtstrend, in dessen sich gerade eine Abweichung nach unten abspielt. Optimaler Zeitpunkt einzusteigen, doch gleich mit voller Größe und das Risiko ausgestoppt zu werden ignorieren? Nein, wir empfehlen erst ein drittel der ganzen Position zu verwenden, natürlich mit TP und SL. Sollte der Kurs jetzt wieder steigen, haben wir Profit geschrieben und wir sind glücklich. Sollte der Kurs doch noch weiter fallen, können wir den nächsten drittel mit denselben SL und TP einreichen und bei jeder weiteren, tieferen Position, erhöht sich die Wahrscheinlichkeit, dass die Korrektur zu ende ist und verringert auch gleich das Risiko frühzeitig ausgestoppt zu werden. Beachten Sie das die eigentliche Positionsgröße nicht überschritten wird.</p>
+		<p><br>In den folgenden Bildern haben wir dieses Prinzip grafisch für Sie veranschaulicht. Sie haben den schwarzen Punkt, der den Einstieg in eine Position markiert mit der schwarzen Linie darüber die den TP und einer schwarzen Linie darunter die den SL darstellen soll. Ein bisschen später kommt das grüne Element, mit den selben Eigenschaften wie der schwarze Punkt. Für diesen Fall hätten wir keine dritte Position eingehen müssen, da der Kurs ja nicht mehr tiefer gefallen ist.</p>
+		<img src="../logistic/upload_files/courses/Market_structure/22.jpg" alt="positionsaufbau chart">
+	
+	<h2 id="mathematische-ereignisse">8 Mathematische Ereignisse</h2>
+		<p>Zu den mathematischen Ereignissen gibt es ein großes Thema, das wir heute besprechen werden, da wir dieses auch für unser FiboTrader-Handelssystem verwenden. Wie der Name schon verrät, handelt es sich um die Fibonacci Zahlen. Es gibt mehrere Methoden mit diesen Zahlen zu hantieren. So gibt es in der Tradingkultur das Fibonacci Retracement, Extension, Fächer und eventuell noch viele weitere, die uns in diesen Stiel noch nie interessierten.
+		Wir werden und in diesen Kurs einigen, dass es für uns nur das Fibonacci Prinzip gibt ohne irgendwelche Zusätze, zur Einfachheit halber. </p>
+		
+		<h3 id="leonard-fibonacci">8.1 Leonard Fibonacci</h3>
+			<p>Wer war dieser Kerl und warum sind seine Erkenntnisse im Trading so wichtig? Leonardo da Pisa, sein eigentlicher Name, war ein Mathematiker des Mittelalters, also schon ziemlich lange her. Dennoch prägen uns seine Kenntnisse bis heute und geben einen Grundbaustein, für viele bekannte Operationen, wie zum Beispiel unser Fibonacci im Trading.</p>
+		<h3 id="fibonacci">8.2 Fibonacci</h3>
+			<p>Jetzt wo wir wissen woher es kommt, müssen wir noch klären was Fibonacci im eigentlichen Sinne ist und danach, wie wir dies ins Trading übersetzen können.</p>
+			<h4 id="fibonacci-zahlen">8.2.1 Fibonacci Zahlen</h4>
+				<p>Die Fibonacci Zahlen bilden sich aus einer Addition zwischen Ergebnis zweier Zahlen addiert mit der Vorgänger Zahl des Ergebnisses. Kann sein das diese Erklärung mathematisch nicht korrekt ist, doch das folgende Bild soll Ihnen mehr Einblick gewähren.</p>
+				<img src="../logistic/upload_files/courses/Market_structure/23.jpg" alt="fibonacci numbers">
+				<p>„Reiht man Quadrate aneinander, welche die Seitenlänge der Zahlen der Fibonacci-Folge haben, so entsteht immer ein Rechteck, welches dem Goldenen Schnitt nahe kommt. Die längere Seite des Rechteckes ist wiederum die Seitenlänge des nächsten Quadrats, der nächsten Fibonacci-Zahl.
+				Verbindet man die Ecken der Quadrate, so entsteht eine Spirale. Diese Spirale wird auch als „Goldene Spirale“ bezeichnet“ [mat.uc.at, eingesehen am 12.07.2024]</p>
+				<img src="../logistic/upload_files/courses/Market_structure/24.jpg" alt="fibonacci spiral">
+				<p>Dieses Muster kommt in der Natur sehr häufig vor, weshalb es teilweise in der Denkweise des Menschen verankert ist.</p>
+				<img src="../logistic/upload_files/courses/Market_structure/25.jpg" alt="fibonacci spiral">
+			<h4 id="fibonacci-im-trading">8.2.2 Fibonacci im Trading</h4>
+				<p>Nehmen wir die goldene Spirale her und passen die Fibonacci Zahlen auf die Regelmäßigkeiten des Tradings an.</p>
+				  <h4>Fibonacci Zahlen, die für uns relevant sind</h4>
+    <ul>
+        <li>21</li>
+        <li>34</li>
+        <li>55</li>
+        <li>89</li>
+    </ul>
+
+    <h4>Angepasste Fibonacci Zahlen, die für uns relevant sind</h4>
+    <ul>
+        <li>23</li>
+        <li>38</li>
+        <li>50</li>
+        <li>62</li>
+        <li>78</li>
+    </ul>
+
+    <h4>Umwandeln in Prozent</h4>
+    <p>Da unser Bereich, in den wir das Fibonacci anwenden, 100% sein muss, sprich 1, lauten unsere Zahlen wie folgt:</p>
+    <ul>
+        <li>23% = 0,23</li>
+        <li>38% = 0,38</li>
+        <li>50% = 0,5</li>
+        <li>62% = 0,62</li>
+    </ul>
+	<p>Sie werden sich jetzt wundern und fragen die Summe dieser Zahlen ergibt doch nicht 1, doch wir haben eine Spanne von 0 – 1, bedeutet 0% -100% und die 23% sind 23% Richtung 100% von 0% entfernt. Die Zahlen sind unabhängig voneinander und bilden eine Zone die X% von 0% Richtung 100% entfernt sind. Wir blenden Ihnen kurz einfach ein Bild ein, um das ganze Verständlicher zu machen.</p>
+		<img src="../logistic/upload_files/courses/Market_structure/26.jpg" alt="fibonacci retracement">
+		<p>Daher, dass wir auch mal nur Menschen der Natur sind, folgen wir gewissen Regeln der Natur und wiederfinden uns selbst im Trading in unseren optimierten Fibonacci Zahlen.</p>
+	
+			<h4 id="fibonacci-anwenden">8.2.3 Fibonacci im Trading anwenden</h4>
+			<p>Das Fibonacci kann sowohl in Aufwärts-, als auch in Abwärtstrends genutzt werden. Die einzige Schwierigkeit ist die passende Zeitdimensionierung zu wählen. Wir wenden dies an, um in einer Korrektur den passenden Einstieg zu finden. Wir zeichnen vom letzten großen tief des aktuellen Primärtrends bis zum höchsten Hoch das Fibonacci ein. Je tiefer der Kurs in der Korrektur fällt, desto höher ist die Wahrscheinlichkeit auf die Wende wieder zum eigentlichen Trend.</p>
+			<img src="../logistic/upload_files/courses/Market_structure/27.jpg" alt="fibonacci retracement">
+			<p>Wir sehen, dass der Kurs bei bestimmten Zonen regelmäßig wieder zum aktuellen Trend zurückschwingt.
+			<br>ACHTUNG:<br>
+			Falls der Kurs tiefer als 0,62 fällt, könnten zwei Fälle eingetroffen sein. A: Zu einer sehr hohen Wahrscheinlichkeit steht eine Trendwände hervor oder B: Das Fibonacci wurde falsch eingezeichnet</p>
+			<h4 id="fibonacci-zu-schwer">8.2.4 Fibonacci zu schwer?</h4>
+			<p>Falls Ihnen diese Möglichkeit zu traden, zu schwer erscheint, können Sie unseren Expert Advisor testen und mit diesen handeln. Dieser handelt nach diesem Prinzip und lässt keine Fehler zu, da es Maschinenarbeit ist und dieser rein nach Algorithmen vorgeht. Scheuen Sie sich nicht diesen zu testen. Unsere Systeme sind komplett kostenlos, heißt aber nicht nur weil Sie nichts kosten, dass diese nichts können, da wir diese selber sehr verwenden und profitabel sind, weshalb wir diese auch nicht verkaufen müssen.</p>
+	
+		<h2 id="literaturverzeichnis">9 Literaturverzeichnis</h2>
+		 <ul>
+        <li><a href="https://studyflix.de/mathematik/fibonacci-folge-5511" target="_blank">Studyflix: Fibonacci Folge</a></li>
+        <li><a href="https://www.mat.uc.pt/~mat1164/FibonacciAN.html" target="_blank">Mathematik Fakultät UC: Fibonacci Zahlen</a></li>
+        <li><a href="https://de.tradingview.com/chart/ufuhHbuD/?symbol=TVC%3ADEU40" target="_blank">Trading View: Fibonacci im Chart</a></li>
+    </ul>
+
+</div>	

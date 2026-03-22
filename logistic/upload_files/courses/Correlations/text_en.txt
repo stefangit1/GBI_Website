@@ -1,0 +1,178 @@
+<div class="post_info">
+    <h1>Correlations and diversification</h1>
+    <nav>
+        <ul>
+            <li><a href="#introduction">1 Introduction</a></li>
+            <li><a href="#forex">2 Forex</a>
+                <ul>
+                    <li><a href="#forex">2.1 Correlations Between Currency Pairs</a>
+                        <ul>
+                            <li><a href="#forex">2.1.1 Why Do Some Pairs Resemble Each Other More Than Others?</a></li>
+                            <li><a href="#forex">2.1.2 Which Pairs Correlate with Each Other?</a></li>
+                            <li><a href="#forex">2.1.3 How Can I Use This Knowledge to Avoid Doubling My Losses?</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#stocks">3 Stocks</a>
+                        <ul>
+                            <li><a href="#stocks">3.1 Stock Correlations</a>
+                                <ul>
+                                    <li><a href="#stocks">3.1.1 Sector Stocks</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#diversification">3.2 Diversification</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="introduction">
+        <h2>1 Introduction</h2>
+        <p>
+            This course generally deals with correlations and diversification in Forex and stocks. Both stock and Forex or futures traders will benefit from this course. We will not delve into exact figures, as these vary for each instrument we wish to trade. However, the basic structure should be rooted in economics and is reflected in most symbols.
+        </p>
+        <p>
+            Furthermore, we want to point out that this course focuses solely on trading and not on how to create an optimal investment portfolio. That would be a different story. But we are hopeful that a course on investing will appear in the future. And now, enjoy.
+        </p>
+    </section>
+
+    <section id="forex">
+        <h2>2 Forex</h2>
+        <p>
+            We start with Forex because it is easiest to gain a basic understanding here, as there are fewer characteristics to consider compared to stocks, where we need to pay attention to many more factors.
+        </p>
+
+        <h3>2.1 Correlations Between Currency Pairs</h3>
+        <p>
+            What do we mean when we talk about correlations? Many would interpret it as the dependence within a currency pair, meaning how much one currency resembles another. For example, EUR/USD, how much the USD trails the EUR. We don’t mean that this approach is wrong, but it resembles the interpretation of volatility. Moreover, we are trading this pair anyway, and it shouldn’t matter how much the two are correlated. What we mean by correlations is how much one currency pair resembles another currency pair. For example, EUR/USD and CAD/USD. Why we find this important will be discussed later.
+        </p>
+
+        <h4>2.1.1 Why Do Some Pairs Resemble Each Other More Than Others?</h4>
+        <p>
+            For this, we first take four major pairs.
+        </p>
+        <p>
+            We will first explain why some pairs share the same trend and others appear almost mirrored. Afterwards, we can specialize in the various deviations in a trend direction.
+        </p>
+        <p>
+            We see in our pairs shown above that USD is on the right side twice and on the left side twice. Let’s look at the different charts over the same period.
+        </p>
+
+        <p>
+            <img src="../logistic/upload_files/courses/Correlations/gbpusdchart.jpg" alt="GBP/USD">
+            <img src="../logistic/upload_files/courses/Correlations/eurusdchart.jpg" alt="EUR/USD">
+            <img src="../logistic/upload_files/courses/Correlations/usdchfchart.jpg" alt="USD/CHF">
+            <img src="../logistic/upload_files/courses/Correlations/usdcadchart.jpg" alt="USD/CAD">
+        </p>
+
+        <p>
+            We see that the two pairs with USD on the right both exhibit very similar trends. Whereas the pair with USD on the left has trends that are almost mirrored. This is because when USD is on the right, we buy EUR or GBP for x USD. This means that if the value of USD changes, all trends where USD is on the right will change in the same direction.
+        </p>
+        <p>
+            If USD is on the left, we need, for example, x CHF to buy one USD, meaning we reverse the situation. So when USD changes its value, almost all pairs where USD is on the left will also feel this change. For instance, if USD strengthens, more money is needed to buy one USD. Thus, we have a similar exchange rate to a currency pair with USD on the right, but mirrored on the horizontal axis.
+        </p>
+
+        <h4>2.1.2 Which Pairs Correlate with Each Other?</h4>
+        <p>
+            For this chapter, we will refer to USD as the base currency and the second currency in a pair as the secondary.
+        </p>
+        <p>
+            We start with the theory that the more similar the second currencies of different pairs are, the less the rate of the various pairs deviates from each other. We will explain this with an example to provide a better overview.
+        </p>
+        <p>
+            Suppose GBP and EUR are of equal purchasing power. Then the rate of EUR/USD and GBP/USD will be identical. We would get the same amount of EUR as GBP for x dollars.
+        </p>
+        <p>
+            If GBP is stronger than EUR, then the rate would simply be a bit higher, depending on how much stronger GBP is compared to EUR. But the trend would remain the same.
+        </p>
+        <p>
+            There is a scenario where these two pairs do not exhibit the same trend. That would be if one of the two secondary currencies strengthens while the other weakens.
+        </p>
+
+        <h4>2.1.3 How Can I Use This Knowledge to Avoid Doubling My Losses?</h4>
+        <p>
+            Now that we understand how the composition of the pair affects things and can roughly identify which pairs have the same trend and will have, we can avoid the mistake of trading opposite positions on two different correlated currency pairs. One position will go up, and the other will most likely be stopped out, as these two pairs are very likely to follow the same trend. In most cases, it would be much more sensible to merge both positions into one and trade only one symbol. Alternatively, you can take a position in the same direction for both symbols, but we will discuss this later when we cover diversification.
+        </p>
+        <p>
+            While we will relate diversification to stocks, with a little thought, you can draw important conclusions from this.
+        </p>
+    </section>
+
+    <section id="stocks">
+        <h2>4 Stocks</h2>
+        <p>
+            If you are trading stocks, you are in the right place. If you are looking to invest, this topic is also interesting but not really relevant, as we will cover the topic of correlation and diversification for investment portfolios in a separate course. Nevertheless, you can take away some insights from this lesson to make your investing path easier.
+        </p>
+
+        <h3>3.1 Stock Correlations</h3>
+        <p>
+            If you are doing intraday trading, meaning opening and closing positions within a day or even within a few hours or minutes, then this information is not as crucial as it is for someone like a swing trader. We will also cover different types of traders in a separate course. Why do we say this?
+        </p>
+        <p>
+            The fast trader, if you can call it that, usually benefits from increased trading volume in a short time and closes their position after a gain. Whereas the swing trader typically keeps their position open for weeks or even months.
+        </p>
+        <p>
+            Why correlation and thus diversification is important even when we are not talking about investing will now be explained. But first, we need to understand how we can classify stocks into sectors.
+        </p>
+
+        <h4>3.1.1 Sector Stocks</h4>
+        <ul>
+            <li>Non-Cyclicals</li>
+            <li>Cyclicals</li>
+            <li>Energy</li>
+            <li>Technology</li>
+            <li>Telecommunication</li>
+            <li>Healthcare</li>
+            <li>Financials</li>
+            <li>Utilities</li>
+            <li>Industrials</li>
+        </ul>
+        <p>
+            On the stock market, it is usually the case that if a stock in a sector that is ranked very high suffers massive losses, the entire sector will be pulled down with it. Even if other companies are not to blame, it is ingrained in people's minds that this creates panic because other companies in the sector could also crash. For example: On 06.08.2024 Intel received a poor rating, causing the stock to plummet from 38 to 19. Other technology companies also suffered a 3-7% loss, even though the desired figures were met.
+        </p>
+        <p>
+            Conversely, if a company in a sector shines, such as in the technology sector, almost all technology companies will likely benefit, even if their reports are not as impressive. Of course, there are exceptions, but they are limited.
+        </p>
+        <p>
+            What is our point? Just like in Forex, stocks within a sector are correlated with each other, so we need to be careful not to trade opposite directions within a sector.
+        </p>
+        <p>
+            An example:  
+        </p>
+        <p>
+            We buy a stock from company X for 10 EUR.<br>
+            We short a stock from company Y for 10 EUR.<br>
+            Both are categorized in the same sector.<br>
+            And our Risk/Reward ratio is 1/1.
+        </p>
+        <p>
+            There are four possibilities:
+        </p>
+        <ul>
+            <li>Either the price rises for both. We break even, as X gains and Y loses. +10 -10 = 0</li>
+            <li>Or the price falls for both. We also break even, as X loses and Y gains. -10 +10 = 0</li>
+            <li>The price falls and rises in opposite directions. -20, as X loses and Y loses. -10 -10 = -20</li>
+            <li>Or both of our positions win, then we have +20</li>
+        </ul>
+        <p>
+            Our chance of winning is therefore 1/4, and we have not even weighted that 1 and 2 are more likely, as there is correlation within a sector.
+        </p>
+        <p>
+            Of course, we don’t leave our money to chance, but we never really know what will happen, and as a beginner, this path is challenging, which is why we recommend trading in the same trend direction within a sector.
+        </p>
+    </section>
+
+    <section id="diversification">
+        <h3>4.2 Diversification</h3>
+        <p>
+            The example from sector stocks, i.e., the correlation within a sector, also provides the answer to how we should diversify. To be able to take opposing positions, we must tactically divide the volume we actually wanted to trade across several sectors.
+        </p>
+        <p>
+            For example, we could use 1/3 of our position size in the technology sector, 1/3 in healthcare, and the rest in finance.
+        </p>
+        <p>
+            In general, one must be careful not to diversify too much in trading, as this may result in very small positions in each sector. Additionally, we need to pay the spread for each additional position we open, which can add up significantly with many positions. As always, the healthy middle ground is optimal and works best in most cases.
+        </p>
+    </section>
+</div>

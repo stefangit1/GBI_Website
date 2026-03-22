@@ -1,0 +1,46 @@
+
+.content{
+    display: flex;
+    flex: 1;
+    min-height: 80vh;
+}
+
+
+.left_content{
+    background: lightgray;
+    padding: 3em 0 3em 0;
+    flex: 1 1 100px;
+}
+
+.right_content{
+    background: lightgray;
+    padding: 3em 0 3em 0;
+    flex: 1 1 50px;
+}
+
+.center_content{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+main{
+    background: whitesmoke;
+    padding: 0em 0 3em 0;
+    flex: 5 5 200px;
+}
+
+@media all and (max-width: 1200px){
+    .content{
+        flex-direction: column;
+    }
+    main{
+        padding: 0em 0 5em 0;
+    }
+    .left_content{
+        display: none;
+    }
+
+}

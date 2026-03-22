@@ -1,0 +1,102 @@
+<div class="post_info">
+ <h1>Risikomanagement</h1>
+<nav>
+  <ul>
+    <li><a href="#einleitung">1 Einleitung </a></li>
+      <ul>
+        <li><a href="#voraussetzung">1.1 Voraussetzung</a></li>
+      </ul>
+
+    <li><a href="#was_risiko">2 Was ist Risikomanagement? </a></li>
+      <ul>
+        <li><a href="#bsp_risk">2.1 Beispiel was ist Risiko?</a></li>
+        <li><a href="#risk_mit">2.2 Beispiel Risiko mit Management</a></li>
+      </ul>
+
+    <li><a href="#korr_rr">3 Korrelation Risiko Ertrag </a></li>
+      <ul>
+        <li><a href="#problem_theorie">3.1 Problem der Theorie</a></li>
+        <li><a href="#verh_opt">3.2 R/R Verhältnis optimieren</a> </li>
+          <ul>
+            <li><a href="#zustand_one">3.2.1 Zustand 1: Weniger Profitable als Verlust Trades</a></li>
+            <li><a href="#zustand_two">3.2.2 Zustand 2: Verlust und Gewinn Trades sind ident</a></li>
+            <li><a href="#zustand_three">3.2.3 Zustand 3: Mehr Profitable als Verlust Trades</a></li>
+          </ul>
+        <li><a href="#problem_rr">3.3 Problem R/R Verhältnis optimieren</a></li>
+      </ul>
+    <li><a href="#posi_gr">4 Bestimmung Positionsgröße für optimales Risk/Reward Verhältnis  </a></li>
+      <ul>
+        <li><a href="#wie_viel">4.1 Wie viel Riskieren</a></li>
+        <li><a href="#welche_gr">4.2 Welche Kontraktgröße eignet sich </a></li>
+          <ul>
+            <li><a href="#zu_groß">4.2.1 Zu große Positionen</a></li>
+            <li><a href="#zu_klein">4.2.2 Zu kleine Positionen</a></li>
+            <li><a href="#gesunde_m">4.2.3 Der gesunde Mittelweg</a></li>
+          </ul>
+      </ul>
+    <li><a href="#behauptung">5 Behauptung</a></li>
+    <li><a href="#tipps">6 Tipps und Tricks </a></li>
+      <ul>
+        <li><a href="#excel">6.1 Excel Tabelle</a></li>
+      </ul>
+  </ul>
+</nav>
+	
+
+  <h2 id="einleitung">1 Einleitung</h2>
+    <p>Wir denken, wenn wir uns darauf einigen, dass Risiko eines der wichtigsten Themen, nicht nur im Finanzwesen, sondern auch bei jeder Aktivität, die wir erledigen, ist, dann denken wir, dass Sie uns zustimmen. Der Mensch ist dazu geschaffen, anhand des Risikos abzuwägen, ob er etwas nun macht, ob es sich für ihn lohnt, oder nicht. Daher widmen wir ein ganzes Kapitel dem Risikomanagement, um unsere Vorstellungen, von optimaler Abwägung Ihnen zu präsentieren.</p>
+	<h3 id="voraussetzung">1.1 Voraussetzung</h3>
+	   <p>Für diesen Kurs setzen wir voraus, dass Sie unseren Einsteigerkurs durchgearbeitet haben, oder sich bereits in der Welt des Tradings ein bisschen auskennen. Falls Sie dieses Wissen noch nicht besitzen, wäre es von Vorteil, wie bereits vorher erwähnt unsere Kursreihe Stück für Stück durchzuarbeiten.</p>
+	
+<h2 ="was_risiko">2 Was ist Risikomanagement?</h2>
+	<p>Was verstehen wir unter Risikomanagement? Es wäre jetzt nicht von Vorteil Ihnen da irgendeine vordefinierte Formulierung, die eh keiner verstehen möchte, zu zeigen, daher versuchen wir dies in anschaulichen Beispielen zu erläutern.</p>
+		<h3 id="bsp_risk">2.1 Beispiel: was ist Risiko?</h3>
+			<p>Für unser Beispiel gehen wir ein bisschen in die Mathematik der Wahrscheinlichkeitsrechnung. Herr Risk nimmt bei einem Glücksspiel teil. Vor ihm sind 3 Türen. 2 der 3 Türen verdoppelt seinen Einsatz, doch nimmt er die eine falsche Tür verliert er alles. Er nimmt das Risiko auf sich und beschreitet das Spiel. Seine Chance, die richtige Tür zu wählen ist 2/3, doch sein Risiko, die falsche zu erwischen ist 1/3. Er liegt richtig. Seine 10€ werden zu 20€. Der Moderator fragt ihn nochmal „Möchten Sie nochmals spielen?“. Er bestätigt „JA“. Wieder geht er auf eine Tür zu und liegt richtig. Nun hat er 40€. Die Wahrscheinlichkeit für die richtige Wahl ist um 1/3 höher als die der Falschen, doch der 1/3 des Risikos besteht und bei jeder weiteren Aktion könnte er falsch liegen. Er könnte jetzt weiterspielen und es riskieren oder seinen Profit mitnehmen, doch den Rest lassen wir offen.</p>
+		<h3 id="risk_mit">2.2 Beispiel: Risiko mit Management</h3>
+			<p>Was wäre jetzt bei unserem Beispiel, wenn Herr Risk selbst aussuchen könnten, wie viel Geld er verliert, wenn er die falsche Tür nimmt. Wäre dann dieses Spiel nicht eine Gelddruckmaschine? Sagen wir Herr Risk schlägt vor, wenn er die Richtige nimmt, verdoppelt er seinen Gewinn, doch bei der Falschen verliert er immer nur 5€. Dieses Spiel wäre ein exzellentes Angebot für den Spieler und würde das Risiko senken, denn wenn man nicht richtig liegt, verliert man immerhin nicht alles und man kann nach jeder Runde abwägen, ob man es noch einmal probiert. Genau nach einem solchen Prinzip versuchen wir zum Handeln, doch wie wir unser Risiko/Ertrag Verhältnis optimieren und perfekt anpassen erklären wir später.</p>
+
+<h2 ="korr_rr">3 Korrelation Risiko Ertrag</h2>
+	<p>Wenn wir zu einer 50-prozentigen Wahrscheinlichkeit immer richtig liegen mit unserem Trade und wir unseren Verlust auf 5€ und unseren Gewinn auf 5€ beschränken würden, sprich also ein Verhältnis von 1/1, dann würden wir nach einigen Trades kein Verlust und kein Gewinn haben. Jetzt gibt es zwei Möglichkeiten, wie wir zu unserem Profit kommen könnten. 
+	Die erste wäre die Wahrscheinlichkeit auf einen richtigen Trade zu erhöhen. Sagen wir, dass wir die Wahrscheinlichkeit, für das Tippen, des richtigen Ereignis, von 50% auf 70% erhöht haben. Wie auch immer wir das vollbracht haben, bleibt erstmals offen und interessiert uns jetzt auch nicht. Dann wäre es so, dass wir bei einem RR-Verhältnis (Risk/Reward) von 1/1 über eine gewisse Zeit Profit machen. Da es sehr schwierig ist, einfach so die Wahrscheinlichkeit für einen gewünschten Trade zu erhöhen und meist nur echten Profis oder Algorithmen gelingt, müssen wir auf die zweite Variante zurückgreifen. Was wäre, wenn unsere Wahrscheinlichkeit wieder 50% betragen würde, doch wir unser Risiko/Ertrag Verhältnis anpassen. Wenn wir dieses auf 1/2 anpassen, gewinnen wir bei oftmaligem Handel, nur die Hälfte unserer Positionen, doch wir würden bei den Gewonnen, das doppelte des möglich Verlorenen bekommen und würden somit über eine längere Zeit Profite schreiben.</p>
+		<h3 id="problem_theorie">3.1 Problem der Theorie</h3>
+		<p>In der Theorie hört sich das sehr einfach an, doch es wäre ja schön, wenn es in der Praxis genauso einfach laufen würde. Zum Beispiel können wir nie eine Wahrscheinlichkeit für eine Richtung bestimmen. Wir können zwar eine Ahnung haben, was Spekulieren ist, doch wir haben nie eine genaue Zahl. So erschwert es die Rechnung, um über eine längere Zeit profitabel zu sein. </p>
+		<h3 id="verh_opt">3.2 R/R Verhältnis optimieren</h3>
+		<p>Nun bietet uns doch eine Möglichkeit, unser Verhältnis zu optimieren. Wir geben Ihnen hier nur einen Weg wie Sie dieses angehen könnten, doch Sie werden im Internet Unzählige finden. Wir empfehlen auf einem Demokonto, über eine längere Zeit aktiv zu handeln. Sie setzen die Stop Loss und die Take Profits zu einem Verhältnis von 1/1. Bedeutet zum Beispiel: maximaler Verlust pro Trade sind 5€, dann ist der maximale Gewinn auch 5€. Eine weiter Bedingung ist, dass Sie die Positionen, vor dem Erreichen des SL oder des TP, nie unterbrechen und immer auslaufen lassen. Nach einer Frist, die Sie sich vorher gesetzt haben, sprich zirka 1 Monat – können ruhig mehr sein -, werten Sie die Ergebnisse aus. Sie setzen die Gewinne und Verluste ins Verhältnis, ohne den Gewinn und Verlust zu betrachten. Es gibt jetzt 3 Zustände, wo eine davon, zu Ihrer Auswertung zutrifft.</p>
+			<h4 id="zustand_one">3.2.1 Zustand 1: Weniger Profitable als Verlust Trades</h4>
+			<p>Sollte dieser Fall eintreten, dann empfehlen wir, dass Sie sich die Gewinn-Trades ansehen. Ist der Kurs nach Erreichen des Take Profit noch weiter gestiegen? Wenn er nach Erreichen des TP nicht mehr in die passende Richtung gelaufen ist, dann ist es notwendig nicht am Risikomanagement zu arbeiten, sondern sich fürs Erste mit der technischen Analyse zu befassen, da jegliche Anpassung keinen Sinn ergeben würde. Ist der Kurs aber weiter gestiegen, dann stellen sich die Fragen: Wie weit und wie oft ist er so weit gestiegen? Ist der Kurs nachher zum Beispiel, immer um das Doppelte in die Richtung der eingegangenen Position gegangen, kann man sein RR-Verhältnis von 1/1 auf 1/2 anpassen und wäre eventuell schon profitabel. Je nachdem „wie weit und wie oft“, ist es sinnvoll hiernach zu optimieren.</p>
+			<h4 id="zustand_two">3.2.2 Zustand 2: Verlust und Gewinn Trades sind ident</h4>
+			<p>Bei diesem Ereignis ist es nicht mehr nötig, das Verlust/Gewinn Verhältnis überdimensioniert nach oben zu setzen. So müssen wir uns wieder anschauen, wie weit und wie oft? Der einzige Unterschied ist, dass wir zum Beispiel nicht 1/2 riskieren müssen, sondern nur ein kleines Stück, wie 1/1.5 nachkorrigieren müssten, um Profite zu schreiben.</p>
+			<h4 id="zustand_three">3.2.3 Zustand 3: Mehr Profitable als Verlust Trades</h4>
+			<p>Herzlichen Glückwunsch. Es ist Ihnen gelungen, ohne Optimierung profitabel zu sein. Sie könnten trotzdem optimieren, um einen höheren Ertrag zu erreichen, doch Sie hätten es nicht nötig.</p>
+		<h3 id="problem_rr">3.3 Problem R/R Verhältnis optimieren</h3>
+			<p>Das optimale Verhältnis wäre 1/∞, doch das gibt es in der Praxis nun mal leider nicht, denn es ist nur mal so, dass irgendwann der Kurs aufhört in eine entsprechende Richtung zu laufen. Und auch einfach zu sagen “Ich setze es auf 1/5“ ist auch sehr schwer, denn der Kurs muss dann schon einen weiten Weg gehen, um das Ziel zu erreichen und dieser Weg wird oft davor unterbrochen, indem er einfach in die entgegengesetzte Richtung wandert, was uns keine Freude bereitet. Daher können wir uns nur an den Ansatz „Wie weit und wie oft“ festklammern und experimentell das Verhältnis langsam nach oben setzen.</p>
+
+<h2 id="posi_gr">4 Bestimmung Positionsgröße für optimales Risk/Reward Verhältnis</h2>
+<h3 id="wie_viel">4.1 Wie viel Riskieren?</h3>
+		<p>Ein guter Ansatz ist immer, nicht mehr als 1% des Kapitals auf dem Konto zu riskieren. Es ist schwierig einen großen Verlust einzuholen, denn um einen 50% Verlust des Gesamtkapitals einzuholen, müssten wir unser Kapital nach dem Verlust verdoppeln, sprich 200% verdienen. Sprich hätten wir 500€ Einlage, dürften wir maximal 5€ verlieren, um wirklich langlebig im Markt aktiv zu bleiben. Sie müssen es verstehen, dass dieses Geschäft kein Glücksspiel ist, sondern Ihr Vorhaben ist, das Konto in die Höhe zu skalieren. Haben Sie jetzt 10€ durch den Trade gewonnen, sind natürlich 1% nicht mehr die 5€, sondern 5,10€.</p>
+<h3 id="welche_gr">4.2 Welche Kontraktgröße eignet sich?</h3>	
+		<p>Was ein Kontrakt ist, haben wir bereits im Einsteigerkurs erklärt. Außerdem erklären wir hier auch keine Berechnungen, sondern versuchen eine optimale Größe zu bestimmen. Falls Sie einen PIP-Rechner brauchen, können Sie gerne unseren Positionsgrößen Rechner in der Benutzeroberfläche, des Fibonacci Expert Advisor verwenden. Falls Sie nicht wissen, was ein PIP ist, ersuchen wir Sie ebenfalls unseren Einsteigerkurs zu lesen.
+		<br>Je größer die Position, umso einen kleineren Weg muss diese gehen, um das gewünschte Ziel zu erreichen, da bei großen Positionen, auch kleine Kursänderungen schwer ins Plus oder Minus gehen können. Wenn wir aber kleine Positionen verwenden, muss der Kurs einen längeren Weg nach oben oder unten gehen, um unseren TP zu erreichen. Die Frage ist jetzt nur wie groß sollten unsere Positionen sein, um ein Optimum zwischen kurzen und langen Weg zu finden? Daher werden wir jetzt beide Optionen durchgehen und einen guten Mittelweg finden.</p>
+		<h4 id="zu_groß">4.2.1 Zu große Positionen</h4>
+			<p>Schnell würde es mit den großen Positionen gehen. Der Kurs muss nicht so weit nach oben oder unten laufen, um wirklich Profite mitnehmen zu können. Doch warum dimensionieren wir unsere Positionen, dann nicht so enorm? Nun es ist nun mal so, dass der Kurs nicht immer 100% in eine Richtung geht, sondern es gibt auch gewisse Konjunkturphasen, die den Kurs auch in die entgegengesetzte Richtung drücken. Dies hört sich vielleicht jetzt kompliziert an, doch wir werden jetzt einen Beispiel Trade durchgehen.
+			<br>Beispiel zu: große Position:<br>Wie vorher erwähnt, dürfen wir nie mehr als 1% unseres Kapitals verlieren. Sagen wir unser Konto ist mit 500€ gefüllt, was bedeutet, dass unser maximaler Verlust bei 5€ liegt. Die obere Linie ist unser Take Profit und die untere unser Stop Loss. Der Einstieg in den Trade ist mit einem Punkt gekennzeichnet. Unser RR-Verhältnis liegt bei 1/1</p>
+			<img src="../logistic/upload_files/courses/Riskmanagement/risk1.jpg" alt="Risikomanagement_1">
+			<p>Wir sehen, dass wir in der Zukunft unseren TP erreicht hätten, doch wir wurden viel zu früh ausgestoppt, was uns den Trade gekostet hat. Doch warum ist das so? Wie wir bereits erwähnt haben, ist bei großen Positionen schnell 1% unseres Kapitals erreicht, weswegen uns kein Spielraum bleibt, indem der Kurs sich bewegen könnte. Viele denken sich auch, dass dies nicht so oft vorkommt, doch Sie werden häufiger als gedacht, aufgrund von zu engen Stop Loss ausgestoppt.
+			<br>Bei zu großen Positionen wird uns der StopLoss zum Verhängnis. Was machen wir? Wir verkleinern unsere Position.</p>
+		<h4 id="zu_klein">4.2.2 Zu kleine Positionen</h4>
+			<p>Bei kleineren Positionen hat der Kurs einen enormen Spielraum, um unseren Stop Loss zu erreichen. Doch hier liegt das Problem nicht beim SL, sondern beim TP und Sie werden auch gleich merken wieso.<br>Beispiel zu: kleine Position:
+			<br>Wie vorher erwähnt, dürfen wir nie mehr als 1% unseres Kapitals verlieren. Sagen wir unser Konto ist wieder mit 500€ gefüllt, was bedeutet, dass unser maximaler Verlust bei 5€ liegt. Die obere Linie ist unser Take Profit und die untere unser Stop Loss. Der Einstieg in den Trade ist mit einem Punkt gekennzeichnet. Unser RR-Verhältnis liegt bei 1/1</p>
+			<img src="../logistic/upload_files/courses/Riskmanagement/risk2.jpg" alt="Risikomanagement_2">	
+			<p>Wir sehen, der Kurs muss einen enormen Weg zurücklegen, um unseren TP zu erreichen. In unseren Fall hätten wir nie unser Ziel erreicht. Klar, uns stören die Konjunkturphasen nicht mehr, aber Profite werden wir trotzdem nie sehen. In diesem Fall liegt uns unser Take Profit zum Verhängnis.</p>	
+		<h4 id="gesunde_m">4.2.3 Der gesunde Mittelweg</h4>
+			<p>Wie bestimmen wir unsere Größe jetzt? Auf diese Frage können wir keine genaue Zahl nennen, da jeder individuell handelt. Doch wir haben Ihnen gezeigt, welche Fehler Sie vermeiden sollten. Am besten würden wir sagen, ist der gesunde Mittelweg, der beide Fehler ausgleichen würde. Es wäre vom Vorteil, wenn Sie Ihre Bestimmung der Position in einem Demokonto vollziehen, um so gleich mit der richtigen Größe in den Markt einzusteigen.</p>
+
+	<h2 id="behauptung">5 Behauptung</h2>
+		<p>Wir würden sogar behaupten, dass wenn Sie keinen Plan von technischer Analyse haben, dass Sie mit einem perfekten Risikomanagement Profite schreiben. Wie kommen wir auf diese Hypothese? Die Wahrscheinlichkeit, dass der Kurs in eine oder die andere Richtung läuft, ist zwar nicht 50/50, sehr wohl aber Ihre Entscheidung, denn für unser Beispiel haben Sie ja keine Ahnung, wie Sie einen Kurs lesen können. Mit der passenden Größe der Position und dem passenden RR-Verhältnis, sollten Sie über eine längere Zeit, rein aus der Theorie Profite schreiben. Die Erklärung dazu können Sie sich aus den vorher besprochenen Themen herauslesen und wenn Sie dies verstanden haben, dann sind Sie schon ein richtiger Risikomanagement Profi.</p>
+	<h2 id="tipps">6 Tipps und Tricks</h2>
+		<h3 id="excel">6.1 Excel Tabelle</h3>
+		<p>Wir raten immer dazu, eine Tabelle zu erstellen, wo Sie Ihre Trades dokumentieren. Diese Tabelle könnte nach folgenden Schema aufgebaut werden.</p>
+		<img src="../logistic/upload_files/courses/Riskmanagement/risk3.jpg" alt="Risikomanagement_3">
+		<p>Trade und Kapital sollte selbsterklärend sein. Bei Risiko und Gewinn tragen wir unser Verhältnis ein. Zum Beispiel, wenn unser R/R, 1/1 wäre, dann tragen wir bei Risiko 1 und bei Gewinn 1 ein. Gerne kann die Tabelle erweitert werden, doch dieses würde jetzt den Rahmen des Kurses sprengen.</p>
+
+</div>

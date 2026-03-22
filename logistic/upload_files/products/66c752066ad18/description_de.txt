@@ -1,0 +1,1 @@
+Vollautomatischer Händler für den MetaTrader5. Handelt nach dem Fibonacci Prinzip.

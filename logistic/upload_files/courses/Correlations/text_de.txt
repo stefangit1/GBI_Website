@@ -1,0 +1,178 @@
+    <div class="post_info">
+        <h1>Korrelationen und Diversifikation</h1>
+        <nav>
+            <ul>
+                <li><a href="#einleitung">1 Einleitung</a></li>
+                <li><a href="#forex">2 Forex</a>
+                    <ul>
+                        <li><a href="#forex">2.1 Korrelationen zwischen den einzelnen Paaren</a>
+                            <ul>
+                                <li><a href="#forex">2.1.1 Warum ähneln sich manche Paare mehr und manche weniger?</a></li>
+                                <li><a href="#forex">2.1.2 Welche Paare korrelieren miteinander?</a></li>
+                                <li><a href="#forex">2.1.3 Wie kann ich dieses Wissen gezielt einsetzen, um nicht doppelt Verlust zu schreiben?</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#aktien">3 Aktien</a>
+                            <ul>
+                                <li><a href="#aktien">3.1 Korrelation Aktien</a>
+                                    <ul>
+                                        <li><a href="#aktien">3.1.1 Sektoren Aktien</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#diversifikation">3.2 Diversifikation</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <section id="einleitung">
+            <h2>1 Einleitung</h2>
+            <p>
+                Dieser Kurs beschäftigt sich im Allgemeinen mit den Korrelationen und Diversifikation von Forex und Aktien. Also sowohl Aktien als auch Forex oder Termingeschäft, Trader profitieren von diesem Kurs. Wir werden hier auf keine genauen Zahlen eingehen, da diese bei jedem Instrument, dass wir handeln möchten, unterschiedlich ist. Doch die Grundstruktur sollte in der Wirtschaft verankert sein und wird in den meisten Symbolen widergespiegelt.
+            </p>
+            <p>
+                Außerdem möchten wir darauf hinweisen, dass es hier rein, um das Thema Trading geht und nicht wie wir ein optimales Portfolio zum Investieren erstellen. Dieses Thema wäre eine andere Geschichte. Aber wir sind in großer Zuversicht, dass in der Zukunft ein Kurs für das Investieren erscheinen wird. Und jetzt viel Spaß.
+            </p>
+        </section>
+
+        <section id="forex">
+            <h2>2 Forex</h2>
+            <p>
+                Zuerst beginnen wir mit dem Thema Forex, da es hier am einfachsten ist ein Grundverständnis zu bekommen, da wir weniger Eigenschaften zum Betrachten besitzen, wie zum Beispiel bei den Aktien, wo wir auf viel mehr Faktoren achten müssen.
+            </p>
+
+            <h3>2.1 Korrelationen zwischen den einzelnen Paaren</h3>
+            <p>
+                Was meinen wir, wenn wir von Korrelationen sprechen? Viele würden es als Abhängigkeit innerhalb eines Währungspaares interpretieren. Sprich wie sehr eine Währung einer anderen ähnelt. Zum Beispiel EUR/USD, wie sehr der USD den EUR hinterher zieht. Wir meinen nicht, dass dieser Ansatz falsch ist, doch es ähnelt der Interpretation der Volatilität. Außerdem handeln wir sowieso dieses Paar und uns müsste es doch nicht interessieren, wie sehr die zwei zusammenhängen. Wir meinen mit Korrelationen, wie sehr ein Währungspaar einem anderen Währungspaar ähnelt. Zum Beispiel EUR/USD und CAD/USD. Warum wir dies als wichtig empfinden werden wir später noch besprechen.
+            </p>
+
+            <h4>2.1.1 Warum ähneln sich manche Paare mehr und manche weniger?</h4>
+            <p>
+                Hierfür nehmen wir uns erstmal vier Major Paare her.
+            </p>
+            <p>
+                Wir werden zunächst erklären, warum manche Paare den gleichen Trend besitzen und manche genau gespiegelt vorkommen. Danach können wir uns ins Genaue auf die verschiedenen Abweichungen in einer Trendrichtung spezialisieren.
+            </p>
+            <p>
+                Wir sehen bei unseren oben gezeigten Paaren, dass der USD zweimal rechts und zweimal links steht. Schauen wir uns einmal die verschiedenen Charts im gleichen Zeitabschnitt an.
+            </p>
+
+            <p>
+                <img src="../logistic/upload_files/courses/Correlations/gbpusdchart.jpg" alt="GBP/USD">
+                <img src="../logistic/upload_files/courses/Correlations/eurusdchart.jpg" alt="EUR/USD">
+                <img src="../logistic/upload_files/courses/Correlations/usdchfchart.jpg" alt="USD/CHF">
+                <img src="../logistic/upload_files/courses/Correlations/usdcadchart.jpg" alt="USD/CAD">
+            </p>
+
+            <p>
+                Wir sehen, dass die zwei Paare, wo USD rechts steht, beide einen sehr ähnlichen Trend aufweisen. Wohingegen das Paar, wo USD links steht, der Trend fast gespiegelt ist. Das liegt daran, dass wir, wenn USD rechts steht, wir für x USD einen EUR oder GBP kaufen. Das bedeutet, falls der Wert des USD sich verändert, werden sich alle Trends, wo der USD rechts steht in die gleiche Richtung verändern.
+            </p>
+            <p>
+                Steht der USD jetzt links, brauchen wir zum Beispiel x CHF, um einen USD zu kaufen, bedeutet wir drehen das Spiel um. So kommt es dazu, wenn der USD seinen Wert jetzt verändert, dass so ziemlich alle, wo USD links ist, auch diese Änderung spüren. Weil ja zum Beispiel, falls der USD stärker wird, mehr Geld benötigt wird, um einen USD zu kaufen. Wir haben also den einen ähnlichen Kurs, wie bei einem Währungspaar, wo der USD rechts steht, nur in der horizontalen Achse gespiegelt.
+            </p>
+
+            <h4>2.1.2 Welche Paare korrelieren miteinander?</h4>
+            <p>
+                Für dieses Kapitel werden wir den USD als Hauptwährung bezeichnen und die zweite Währung eines Paares als Zusatz.
+            </p>
+            <p>
+                Wir beginnen mit der Theorie, dass je ähnlicher die Zusätze verschiedener Paare sind, desto weniger weicht der Kurs der verschiedenen Paare untereinander ab. Wir werden dieses Thema anhand eines Beispiels erläutern, um einen besseren Überblick zu verschaffen.
+            </p>
+            <p>
+                Nehmen wir an, dass GBP und EUR von der Kaufkraft gleich viel Wert sind. Dann wird der Kurs von EUR/USD und GBP/USD ident sein. Denn wir würden für x Dollar gleich viele EUR wie GBP bekommen.
+            </p>
+            <p>
+                Ist der GBP jetzt stärker als der EUR, dann würde der Kurs einfach ein bisschen teurer sein, je nachdem wie viel stärker er als der EUR ist. Doch der Trend würde derselbe bleiben.
+            </p>
+            <p>
+                Es gibt ein Szenario, wo diese beiden Paare nicht denselben Trend aufweisen. Das wäre, wenn einer der beiden Zusätze stärker wird und der andere schwächer.
+            </p>
+
+            <h4>2.1.3 Wie kann ich dieses Wissen gezielt einsetzen, um nicht doppelt Verlust zu schreiben?</h4>
+            <p>
+                Jetzt, wo wir wissen, wie sich die Zusammensetzung des Paares auswirkt und wir ungefähr erkennen können, welche Paare den gleichen Trend aufweisen und aufweisen werden, können wir den Fehler vermeiden, auf zwei verschiedene korrelierende Währungspaare entgegengesetzte Positionen zu handeln. Die eine Position wird aufgehen und die andere wird höchstwahrscheinlich ausgestoppt werden, da diese zwei Paare sehr wahrscheinlich den gleichen Trend verfolgen werden. In den meisten Fällen wäre es viel sinnvoller, beide Positionen auf eine zu fusionieren und nur ein Symbol zu handeln. Oder man geht bei beiden Symbolen eine Position in dieselbe Richtung ein, doch dies besprechen wir später, wenn wir das Thema Diversifikation besprechen.
+            </p>
+            <p>
+                Zwar werden wir die Diversifikation auf Aktien beziehen, doch mit ein bisschen Überlegung können Sie sich die wichtigen Schlüsse daraus ziehen.
+            </p>
+        </section>
+
+        <section id="aktien">
+            <h2>3 Aktien</h2>
+            <p>
+                Falls Sie Aktien traden sollten, dann sind Sie genau hier richtig. Falls Sie investieren möchten, dann ist dieses Thema zwar auch interessant für Sie, doch nicht wirklich relevant, da wir das Thema Korrelation und Diversifikation für das Investment Portfolio in einem extra Kurs behandeln werden. Trotzdem können Sie einiges aus dieser Lektion für das Investieren mitnehmen und Ihnen den Weg erleichtern.
+            </p>
+
+            <h3>3.1 Korrelation Aktien</h3>
+            <p>
+                Sollten Sie Intraday Trading betreiben, also innerhalb eines Tages die Position eröffnen und auch wieder schließen oder sogar innerhalb weniger Stunden oder Minuten, dann ist diese Information nicht ganz so wichtig, als wie der zum Beispiel einen Swing-Trader. Die verschiedenen Tradertypen werden wir außerdem auch in einem extra Kurs bearbeiten. Warum behaupten wir dies?
+            </p>
+            <p>
+                Der schnelle Händler, wenn man das so sagen kann, profitiert meistens von erhöhtem Handelsvolumen in kurzer Zeit und schließt nach einem Gewinn seine Position wieder. Wohingegen der Swing-Trader meistens seine Position über Wochen oder sogar Monate offenlässt.
+            </p>
+            <p>
+                Warum die Korrelation und somit die Diversifikation hier so wichtig ist, auch wenn wir nicht vom Investieren sprechen, werden wir jetzt beantworten. Doch davor müssen wir verstehen, wie wir Aktien in Sektoren klassifizieren können.
+            </p>
+
+            <h4>3.1.1 Sektoren Aktien</h4>
+            <ul>
+                <li>Nicht Basis Konsumgüter</li>
+                <li>Basis Konsumgüter</li>
+                <li>Energy</li>
+                <li>Technology</li>
+                <li>Telekommunikation</li>
+                <li>Gesundheitswesen</li>
+                <li>Finanzwerte</li>
+                <li>Versorger</li>
+                <li>Industriewerte</li>
+            </ul>
+            <p>
+                An der Börse ist es meistens so, dass wenn eine Aktie, die in einem Sektor sehr weit oben platziert ist, massive Verluste erleidet, der gesamte Sektor mit runtergezogen wird. Auch wenn die anderen Unternehmen dafür nichts können, ist es in den Köpfen der Menschen verankert, dass dies Panik auslöst, weil ja die anderen Unternehmen eines Sektors genauso abstürzen könnten. Zum Beispiel: 06.08.2024 Intel hat nicht gerade ein gutes Rating bekommen, weshalb die Aktie von 38 auf 19 herunterrast. Die anderen Technologie-Unternehmen erlitten ebenfalls einen Verlust von 3-7%, auch wenn die gewünschten Zahlen erreicht wurden.
+            </p>
+            <p>
+                Würde jetzt zum Beispiel ein Unternehmen eines Bereichs glänzen, wie im Sektor der Technologie, würde so ziemlich alle Technologie-Unternehmen wahrscheinlich mitziehen, auch wenn deren Berichte nicht so beeindruckend sind. Klar gibt es Ausnahmen, doch diese halten sich in Grenzen.
+            </p>
+            <p>
+                Worauf wollen wir hinaus? Genau wie bei Forex korrelieren die Aktien innerhalb eines Sektors miteinander, weshalb wir aufpassen müssen, nicht innerhalb eines Sektors entgegengesetzt zu handeln.
+            </p>
+            <p>
+                Ein Beispiel:  
+            </p>
+            <p>
+                Wir kaufen ein Papier des Unternehmens X für 10 EUR.<br>
+                Wir Leerverkaufen ein Papier des Unternehmens Y für 10 EUR.<br>
+                Beide sind im gleichen Sektor kategorisiert.<br>
+                Und unser Risk/Reward-Verhältnis liegt bei 1/1.
+            </p>
+            <p>
+                Es gibt hier vier Möglichkeiten:
+            </p>
+            <ul>
+                <li>Entweder der Kurs steigt bei beiden. Wir gehen mit 0 raus, da X gewinnt und Y verliert. +10 -10 = 0</li>
+                <li>Oder der Kurs fällt bei beiden. Wir gehen ebenfalls mit 0 raus, da X verliert und Y gewinnt. -10 +10 = 0</li>
+                <li>Der Kurs fällt und steigt entgegengesetzt. -20, da X verliert und Y verliert. -10 -10 = -20</li>
+                <li>Oder beide unsere Positionen gewinnen, dann haben wir +20</li>
+            </ul>
+            <p>
+                Unsere Chance auf Gewinn ist also 1/4 und wir haben nicht einmal gewichtet, dass es wahrscheinlicher ist, dass 1 und 2 wahrscheinlicher sind, da eine Korrelation innerhalb eines Sektors besteht.
+            </p>
+            <p>
+                Klar, wir überlassen unser Geld nicht dem Zufall, doch genau wissen wir nie, was passiert, und gerade als Anfänger ist dieser Weg schwierig, weshalb wir empfehlen, innerhalb eines Sektors in die gleiche Trendrichtung zu handeln.
+            </p>
+        </section>
+
+        <section id="diversifikation">
+            <h3>3.2 Diversifikation</h3>
+            <p>
+                Das Beispiel aus Sektoren-Aktien, also die Korrelation innerhalb eines Sektors, liefert uns auch gleich die Antwort darauf, wie wir diversifizieren sollten. Um auch entgegengesetzte Positionen eingehen zu können, müssen wir daher taktisch unser Volumen, das wir eigentlich handeln wollten, aufteilen auf mehrere Sektoren.
+            </p>
+            <p>
+                So könnten wir zum Beispiel 1/3 unserer Positionsgröße in der Technologie-Sparte verwenden, 1/3 im Gesundheitswesen und den Rest im Finanzwesen.
+            </p>
+            <p>
+                Allgemein muss man aufpassen, dass man beim Trading nicht zu sehr diversifiziert, da wir sonst eventuell zu kleine Positionen in jeder Sparte haben. Noch dazu müssen wir für jede weitere Position, die wir eröffnen, den Spread zahlen, der oftmals bei vielen Positionen eine Menge Geld ausmachen kann. Wie immer ist der gesunde Mittelweg das Optimum und funktioniert in den meisten Fällen auch am besten.
+            </p>
+        </section>
+    </div>

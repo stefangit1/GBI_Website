@@ -1,0 +1,179 @@
+.Infopage_viewPort{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    width: 98%;
+    height: 100%;
+}
+.Information_show{
+    padding: 2%;
+    width: 76%;
+}
+.Information_libary{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    background-color: lightgreen;
+    border-radius: 25px;
+}
+.Libary_Theme_Input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .Infopage_viewPort{
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        width: 98%;
+        height: 100%;
+    }
+    .Information_libary{
+        width: 100%;
+        height: 100%;
+    }
+    .Information_show{
+        width: 96%;
+        height: 100%;
+    }
+    .Information_show img{
+        width: 100%;
+    }
+}
+
+.post_info {
+    font-family: Arial, sans-serif; /* Eine allgemeine Schriftart für den gesamten Text */
+    line-height: 1.6; /* Erhöht den Zeilenabstand für bessere Lesbarkeit */
+    margin: 20px; /* Außenabstand für das gesamte Container-Div */
+    padding: 20px; /* Innenabstand für das gesamte Container-Div */
+    border: 1px solid #ccc; /* Leichter Rahmen um das Container-Div */
+    border-radius: 8px; /* Abgerundete Ecken für das Container-Div */
+    background-color: #f9f9f9; /* Heller Hintergrund für das Container-Div */
+}
+
+/* Styling für Überschriften innerhalb des Containers */
+.post_info h1 {
+    font-size: 2em; /* Größere Schriftgröße für den Haupttitel */
+    margin-bottom: 10px; /* Abstand unter dem Haupttitel */
+    font-family: sans-serif;
+}
+
+.post_info h2 {
+    font-size: 1.75em; /* Etwas kleinere Schriftgröße für Abschnittsüberschriften */
+    color: #333; /* Dunklere Farbe für bessere Lesbarkeit */
+    border-bottom: 2px solid #007BFF; /* Blaues Unterstreichung für Abschnittsüberschriften */
+    padding-bottom: 5px; /* Innenabstand unter den Abschnittsüberschriften */
+    margin-bottom: 20px; /* Abstand unter den Abschnittsüberschriften */
+    font-family: sans-serif;
+}
+
+.post_info h3 {
+    font-size: 1.5em; /* Schriftgröße für Unterüberschriften */
+    margin-bottom: 10px; /* Abstand unter den Unterüberschriften */
+    font-family: sans-serif;
+}
+
+.post_info h4 {
+    font-size: 1.25em; /* Schriftgröße für kleinere Unterüberschriften */
+    margin-bottom: 10px; /* Abstand unter den kleineren Unterüberschriften */
+    font-family: sans-serif;
+}
+
+/* Styling für Absätze */
+.post_info p {
+    margin-bottom: 20px; /* Abstand unter Absätzen */
+    font-family: sans-serif;
+}
+
+/* Styling für Listen */
+.post_info ul {
+    list-style-type: disc; /* Aufzählungszeichen für ungeordnete Listen */
+    margin-left: 20px; /* Abstand nach links für Listen */
+    margin-bottom: 20px; /* Abstand unter Listen */
+    font-family: sans-serif;
+}
+
+.post_info ol {
+    list-style-type: decimal; /* Nummerierung für geordnete Listen */
+    margin-left: 20px; /* Abstand nach links für Listen */
+    margin-bottom: 20px; /* Abstand unter Listen */
+    font-family: sans-serif;
+}
+
+.post_info li {
+    margin-bottom: 10px; /* Abstand unter Listenelementen */
+    font-family: sans-serif;
+}
+
+/* Styling für Links */
+.post_info a {
+    color: #007BFF; /* Blau für Links */
+    text-decoration: none; /* Keine Unterstreichung für Links */
+    font-family: sans-serif;
+}
+
+.post_info a:hover {
+    text-decoration: underline; /* Unterstreichung bei Hover für Links */
+}
+
+/* Styling für Bilder */
+.post_info img {
+    max-width: 100%; /* Bild passt sich der Breite des Containers an */
+    height: auto; /* Höhe des Bildes passt sich proportional zur Breite an */
+    border: 1px solid #ddd; /* Leichter Rahmen um Bilder */
+    border-radius: 4px; /* Abgerundete Ecken für Bilder */
+    margin-bottom: 20px; /* Abstand unter Bildern */
+}
+
+/* Styling für die Navigation */
+.post_info nav {
+    margin-bottom: 20px; /* Abstand unter der Navigation */
+    font-family: sans-serif;
+}
+
+.post_info nav ul {
+    list-style-type: none; /* Keine Aufzählungszeichen für Navigationsliste */
+    padding: 0; /* Kein Innenabstand für Navigationsliste */
+    font-family: sans-serif;
+}
+
+.post_info nav li {
+    margin-bottom: 5px; /* Abstand unter Navigationspunkten */
+    font-family: sans-serif;
+}
+
+.post_info nav a {
+    color: #007BFF; /* Blau für Navigationslinks */
+    text-decoration: none; /* Keine Unterstreichung für Navigationslinks */
+    font-family: sans-serif;
+}
+
+.post_info nav a:hover {
+    text-decoration: underline; /* Unterstreichung bei Hover für Navigationslinks */
+    font-family: sans-serif;
+}
+
+.Information_show p{
+    font-family: sans-serif;
+}
+.Information_show h1,h2,h3,h4{
+    font-family: sans-serif;
+}
+
+
+video{
+    width:640px;
+    height:360px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    video{
+        width: 300px;
+        height: 168px;
+    }
+}

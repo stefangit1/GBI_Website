@@ -1,0 +1,115 @@
+body {
+    font-family: "Arial Black";
+    margin: 0;
+    padding: 0;
+}
+
+.comm_startpage_center {
+    display: flex;
+    justify-content: center; /* Zentriert den mittleren Bereich horizontal */
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    position: relative; /* Für die zentrierte mittlere Box */
+}
+.gbi_comm_logo{
+    display: block;
+    position: absolute;
+    height: 200px;
+    width: 30vh;
+    top: 0px;
+}
+.gbi_comm_logo img{
+    width: 100%;
+    height: auto;
+}
+
+.comm_startpage_nav {
+    width: 100%;
+    height: auto;
+    background-color: #28a745;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+
+.comm_startpage_left, .comm_startpage_right {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    background-color: whitesmoke; /* Gleiche Hintergrundfarbe wie das Center */
+}
+
+.comm_startpage_left {
+    left: 0;
+    width: 20%;
+}
+
+.comm_startpage_right {
+    right: 0;
+    width: 20%;
+}
+
+.comm_startpage_middle {
+    width: 60%; /* Neue Breite für den mittleren Container */
+    min-height: 900px;
+    background-color: #555555;
+    margin: 5%;
+    border-radius: 5px;
+    margin-left: 20%; /* Platz lassen für den fixierten linken Bereich */
+    margin-right: 20%; /* Platz lassen für den fixierten rechten Bereich */
+    z-index: 1; /* Stellt sicher, dass die Mitte über den fixierten Bereichen liegt */
+}
+
+.rang_table {
+    width: 90%;
+    height: 50vh;
+    margin: 10vh 5% 5%;
+    background-color: #a0a0a0;
+    color: #222222;
+    border-radius: 5px;
+}
+
+.chat_table {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: 5%;
+    height: 80vh;
+    background-color: #a0a0a0;
+    border-radius: 5px;
+}
+.chat_table_top{
+    width: 96%;
+    height: 10%;
+    margin: 2%;
+    background-color: #c6c6c6;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+.chat_table_middle{
+    width: 96%;
+    height: 70%;
+    margin:2%;
+    background-color: #c6c6c6;
+    border-radius: 5px;
+    border-bottom-color: #222222;
+    border-width: 1px;
+    border-style: solid;
+}
+.chat_table_bottom{
+    width: 96%;
+    height: 14%;
+    margin: 2%;
+    background-color: #c6c6c6;
+    border-radius: 5px;
+    border-bottom-color: #222222;
+    border-width: 1px;
+    border-style: solid;
+}

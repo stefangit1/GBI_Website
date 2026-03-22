@@ -1,0 +1,42 @@
+.button-split {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white; /* Hintergrund des linken Teils */
+    color: black; /* Textfarbe */
+    border: 2px solid lightgray; /* Leichter grauer Rand */
+    padding: 10px 20px; /* Innenabstand */
+    border-radius: 5px; /* Leicht abgerundete Kanten */
+    font-size: 10px; /* Schriftgröße */
+    font-weight: bold; /* Fettgedruckter Text */
+    text-transform: uppercase; /* Großbuchstaben für den Text */
+    cursor: pointer; /* Zeigt einen Zeiger an, wenn der Mauszeiger über dem Button ist */
+    transition: background-color 0.4s ease, color 0.4s ease; /* Sanfter Übergang */
+}
+
+.button-split .button-text {
+    margin-right: 20px;
+    transition: background-color 0.4s ease, color 0.4s ease; /* Sanfter Übergang beim Hover */
+    font-family: Bahnschrift;
+}
+
+.button-split .button-arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid green; /* Grünes Dreieck */
+    transition: border-top-color 0.4s ease; /* Sanfter Übergang beim Hover */
+}
+
+.button-split:hover .button-text {
+    background-color: lightgreen; /* Hintergrundfarbe beim Hover */
+
+}
+.button-split:hover {
+    background-color: lightgreen; /* Hintergrundfarbe beim Hover */
+}
+
+.button-split:hover .button-arrow {
+    border-top-color: black; /* Dunklerer Grünton beim Hover */
+}

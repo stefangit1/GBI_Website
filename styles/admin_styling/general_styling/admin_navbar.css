@@ -1,0 +1,25 @@
+.admin_navbar {
+    background-color: #333; /* Dunkler Hintergrund */
+    overflow: hidden; /* Versteckt Überlauf */
+    font-family: Arial, sans-serif; /* Setzt die Schriftart */
+}
+
+.admin_navbar a {
+    float: left; /* Elemente nebeneinander anzeigen */
+    display: block;
+    color: #f2f2f2; /* Helle Schriftfarbe */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* Entfernt Unterstreichung */
+    transition: background-color 0.3s; /* Glatter Übergang bei Hover */
+}
+
+.admin_navbar a:hover {
+    background-color: #575757; /* Ändert die Hintergrundfarbe beim Hover */
+    color: white; /* Helle Schriftfarbe beim Hover */
+}
+
+.admin_navbar a.active {
+    background-color: #4CAF50; /* Hintergrundfarbe für aktiven Link */
+    color: white;
+}

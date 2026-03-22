@@ -1,0 +1,166 @@
+.product_show_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap; /* Flexbox wrap, um mehrere Reihen zu ermöglichen */
+}
+
+/* Styling für die Produkt-Box */
+.product_item_box {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 400px;
+    width: 45%; /* Breite der Box auf 45% setzen, um zwei Boxen nebeneinander zu ermöglichen */
+    text-align: center;
+    margin: 20px; /* Margin um die Box für Abstand */
+    box-sizing: border-box; /* Box-Sizing, um Padding und Border in die Breite einzubeziehen */
+}
+
+/* Styling für den oberen Teil der Produkt-Box */
+.product_item_box_top {
+    background-color: green;
+    color: #ffffff;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styling für das Bild in der Mitte der Produkt-Box */
+.product_item_box_middle {
+    height: 300px; /* Höhe des Bild-Containers */
+    overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+}
+
+.product_item_box_middle img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styling für den unteren Teil der Produkt-Box */
+.product_item_box_bottom {
+    padding: 16px;
+}
+
+/* Styling für die Beschreibung */
+.product_item_box_bottom_description {
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #555555;
+    height: 52px;
+}
+
+/* Styling für den Download-Button */
+.product_item_box_bottom_downloadbutton a {
+    text-decoration: none;
+}
+
+.button_download {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.button_download:hover {
+    background-color: #218838;
+}
+
+.product_item_box_bottom_description p {
+    font-family: Bahnschrift;
+}
+
+@media (max-width: 768px) {
+
+    .product_show_center {
+        flex-direction: column;
+    }
+
+    .product_item_box {
+        width: 100%; /* Volle Breite bei mobilen Geräten */
+        margin: 20px 0; /* Vertikaler Abstand, horizontales Padding wird entfernt */
+    }
+}
+
+.tech-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    max-width: 10%;
+    box-shadow: 2px 2px 5px hsla(0,0%, 0%,0.8);
+    text-align: center;
+    z-index: 1000;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.tech-show {display: block;}
+.tech-button {
+    background: none;
+    border: solid;
+    border-width: 1px;
+    color: #333333;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.product_page_introText{
+    text-align: center;
+}
+.product_page_introText p,h1,h2,h3,h4{
+   font-family: Bahnschrift;
+}
+.product_page_text_text_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product_page_text{
+    max-width: 50%;
+}
+.product_page_img{
+    max-width: 50%;
+}
+.product_page_img img{
+    width: 200px;
+    height: 200px;
+}
+@media (max-width: 768px) {
+    .product_page_text{
+        max-width: 100%;
+    }
+    .product_page_img{
+        max-width: 100%;
+    }
+}
+
+.rotating-image {
+    animation: rotate 6s infinite steps(4);
+    transform-origin: center center;
+}
+
+@keyframes rotate {
+    0%, 25% {
+        transform: rotate(0deg);
+    }
+    30%, 50% {
+        transform: rotate(90deg);
+    }
+    55%, 75% {
+        transform: rotate(180deg);
+    }
+    80%, 100% {
+        transform: rotate(360deg);
+    }
+}

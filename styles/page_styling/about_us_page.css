@@ -1,0 +1,193 @@
+body {
+    font-family: Bahnschrift;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+p{
+    font-family: Bahnschrift;
+    font-size: 18px;
+}
+.title_aboutus_container{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(240,240,240);
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.title_aboutus_container h1,h2,h3{
+    font-family: Bahnschrift;
+}
+
+.center_content_aboutus{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.center_content_top img{
+   display: flex;
+    width: 80%;
+}
+.center_content_top{
+    display: flex;
+    justify-content: center;
+}
+.aboutus_buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.button-split{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.about_us_question_section{
+    text-align: center;
+}
+.about_us_question{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.about_us_question_column{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about_us_question img{
+    width: 300px;
+    height: 200px;
+}
+video{
+    width:640px;
+    height:360px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .about_us_question{
+        flex-direction: column;
+    }
+    video{
+        width: 300px;
+        height: 168px;
+    }
+}
+
+/*ROADMAP*/
+/*block 1*/
+.roadmap_container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.roadmap_title{
+    width: 80%;
+    height: 50px;
+    text-align: left;
+    padding-left: 20%;
+}
+.roadmap_context{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.roadmap_project_img{
+    width: 20%;
+    height: 250px;
+}
+.roadmap_project_img img{
+    width: 250px;
+    height: 250px;
+}
+
+.roadmap_text{
+    width: 50%;
+    height: 250px;
+    text-align: center;
+
+}
+.roadmap_point_img{
+    width: 10%;
+    height: 250px;
+}
+.roadmap_date{
+    width: 20%;
+    height: 150px;
+    text-align: center;
+    padding-top:100px;
+}
+.roadmap_date p{
+    font-size: 24px;
+}
+/*block 2*/
+
+.roadmap_title2{
+    width: 80%;
+    height: 50px;
+    text-align: right;
+    padding-right: 20%;
+}
+
+/*Mobile Roadmap*/
+@media (max-width: 768px) {
+    .roadmap_context{
+        flex-direction: column;
+        height: auto;
+    }
+    .roadmap_container{
+        height: auto;
+    }
+}
+/**/
+/*MITARBEITER*/
+.about_us_mitarbeiter{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.mitarbeiter_item{
+    width: 200px;
+    height: 350px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    border-radius: 20px;
+}
+.mitarbeiter_item img{
+    width: 200px;
+    height: 200px;
+}
+.mitarbeiter_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/**/

@@ -1,0 +1,153 @@
+.worldclock_content{
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+}
+.times_container_top {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Ermöglicht horizontales Scrollen im Container */
+}
+
+.times_headtitel h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-family: Bahnschrift;
+}
+
+/* Container für die Börsenzeiten */
+.times_exchanges_container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto; /* Ermöglicht horizontales Scrollen */
+    padding: 10px 0; /* Polsterung oben und unten für Abstand zum Inhalt */
+}
+
+#exchanges {
+    display: flex;
+    gap: 15px; /* Abstand zwischen den einzelnen Boxen */
+}
+
+/* Styling der einzelnen Börsenzeiten */
+#exchanges > div {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    min-width: 200px; /* Mindestbreite für jedes Element */
+    flex: 0 0 auto; /* Verhindert, dass die Elemente schrumpfen */
+}
+
+#exchanges strong {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#exchanges div {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+    .times_headtitel h1 {
+        font-size: 20px;
+    }
+
+    #exchanges > div {
+        padding: 10px;
+        min-width: 150px;
+    }
+
+    #exchanges strong {
+        font-size: 16px;
+    }
+
+    #exchanges div {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .times_headtitel h1 {
+        font-size: 18px;
+    }
+
+    #exchanges > div {
+        padding: 8px;
+        min-width: 120px;
+    }
+
+    #exchanges strong {
+        font-size: 14px;
+    }
+
+    #exchanges div {
+        font-size: 12px;
+    }
+}
+.trading_session_times_container{
+    margin-top:40px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.world_stockexchangetable{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:40px;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    font-family: Bahnschrift;
+}
+th {
+    background-color: #f9f9f9;
+}
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Bahnschrift;
+}
+@media (max-width: 768px) {
+    table {
+        width: 50%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+        font-family: sans-serif;
+        font-size: 0.6em;
+    }
+    th {
+        background-color: #f9f9f9;
+    }
+    h2 {
+        font-size: 1em;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+}

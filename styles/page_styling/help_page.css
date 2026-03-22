@@ -1,0 +1,96 @@
+.center_content_helppage {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+}
+center_content_helppage p,h1,h2,h3,h4,h5, strong{
+    font-family: Bahnschrift;
+}
+
+@media (max-width: 768px) {
+    .center_content_helppage{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 98%;
+        padding: 1%;
+    }
+}
+
+body {
+    scroll-behavior: smooth;
+}
+.help_littleNAV{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.faq_box{
+    padding:2%;
+    background-color: rgb(230,230,230);
+    border-radius: 10px;
+    height: auto;
+    width: 96%;
+    margin-top: 20px;
+}
+.faq_box p{
+    font-family: Bahnschrift;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: Bahnschrift;
+}
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-family: Bahnschrift;
+}
+th {
+    background-color: #f2f2f2;
+    font-family: Bahnschrift;
+}
+@media (max-width: 726px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    /* Kopfzeile ausblenden */
+    thead tr {
+        display: none;
+    }
+
+    /* Jede Tabellenzelle als "Zeile" anzeigen */
+    tr {
+        margin-bottom: 10px;
+    }
+
+    /* Inhalt jeder Zelle */
+    td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    /* Pseudo-Element für die Spaltenüberschrift */
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+}

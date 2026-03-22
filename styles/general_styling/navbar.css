@@ -1,0 +1,359 @@
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_section_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav_socialMedia {
+    display: flex;
+    align-items: center;
+}
+
+.social_icon {
+    width: 20px; /* Kleinere Größe für die Social Media Icons */
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav_logo {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.logo {
+    max-width: 200px; /* Größere maximale Breite für das Logo */
+    height: auto;
+}
+
+.nav_utilities {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-left: 10px; /* Abstand nach links für die Suchleiste */
+    margin-right: 10px; /* Abstand nach rechts für die Suchleiste */
+}
+
+.nav_section_bottom {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.nav_section_bottom a {
+    margin: 0 15px;
+}
+
+.nav_section_bottom_mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.nav_utilities_mobile {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.search-bar-mobile {
+    width: 80%; /* Reduzierte Breite für die Suchleiste auf kleineren Bildschirmen */
+    max-width: none;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.nav_menu_button {
+    background: none;
+    border: none;
+    color: #333333;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.nav_dropdown {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.nav_dropdown.active {
+    display: flex; /* Dropdown-Menü anzeigen, wenn aktiviert */
+}
+
+.nav_link {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.nav_link:hover {
+    background-color: lightgreen;
+}
+
+/* Media Queries für kleinere Bildschirme */
+@media (max-width: 768px) {
+    .nav_section_top {
+        flex-direction: column;
+    }
+
+    .nav_logo {
+        margin-bottom: 10px;
+    }
+
+    .nav_utilities {
+        display: none;
+    }
+
+    .nav_section_bottom {
+        display: none;
+    }
+
+    .nav_section_bottom_mobile {
+        display: flex;
+    }
+
+    .nav_utilities_mobile {
+        display: flex;
+    }
+
+    .nav_menu_button {
+        display: block; /* Anzeigen des Menü-Buttons */
+    }
+}
+.dropdown_languages{
+    display: inline-block;
+}
+.dropdown_languages .languages_in_dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    max-width: 15%;
+    box-shadow: 2px 2px 5px hsla(0,0%, 0%,0.8);
+    text-align: center;
+    z-index: 1000;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.dropdown_languages:hover .languages_in_dropdown{
+    display:flex;
+    flex-direction: column;
+}
+
+.dropdown_languages a:hover{
+    background-color: lightgreen;
+}
+
+.languages_in_dropdown a{
+    font-family: Bahnschrift;
+    font-size: 15px;
+}
+.languages_in_dropdown span{
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+.dropdown_tools{
+    display: inline-block;
+}
+.dropdown_tools .tools_in_dropdown{
+    display: none;
+    position: absolute;
+    background-color: white;
+    max-width: 20%;
+    box-shadow: 2px 2px 5px hsla(0,0%, 0%,0.8);
+    text-align: center;
+    z-index: 1000;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.dropdown_tools:hover .tools_in_dropdown{
+    display:flex;
+    flex-direction: column;
+}
+
+.dropdown_tools a:hover{
+    background-color: lightgreen;
+}
+.tools_in_dropdown a{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Bahnschrift;
+}
+
+
+
+
+
+
+.log_in_nav_section {
+    position: relative;
+    display: inline-block;
+}
+
+.nav_link {
+    text-decoration: none;
+}
+
+.log_button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.log_button:hover {
+    background-color: #45a049;
+}
+.reg_button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.reg_button:hover {
+    background-color: darkgreen;
+}
+
+
+.data_log_in_dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: grey;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 5px;
+}
+.data_log_in_dropdown.show{
+    display: block;
+}
+
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333;
+    font-family: Bahnschrift;
+}
+
+input[type="email"], input[type="email"], input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Bahnschrift;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+input[type="password"], input[type="password"], input[type="password"]{
+    font-family: Bahnschrift;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Bahnschrift;
+}
+
+.nav_utilities a{
+    font-family: Bahnschrift;
+}
+.nav_utilities a:hover{
+    color: lightgreen;
+}
+
+.userprofilenav_button{
+    display: flex;
+    width: auto;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(60,60,60);
+}
+
+#userprofilenav_button{
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(120,120,120);
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+

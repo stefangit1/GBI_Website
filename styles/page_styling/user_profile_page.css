@@ -1,0 +1,121 @@
+body {
+    font-family: 'Bahnschrift', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Profilseite */
+.profile-page {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header h1 {
+    font-size: 26px;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+#display-username {
+    font-size: 22px;
+    color: #555555;
+}
+
+.profile-info p {
+    font-size: 18px;
+    color: #777777;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.edit-profile-btn, .edit-review-btn, .save-profile-btn {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: 'Bahnschrift', sans-serif;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-profile-btn:hover, .edit-review-btn:hover, .save-profile-btn:hover {
+    background-color: #0056b3;
+}
+
+.profile-details {
+    display: none;
+    margin-top: 20px;
+}
+
+.profile-details h3 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.profile-details label {
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.profile-details input[type="text"], .profile-details textarea, .profile-details select, .profile-details input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+.message {
+    color: green;
+    font-size: 16px;
+    font-family: 'Bahnschrift', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}

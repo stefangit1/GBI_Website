@@ -1,0 +1,374 @@
+ <h1>Einsteigerkurs</h1>
+<div class="post_info">
+<nav>
+	<ul>
+		<li><a href="#einleitung">1.0 Introduction</a></li>
+	  	<li><a href="#handelsplatform_broker">2.0 Trading Platform and Broker</a></li>
+			<ul>
+				<li><a href="#demo_konto">2.1 Demo Account</a></li>
+				<li><a href="#handelsplattform">2.2 Trading Platform</a></li>
+				<li><a href="#kommentar_broker_handelsp">2.3 Comment</a></li>
+			</ul>
+
+		 <li><a href="#was_trading">3.0 What is Trading and What is Forex?</a></li>
+			<ul>
+				<li><a href="#begriff_trading">3.1 Clarifying the Term Trading</a></li>
+					<li><a href="#beispiel_tauschhandel">3.1.1 Example of Simple Barter</a></li>
+					<li><a href="#beispiel_kursbildung">3.1.2 Example of Simple Price Formation</a></li>
+			
+				<li><a href="#was_forex">3.2 What is Forex?</a></li>
+				<ul>
+					<li><a href="#long_pos">3.2.1 Long Position</a></li>
+					<li><a href="#short_pos">3.2.1 Short Position</a></li>
+					<li><a href="#risiko_hinw">3.3 Risk Notice for Long/Short</a></li>
+				</ul>
+			</ul>
+
+		 <li><a href="#begriffe_eigenschaften">4.0 Terms and Characteristics of Forex</a></li>
+			<ul>
+				<li><a href="#hebelprodukt">4.1 Leveraged Product</a></li>
+				<li><a href="#lot">4.2 What is a Lot?</a></li>
+				<li><a href="#pip">4.3 What is a Pip?</a></li>
+				<li><a href="#handelszeiten">4.4 Trading Hours</a></li>
+				<ul>
+					<li><a href="#sessions">4.4.1 Example of Trading Hours and Sessions</a></li>
+				</ul>
+				<li><a href="#wahrungspaare">4.5 Which Currency Pairs Exist?</a></li>
+				<ul>
+					<li><a href="#spread">4.5.1 What is the Spread?</a></li>
+					<li><a href="#majors">4.5.2 Majors</a></li>
+					<li><a href="#minors">4.5.3 Minors</a></li>
+					<li><a href="#exotics">4.5.4 Exotics</a></li>
+				</ul>
+				<li><a href="#margin">4.6 What is the Margin?</a></li>
+			</ul>
+		 <li><a href="#handelssys_gbi">5.0 GreenBumbleInvest Trading System Tutorial</a></li>
+		 <li><a href="#abschluss">6.0 Conclusion</a></li>
+		 <li><a href="#literatur">7.0 Bibliography</a></li>
+	</ul>
+</nav>
+
+<h2 id="einleitung">1.0 Introduction</h2>
+<p>For whom is this course intended, and what will we be able to do after completing it? This is a fundamental question that every interested person should ask themselves before embarking on a long journey of development. Without this question, it is not possible to use your time efficiently. Often, you could save yourself a tremendous amount of time if you had received information earlier.
+And that's where this course comes in! I do not claim that we will train you to become a good trader, but rather, I want to provide you with the foundation to understand how trading works, when, where, and how, as well as tips and tricks to navigate the trading day. I want you to gain a sense of questioning things, develop a feel for creating your own systems, and consider in which direction the wheel is currently turning.
+<br><br>
+Report by Marco Hummel:
+Behind every action, there is an idea. Without the idea, there is no implementation and not even an attempt. The basic idea of making money through trading was born. So there I was, without experience, no clue where, how, and when to trade, without even considering what trading actually is. So, what do you do when you have no idea where to start? The simplest but most inaccurate answer is YouTube. So some time ago, I sat down at my computer and asked myself, how can it be that you can make money this way? Where do I start? What do I need? How do I enter the system to complete a trade? And I want to spare you, dear readers, from this journey and beyond. So go through this free course at your own pace, take your time, and don't rush—after all, only weeds grow quickly.
+</p>
+
+
+<h2 id="handelsplatform_broker">2.0 Trading Platform and Broker</h2>
+   <p>Some might start their courses by addressing the question of what trading is, but we're doing things differently here. 
+    We start with the installation and information about the appropriate tools you need. 
+    We believe that the first glimpse into a new world is much more fascinating and motivating to continue than dry theory.</p>
+
+<h2>So, what do we need?</h2>
+
+<p>Two components are required:</p>
+<ol>
+    <li>A broker that provides us with a trading account.</li>
+    <li>A platform that is connected to our broker, where we can enter our positions.</li>
+</ol>
+
+
+
+<h3 id="demo_konto">2.1 Demo Account</h3>
+	<p>We will discuss brokers later, but for the learning process, we will use a so-called demo account. 
+   You can think of it as a real trading account, except that you are dealing with play money, so you don't incur any losses.</p>
+
+<p>Some brokers suitable for this include:</p>
+<ul>
+    <li><a href="https://admiralmarkets.com/login?returnUrl=%2Fdashboard%2F" target="_blank">Admiral Markets</a></li>
+    <li><a href="https://roboforex.com/" target="_blank">RoboForex</a></li>
+</ul>
+
+<p>You can easily sign up with your email and password and open a demo account there. 
+We will use RoboForex for this course.</p>
+
+  <h4>Step 1:</h4>
+<p>Register on the site by clicking the <strong>[Open an account]</strong> button.</p>
+   	 <img src="../logistic/upload_files/courses/Beginners/roboforex_acc_open1.jpg" alt="RoboForex Open an account">
+
+  <h4>Step 2:</h4>
+<p>In the menu under <strong>Accounts</strong>, you will find your accounts, including your demo account, which we will create in the next step.</p>
+    
+<h4>Step 3:</h4>
+   	 <img src="../logistic/upload_files/courses/Beginners/roboforex_acc_open2.jpg" alt="Add account">
+    	<p>Click on <strong>[Add account]</strong> to open a demo trading account.</p>
+
+<h4>Step 4:</h4>
+   	 <p>For now, it's enough to set it up as we've done. Additionally, enter a password that you can remember, then click <strong>Confirm</strong>.</p>
+
+   	 <img src="../logistic/upload_files/courses/Beginners/roboforex_acc_open3.jpg" alt="open a demo account">
+
+   	 <p>You should now find a similar entry under <strong>Accounts</strong>.</p>
+    	<img src="../logistic/upload_files/courses/Beginners/roboforex_acc_open4.jpg" alt="first demo account">
+
+   	 <p>We have now set up our demo account and can begin installing our trading platform and connecting it to our broker.</p>
+
+
+<h3 id="handelsplattform">2.2 Trading Platform</h3>
+  	<p>A trading platform is needed to enter positions/trades. While it is possible to trade directly on some broker websites, we recommend using a dedicated trading platform for faster and more efficient buying/selling. Additionally, we can load our automated trading system, known as an Expert Advisor, onto this platform, which is not possible with direct trading through the broker.</p>
+
+    	<p>One of the most well-known and easiest-to-use platforms is MetaTrader. We will use MetaTrader 5, which you can download via the following link:</p>
+    	<p><a href="https://www.metatrader5.com/de" target="_blank">Download MetaTrader 5</a></p>
+
+    	<p>After installation, you will typically find the "Accounts" section on the left side, in the Navigator box. If the Navigator box is not displayed, go to "View" in the menu bar at the top and click on "Navigator" to open it.</p>
+
+    	<p>Once found, hover over "Accounts" and right-click to open the "Accounts" menu.</p>
+    
+    	<img src="../logistic/upload_files/courses/Beginners/connectMT5_1.jpg" alt="Metatrader Accounts in Navigator" class="instruction-image">
+
+    	<img src="../logistic/upload_files/courses/Beginners/connectMT5_2.jpg" alt="Open Account Button" class="instruction-image">
+
+   	 <p>Click on "Open an account" to connect it to your broker account.</p>
+
+    	<img src="../logistic/upload_files/courses/Beginners/connectMT5_3.jpg" alt="Select Broker in MT5" class="instruction-image">
+
+   	 <p>Once this page opens, we need to search for RoboForex in the search bar to select the appropriate partner.</p>
+
+   	<img src="../logistic/upload_files/courses/Beginners/connectMT5_4.jpg" alt="Select RoboForex in MT5" class="instruction-image">
+
+    	<p>We select RoboForex by clicking on it once until it turns blue, then click on continue.</p>
+
+   	<img src="../logistic/upload_files/courses/Beginners/connectMT5_5.jpg" alt="MT5 continue on broker selection" class="instruction-image">
+
+    	<p>This window will open, and we follow the settings as shown: We choose "Connect with an existing trading account" and must select "RoboForex-ECN" as the server, since we have opened a demo ECN account with our broker.</p>
+
+    	<img src="../logistic/upload_files/courses/Beginners/connectMT5_6.jpg" alt="Enter data to connect with existing trading account" class="instruction-image">
+	
+   	 <p>For the username, go back to RoboForex and review your account. Copy the code up to but excluding the hyphen, and paste it as the username in MetaTrader. The password is the one you entered when creating the account.</p>
+
+   	<img src="../logistic/upload_files/courses/Beginners/connectMT5_7.jpg" alt="Copy username from RoboForex for MT5" class="instruction-image">
+
+    	<p>Now we can click "Finish" to successfully connect our MetaTrader 5 with our broker.</p>
+
+
+
+<h3 id="kommentar_broker_handelsp">2.3 Comment on Broker and Trading Platform</h3>
+<p>A new world has just been opened up to you. When you first look at MetaTrader5, you will be very overwhelmed and probably have no idea what you are looking at. But now that we have everything installed and connected correctly, we can start with the actual course. Feel free, if practical theory comes up, to implement it yourself to gain a certain understanding.
+<br>
+It should also be clarified that MetaTrader5 offers a vast inventory of tools and configuration options, and we will not need to use most of them, except for a few graphical settings.
+</p>
+
+<h2 id ="was_trading">3.0 What is Trading and What is Forex?</h2>
+	<h3 id ="begriff_trading">3.1 Clarifying the Term Trading</h3>
+			<p>You have now reached the point where your account is set up with your broker, and a suitable trading program is installed. But what exactly are we doing, what are we trading, how does it all work, and what is the difference from investing?
+			<br>
+			Trading means "trade" in English, and it is nothing more than that. We buy something, trying to sell it later at a higher or lower price to make a profit. Yes, a trader can also make money when prices fall, but more on that later.
+			</p>
+		
+		<h4 id ="beispiel_tauschhandel">3.1.1 Example of Simple Barter</h4>
+			<p>For better understanding, we have prepared an example.
+			We are at a large marketplace that deals in gold. We don't own any gold yet, so we want to buy a bar. We have €100 in our wallet. The current price of the bar is €100, so we go to one of the sellers and buy a bar.
+			</p>
+			<img src="../logistic/upload_files/courses/Beginners/handelbsp1.jpg" alt="Simple Trade">
+			<p>Now we own a gold bar that is currently worth €100. Two days later, we return to the market with our gold bar, but the supply of gold is tiny, and the demand is high, as suddenly everyone wants to own gold. As a result, the price of gold has risen by €30 over the two days, and we can sell it again.</p>
+			<img src="../logistic/upload_files/courses/Beginners/handelbsp2.jpg" alt="Simple Trade">
+			<p>In this example, we would have made a €30 profit, and our trade would have been successful. Now we know that we can buy something cheaply and sell it at a higher price, but how does a price actually form?</p>
+		
+		<h4 id="beispiel_kursbildung">3.1.2 Example of Simple Price Formation</h4>	
+			<p>In your trading career, you will hear the terms "supply" and "demand" more often than any other financial terms, and not without reason, because these two conditions are the reason why the price of a security, currency pair, or, as in our example, the value of gold, moves at all. And please correct me if I'm wrong, but there is no secret formula for how a price magically forms. It just so happens that when supply exceeds demand, the seller must lower the price, causing the price to fall, and when demand exceeds supply, the seller can drive the price up, causing the price to rise.
+			<br> But let's apply this again to our previous example to better illustrate the situation.
+			<br><br>We are back at our marketplace full of traders. We have €130 in our pocket, and we want to buy another bar to sell it later when the price rises. However, today, the newspaper reported that gold is the future, and therefore thousands of businessmen urgently want to buy gold at this marketplace today. Demand is high, but unfortunately, supply is low because only a few are selling gold at this marketplace today. The traders know exactly that they can make a profit today. They slowly feel their way up. The first stall sells for €132, the second for €137, and the third for €150. The first and second also raise their prices to €150, and people are still buying. Conclusion: The price of gold rises.</p>
+			<img src="../logistic/upload_files/courses/Beginners/handelbsp3.jpg" alt="Marketplace">
+			<p>The next day, we watch the news. The anchor says that owning gold is officially going to be banned. Naturally, the crowd from the previous day will rush to the marketplace and try to sell the gold they bought yesterday, but we have a problem—no one wants to buy it anymore! Even the traders want to get rid of it. What do you do when you want to get rid of something, but no one wants it? Exactly, you lower the price. On our marketplace, the price is no longer being raised slowly; instead, it is being rapidly lowered in the hope that someone will buy it for a low price. The price falls. A struggle ensues because the person who offers the lowest price will most likely get rid of the gold the quickest.</p>
+			<img src="../logistic/upload_files/courses/Beginners/handelbsp4.jpg" alt="Marketplace">
+			<p>While we have used an extreme example here, this method allows us to show you how a price is formed. Later, we will discuss topics like liquidity, volatility, and other terms, but for now, it's too early for that.
+			<br>We now know what trading is and what lies behind the magical formation of prices. Now the only question left is, "What is Forex?"</p>
+
+
+	<h3 id ="was_forex">3.2 What is Forex?</h3>
+		<p>Now that we know what trading is—trading—and roughly understand how a price is formed, we can move on to the actual trading object. This is Foreign Exchange, also known as Forex or, in English, currency trading. When we talk about currency trading, we mean trading between two currencies, such as exchanging Euros for US Dollars [EUR/USD]. Together, the two currencies form a pair, called a currency pair. I think many people may not realize that they have already engaged in Forex trading at some point. Think of an exchange office during a vacation, where you had to exchange Euros for a foreign currency, such as Lira, Dollars, Kuna [Croatia before the Euro], etc., at a certain exchange rate. In principle, this exchange is already Forex, only here we are doing it to make money, not to spend it. We exchange our currency for another with the goal that the exchange rate of our currency will rise.
+		<br>If we refer back to our previous example, we just need to replace the gold with another currency, and we have a good example for illustration.</p>
+		
+		<h4 id="long_pos">3.2.1 Long Position</h4>
+		<p style="color: red;">IMPORTANT! TERM LONG</p>
+    		<p>If we have the symbol <strong>[EUR/USD]</strong> and exchange it, we are buying Euros with USD. This is called a <strong>Long Position</strong>. In other words, we go long and hope that the exchange rate rises.</p>
+    		<p>You can also bet on falling prices, but that will be discussed later.</p>
+		<img src="../logistic/upload_files/courses/Beginners/handelbsp5.jpg" alt="Trading">
+		<p>We have $100 in our pocket. The exchange rate between EUR/USD is 1.08114. This means that if we buy Euros for $100, we get €92.49.
+		<br>We now have our €92.49, which, when exchanged, would be $100. But now the exchange rate of the currency pair rises to 1.10000. If we now exchange back from EUR to USD [1.1 * €92.49 = $101.739], we have made a profit of $1.739. Of course, the profit is small, but if you keep reading, you will later learn about leverage, which can generate a significant amount of money from small movements, but more on that later.</p>		
+
+		<h4 id="short_pos">3.2.2 Short Position</h4>
+		<p style="color: red;">IMPORTANT! TERM SHORT</p>
+		<p>But how do we make money when prices fall? Imagine we virtually borrow €100. At some point, we have to pay the money back. But before that happens, we exchange the €100 at an exchange rate of 1.8 for $108. If the exchange rate now drops from 1.8 to 1.6, we can repay the €100 we borrowed more cheaply and keep the rest as profit. So now the exchange rate is 1.6, and we only need $106 to exchange it for €100 and pay off our debt. This leaves us with a profit of $2.</p>
+		
+		<h4 id="risiko_hinw">3.2.3 Risk Warning Long/Short</h4>
+
+
+<h2 id="begriffe_eigenschaften">4.0 Terms and Characteristics of Forex</h2>
+
+<h3 id="hebelprodukt">4.1 Leverage Product</h3>
+<p>Forex is a leveraged product. But what does that mean? It is a way to make a lot of money with little money, or to lose it quickly. A leveraged product works as follows: you have a deposit and leverage. Simply put, if I deposit $500 into my account and have leverage of 100, I can trade with <strong>[500$ * 100 = 50,000$]</strong>.</p>
+<p>This does not mean that I own $50,000 or that I can lose that much. No, I just have the ability to trade with that capital. But as soon as my $500 is gone, most brokers will close the position. More on this later in the margin section. So if I keep losing money and drop to $49,500 in our example, my money is gone. Either the broker forbids further trading and blocks transactions, or it allows you to incur debt, which must then be repaid.</p>
+<ul>
+    <li>I deposit $100 into my account | Leverage = 100 | Total amount I can manage: $10,000</li>
+    <li>Deposit $1000 | Leverage = 10 | Total amount I can manage: $10,000</li>
+</ul>
+<img src="../logistic/upload_files/courses/Beginners/hebel1.jpg" alt="Leverage">
+<p>Leverage typically ranges from 5 to 500, but it should be noted that leverage up to 100 is usually available for regular users, and only professional traders are allowed to trade with such high leverage. Nevertheless, even with leverage of 50 or 100, it's possible to move a lot of money with little capital, resulting in either losses or gains from small price movements due to the large positions involved. So, with $100 and a leverage of 100, we can exchange $10,000 at a rate of 1.08 for 9,259€. If the rate now rises from 1.08 to 1.09 and we exchange our euros back into dollars, we get $10,092 and have thus made a profit of $92. In conclusion, we made $92 with our $100 due to a small price increase, nearly doubling our money. It is important to note that if the rate had gone from 1.08 to 1.07, we would have lost $92 and would have only $8 left.</p>
+
+<h3 id="lot">4.2 What is a Lot?</h3>
+<p>When we talk about a lot, we refer to the size of the position. We distinguish between standardized sizes:</p>
+<ul>
+    <li><strong>Standard Lot:</strong> 100,000 units</li>
+    <li><strong>Mini Lot:</strong> 10,000 units (0.1 of a standard lot)</li>
+    <li><strong>Micro Lot:</strong> 1,000 units (0.01 of a standard lot)</li>
+    <li><strong>Nano Lot:</strong> 100 units (0.001 of a standard lot)</li>
+</ul>
+<p>It is important to note that the nano size is almost never used and is therefore not even available in MetaTrader5.</p>
+
+<p><br>Now we are trading <strong>EUR/USD</strong> and going <strong>long</strong>. Our deposit is $1000 and we have leverage of 100, which corresponds to $100,000.</p>
+<p><br>If we exchange a standard lot into euros, we exchange our entire $100,000 into euros. But if we only exchange 0.1 of a standard lot, i.e., a mini lot, we only exchange $10,000 into euros.</p>
+<img src="../logistic/upload_files/courses/Beginners/auftragsfenster1.jpg" alt="Order Window">
+<p>This figure you have just seen is the window in MetaTrader5 where positions are purchased, i.e., where you execute a currency exchange. In MetaTrader5, the volume refers to lots. This is indicated here in a standard lot, as mentioned in our previous example. So, if we want to exchange 1,000 units of our currency, we enter 0.01.</p>
+
+<h3 id="pip">4.3 What is a Pip?</h3>
+<p>Just like any other measure, the exchange rate in the forex market has a unit, which is denoted in pips. When talking about pips, we always refer to the fourth decimal place of a rate. The plural of pip is pips.</p>
+<img src="../logistic/upload_files/courses/Beginners/pip1.jpg" alt="Pip">
+<img src="../logistic/upload_files/courses/Beginners/pip2.jpg" alt="Pip">
+<p>Now we know how to read how many pips something has. If we now say that the rate increases by 1 pip and our rate is at 1.0000 before the increase, we get a rate of 1.0001 after the increase by one pip.</p>
+<p>You could now calculate how many pips you would need to gain or lose to, for example, make +/- 5 euros. This will not be explained in this course, as the calculation would only slow down the beginner for a while and might be counterproductive for the time being. This topic may be covered in upcoming courses, but until then, we offer you a free pip calculator in our trading system's user interface.</p>
+
+<h3 id="handelszeiten">4.4 Trading Hours</h3>
+<p>An intriguing topic is the trading hours of the different time zones. Although forex trading is possible from Monday to Friday, it can still be divided into different sessions. What exactly does this mean, and what do we mean by session? A session is the period during which a specific region or, more precisely, a certain city starts trading. During the session of the city, the exchange opens, and the most liquidity is present, depending on the significance of the session. This may seem like information that not everyone understands right away, so we naturally dedicate an example to this topic.</p>
+
+<h4 id="sessions">4.4.1 Example of Trading Hours and Sessions</h4>
+<p>First, we need to understand the concept of time zones on Earth before we can explain why there are different sessions. Our world is divided into different time zones, so right now in Vienna it is 6 PM, and in New York, it would be 12 PM because New York is 6 hours behind.</p>
+<img src="../logistic/upload_files/courses/Beginners/zeitzonen.jpg" alt="Time Zones">	
+
+<p>Almost every major global city has a stock exchange that exhibits the highest trading volume and currency trading during its opening hours. This is because both stock speculators and local traders and banks are active during trading hours. When a session starts, it becomes day, and banks, exchange offices, and trading are open. At night, people sleep, and the exchanges are closed.</p>
+
+<p>There are four important sessions for currency trading that are easy to remember:</p>
+<ul>
+    <li>Sydney Session</li>
+    <li>Tokyo Session (also called: Asia Session)</li>
+    <li>London Session</li>
+    <li>New York Session</li>
+</ul>
+
+<p>Here are the trading hours of the sessions in the respective cities:</p>
+<table>
+    <thead>
+        <tr>
+            <th>Session</th>
+            <th>Trading Hours (Local Time)</th>
+            <th>Trading Hours (UTC+2)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Sydney Session</td>
+            <td>7:00 AM – 4:00 PM</td>
+            <td>8:00 PM – 5:00 AM</td>
+        </tr>
+        <tr>
+            <td>Tokyo Session</td>
+            <td>9:00 AM – 6:00 PM</td>
+            <td>1:00 AM – 10:00 AM</td>
+        </tr>
+        <tr>
+            <td>London Session</td>
+            <td>8:00 AM – 5:00 PM</td>
+            <td>9:00 AM – 6:00 PM</td>
+        </tr>
+        <tr>
+            <td>New York Session</td>
+            <td>8:00 AM – 5:00 PM</td>
+            <td>2:00 PM – 11:00 PM</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>If you are unsure when exactly a session starts, you have two options:</p>
+<ol>
+    <li>Find a reliable source on the internet.</li>
+    <li>Download our trading system package for free and check in the user interface or download our free world clock specifically designed for trading.</li>
+</ol>
+
+<p>Each session has different liquidity levels. For example, the New York or London sessions have higher trading volumes than the Sydney or Asia sessions, as New York has the largest stock exchange in the world, and more people trade during this time.</p>
+
+<h3 id="wahrungspaare">4.5 What Currency Pairs Are There?</h3>
+<p>The different pairs are divided into three major categories:</p>
+<ul>
+    <li>Majors</li>
+    <li>Minors</li>
+    <li>Exotics</li>
+
+  <h4 id="spread">4.5.1 What is the Spread?</h4>
+<p>Before we explain what makes these groups special, we need to define the term <strong>Spread</strong>. In trading, there are always two prices: the Ask price and the Bid price. The Ask price is the price at which the market is willing to exchange. This means that if I want to buy USD in exchange for EUR, I do not buy at the current rate, but rather at a slightly higher price, the price at which the seller is willing to exchange. Conversely, if I want to convert my EUR back into USD, I receive the Bid price, which indicates the price at which the buyer is willing to buy. The difference between the Bid and Ask prices is the Spread, which is measured in pips.</p>
+
+<h4 id="majors">4.5.2 Majors</h4>
+<p>The Majors are global major currency pairs that are typically traded the most and therefore have a very low spread due to high liquidity. These pairs consist of two major currencies, such as EUR or USD. Currently, there are 7 Majors, which are as follows:</p>
+<ul>
+    <li>EUR/USD - Euro/US Dollar</li>
+    <li>USD/JPY - US Dollar/Japanese Yen</li>
+    <li>GBP/USD - British Pound/US Dollar</li>
+    <li>AUD/USD - Australian Dollar/US Dollar</li>
+    <li>USD/CHF - US Dollar/Swiss Franc</li>
+    <li>USD/CAD - US Dollar/Canadian Dollar</li>
+    <li>NZD/USD - New Zealand Dollar/US Dollar</li>
+</ul>
+<p>We see that in each of these pairs, the USD is involved. We recommend trading these pairs due to their low spread and the ease of exchange.</p>
+
+<h4 id="minors">4.5.3 Minors</h4>
+<p>The Minors are also known as Cross Pairs. These pairs consist of two currencies, neither of which includes the USD. In other words, these are currencies from the Major category (excluding USD) that are traded among themselves.</p>
+<ul>
+    <li>EUR/GBP - Euro/British Pound</li>
+    <li>EUR/AUD - Euro/Australian Dollar</li>
+    <li>GBP/JPY - British Pound/Japanese Yen</li>
+    <li>AUD/JPY - Australian Dollar/Japanese Yen</li>
+    <li>EUR/CAD - Euro/Canadian Dollar</li>
+    <li>NZD/JPY - New Zealand Dollar/Japanese Yen</li>
+    <li>GBP/AUD - British Pound/Australian Dollar</li>
+</ul>
+<p>These are not traded as frequently as the Majors, but it is still possible to trade these pairs efficiently. The spread is higher, but usually only about double that of the Majors. For example, the spread for Majors is mostly between 1 and 3 pips, while for Minors it ranges from 3 to 7 pips.</p>
+
+<h4 id="exotics">4.5.4 Exotics</h4>
+<p>The Exotics include one major currency and one currency from a country that is not frequently traded. The name <strong>Exotics</strong> indicates that this trading is relatively illiquid (illiquid is the opposite of liquid). These pairs are traded very rarely and thus have high spreads, which can range from 10 to 100 pips.</p>
+<ul>
+    <li>USD/TRY - US Dollar/Turkish Lira</li>
+    <li>EUR/TRY - Euro/Turkish Lira</li>
+    <li>USD/SGD - US Dollar/Singapore Dollar</li>
+    <li>EUR/THB - Euro/Thai Baht</li>
+    <li>USD/ZAR - US Dollar/South African Rand</li>
+    <li>USD/HKD - US Dollar/Hong Kong Dollar</li>
+    <li>USD/PLN - US Dollar/Polish Zloty</li>
+</ul>
+<p>If you look at the right side of the pair, you will notice that these currencies are important in their respective countries but have little significance in the global market. This leads to a certain lack of liquidity in trading these pairs, making the exchange very costly. Therefore, we recommend avoiding Exotics, especially as a beginner, and focusing first on the Majors.</p>
+
+<h3 id="margin">4.6 What is Margin?</h3>
+<p>Margin is the minimum requirement needed to enter a trade. In principle, this topic is very important, but as long as you don't handle exaggerated positions and don't stretch your account to the last cent, it doesn't play a major role at the moment. If you are interested, you can simply search Google for a suitable explanation and read it in detail now or later after this course. We will briefly move to practice to prepare you for trading. Go to MetaTrader5 and navigate to "Trade" at the bottom. There, under "Free Margin," you can see how much of your capital you can still use.</p>
+
+<h2 id="handelssys_gbi">5 GreenBumbleInvest Trading System Tutorial</h2>
+<p>We have just explained the essential basics. Now you are ready to make your first trade. However, unfortunately, you are still missing the knowledge to determine the direction of the price and speculate on where the price will go. If you believe you can do it without an automated trading system, this course ends here. However, you are welcome to continue reading. For those interested in a system that trades for you at all times (as long as the computer is running), please stay a bit longer to get a brief insight into the technology.</p>
+
+<p>We offer a system consisting of two components: The Expert Advisor for MetaTrader5 and a user interface that allows you to set personalized values, perform analyses, and conduct important calculations. An Expert Advisor is a program for MetaTrader that trades based on algorithms. Caution: These algorithms are not omnipotent and are not better than the person who wrote them. Nevertheless, there are some advantages: You no longer need to sit in front of the computer, trading is done without emotions, and the system is efficient and fast. If you want to take a closer look at our free 2-component Expert Advisor, you can check out the statistics on our website under "Products" to see how it has performed and whether it is profitable. You will also get insights into the trading process and can download the system there. We recommend testing the system first with your demo account, adjusting the values if necessary, and only switching to a live account when you are fully convinced. The standard values we use for our test phases are also available there.</p>
+
+<h2 id="abschluss">6 Conclusion</h2>
+<p>You've made it; we have reached the end of this course. It was an honor to write this course for you. Still, I would like to leave you with a quote to prevent the destruction of your account: "Only weeds grow quickly, beautiful flowers take time." Applied to trading, this means that you should not work hastily, emotionally, or carelessly. Learn to maintain control, reconsider each step, and if you want to become really good, stay committed and learn diligently.</p>
+
+<h2 id="literatur">7 References</h2>
+<h4>Important Links</h4>
+<ul>
+    <li><a href="https://my.roboforex.com/en/" target="_blank">RoboForex</a></li>
+    <li><a href="https://www.metatrader5.com/en" target="_blank">MetaTrader5</a></li>
+    <li><a href="https://www.tradingview.com/" target="_blank">Trading View</a></li>
+</ul>
+
+<h4>Icons and Images</h4>
+<ul>
+    <li>
+        <a href="https://www.flaticon.com/de/kostenloses-icon/gold_3309977" target="_blank">
+            <img src="https://image.flaticon.com/icons/png/512/3309/3309977.png" alt="Gold Icon" style="width: 24px; height: 24px;">
+            Flaticon - Gold Icon
+        </a>
+    </li>
+    <li>
+        <a href="https://www.nachhilfe-team.net/lernen-leicht-gemacht/zeitzonen/" target="_blank">
+            Nachhilfe-Team.net
+        </a>
+    </li>
+</ul>
+</div>

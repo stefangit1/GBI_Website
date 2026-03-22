@@ -1,0 +1,376 @@
+ <h1>Einsteigerkurs</h1>
+<div class="post_info">
+<nav>
+	<ul>
+		<li><a href="#einleitung">1.0 Einleitung</a></li>
+	  	<li><a href="#handelsplatform_broker">2.0 Handelsplattform und Broker</a></li>
+			<ul>
+				<li><a href="#demo_konto">2.1 Demo-Konto</a></li>
+				<li><a href="#handelsplattform">2.2 Handelsplattform</a></li>
+				<li><a href="#kommentar_broker_handelsp">2.3 Kommentar</a></li>
+			</ul>
+
+		 <li><a href="#was_trading">3.0 Was ist Trading und was ist Forex?</a></li>
+			<ul>
+				<li><a href="#begriff_trading">3.1 Begriff Trading klären</a></li>
+					<li><a href="#beispiel_tauschhandel">3.1.1 Beispiel einfacher Tauschhandel</a></li>
+					<li><a href="#beispiel_kursbildung">3.1.2 Beispiel einfache Kursbildung</a></li>
+			
+				<li><a href="#was_forex">3.2 Was ist Forex</a></li>
+				<ul>
+					<li><a href="#long_pos">3.2.1 Long Position</a></li>
+					<li><a href="#short_pos">3.2.1 Short Position</a></li>
+					<li><a href="#risiko_hinw">3.3 Risikohinweis Long/Short</a></li>
+				</ul>
+			</ul>
+
+		 <li><a href="#begriffe_eigenschaften">4.0 Begriffe und Eigenschaften von Forex?</a></li>
+			<ul>
+				<li><a href="#hebelprodukt">4.1 Hebelprodukt</a></li>
+				<li><a href="#lot">4.2 Was ist ein Lot?</a></li>
+				<li><a href="#pip">4.3 Was ist ein Pip?</a></li>
+				<li><a href="#handelszeiten">4.4 Handelszeiten</a></li>
+				<ul>
+					<li><a href="#sessions">4.4.1 Beispiel Handelszeiten und Sessions</a></li>
+				</ul>
+				<li><a href="#wahrungspaare">4.5 Welche Währungspaare gibt es?</a></li>
+				<ul>
+					<li><a href="#spread">4.5.1 Was ist der Spread?</a></li>
+					<li><a href="#majors">4.5.2 Majors</a></li>
+					<li><a href="#minors">4.5.3 Minors</a></li>
+					<li><a href="#exotics">4.5.4 Exotics</a></li>
+				</ul>
+				<li><a href="#margin">4.6 Was ist die Margin?</a></li>
+			</ul>
+		 <li><a href="#handelssys_gbi">5.0 Handelssystem GreenBumbleInvest Tutorial</a></li>
+		 <li><a href="#abschluss">6.0 Abschluss</a></li>
+		 <li><a href="#literatur">7.0 Literaturverzeichnis</a></li>
+	</ul>
+</nav>
+
+
+<h2 id="einleitung">1.0 Einleitung</h2>
+<p>Für wen ist dieser Kurs gedacht und was werden wir nach diesem Kurs können? Dies ist eine grundlegende Frage, die sich jeder der Interessenten fragen sollte, bevor er beginnt einen langen Weg der Entwicklung zu beschreiten. Ohne dieser Frage ist es nicht möglich, seine Zeit effizient zu nutzen. Denn oftmals ist es so, dass man sich einen enormen Zeitaufwand ersparen könnte, wenn man nur Informationen früher bekommen hätte.
+Und genau da kommt dieser Kurs ins Spiel! Ich möchte nicht behaupten, dass wir Sie zu einem guten Trader ausbilden, sondern ich möchte Ihnen die Grundlage bieten, zu verstehen, wie das Handeln funktioniert, wann, wo und wie, sowie Tipps und Tricks, um den Handelstag zu beschreiten. Ich möchte, dass Sie das Gefühl bekommen, etwas hinterfragen zu können, das Gefühl für eigene Systeme bekommen und das Gefühl bekommen, sich selbst zu überlegen, in welche Richtung das Zahnrad sich gerade dreht.
+<br><br>
+Reportage Marco Hummel:
+Hinter jeder Aktion steckt eine Idee. Ohne der Idee gibt es keine Umsetzung und auch nicht der Versuch der dessen. Die Grundidee, durch Trading Geld zu verdienen, wurde geboren. Also da bin ich ohne Erfahrung, keine Ahnung, wo, wie und wann man tradet, ohne Überlegung was Trading überhaupt ist. Was macht man also, wenn man keine Ahnung hat, womit man anfangen soll? Die einfachste, aber ungenauste Antwort ist YouTube. Also bin ich vor einiger Zeit vor meinen Rechner gesessen und habe mir die Frage gestellt, wie kann das sein, dass man dadurch Geld verdient. Wo fange ich an? Was brauche ich? Wie komme in das System, um einen trade abzuschließen und genau diesen Weg und noch weiter hinaus möchte ich Ihnen Liebe Leser ersparen. Also gehen sie diesen kostenlosen Kurs in Ruhe durch, lassen Sie sich Zeit und übereilen sie sich nicht, denn nur Unkraut wächst schnell.
+</p>
+
+
+<h2 id="handelsplatform_broker">2.0 Handelsplattform und Broker</h2>
+  <p>Einige würden in ihren Kursen erst die Frage klären, was Trading überhaupt ist, doch wir beginnen dies hier anders. 
+    Wir fangen an mit den Installationen und Informationen der passenden Instrumente, die du benötigst. 
+    Denn wir denken, dass der erste Einblick in eine neue Welt einen viel mehr fasziniert und dazu motiviert, weiterzumachen, als trockene Theorie.</p>
+
+    <h2>Also was brauchen wir?</h2>
+
+    <p>Es werden zwei Komponenten benötigt:</p>
+    <ol>
+        <li>Einen Broker, der uns ein Handelskonto zur Verfügung stellt.</li>
+        <li>Eine Plattform, die mit unserem Broker verbunden ist, wo wir unsere Positionen eingehen.</li>
+    </ol>
+
+
+
+<h3 id="demo_konto">2.1 Demo-Konto</h3>
+	 <p>Später werden wir noch zum Thema Broker kommen, doch für den Lernprozess werden wir ein sogenanntes Demo-Konto verwenden. 
+   	 Dies können Sie sich wie ein echtes Handelskonto vorstellen, nur dass hier mit Spielgeld hantiert wird, und Sie so keine Verluste eingehen können.</p>
+
+    	<p>Hier eignen sich unter anderem die Broker:</p>
+   	 <ul>
+    	    <li><a href="https://admiralmarkets.com/login?returnUrl=%2Fdashboard%2F" target="_blank">Admiral Markets</a></li>
+   	     <li><a href="https://roboforex.com/" target="_blank">RoboForex</a></li>
+   	 </ul>
+
+   	 <p>Hier können Sie sich ganz einfach mit Ihrer E-Mail und Ihrem Passwort anmelden und dort ein Demo-Konto eröffnen. 
+    	Wir werden für diesen Kurs RoboForex verwenden.</p>
+
+    <h4>Schritt 1:</h4>
+    	<p>Registrieren Sie sich auf der Seite, indem Sie auf den <strong>[Open an account]</strong>-Button klicken.</p>
+		<img src="../logistic/upload_files/courses/Beginners/roboforex_acc_open2.jpg" alt="Add account">
+   	 
+    <h4>Schritt 2:</h4>
+   	 <p>In der Menüleiste unter <strong>Accounts</strong> finden Sie Ihre Konten, darunter auch Ihr Demo-Konto, das wir im nächsten Schritt erstellen werden.</p>
+
+    <h4>Schritt 3:</h4>
+   	<img src="../logistic/upload_files/courses/Beginners/roboforex_acc_open2.jpg" alt="Add account">
+    	<p>Drücken Sie auf <strong>[Add account]</strong>, um ein Demo-Handelskonto zu eröffnen.</p>
+
+    <h4>Schritt 4:</h4>
+   	 <p>Fürs Erste genügt es, wenn Sie es hier so einstellen, wie wir dies gemacht haben. Geben Sie zusätzlich noch ein Passwort ein, das Sie sich merken können, und drücken Sie dann auf <strong>Confirm</strong>.</p>
+
+   	 <img src="../logistic/upload_files/courses/Beginners/roboforex_acc_open3.jpg" alt="open a demo account">
+
+   	 <p>Sie sollten jetzt wieder unter <strong>Accounts</strong> einen ähnlichen Eintrag finden.</p>
+    	<img src="../logistic/upload_files/courses/Beginners/roboforex_acc_open4.jpg" alt="first demo account">
+
+   	 <p>Wir haben nun unser Demo-Konto eingerichtet und können beginnen, unsere Handelsplattform zu installieren und sich mit unserem Broker zu verbinden.</p>
+
+
+
+<h3 id="handelsplattform">2.2 handelssplatform</h3>
+  	<p>Eine Handelsplattform wird benötigt, um Positionen/Trades einzugehen. Zwar ist es möglich, auf einigen Seiten der Broker direkt zu handeln, dennoch empfehlen wir gerade für das schnelle und effiziente Kaufen/Verkaufen eine spezielle Handelsplattform. Unter anderem können wir dann unser automatisches Handelssystem, auch genannt Expert Advisor, auf diese Plattform laden, das bei dem direkten Handel über den Broker nicht möglich ist.</p>
+
+    	<p>Einer der bekanntesten und am einfachsten zu bedienenden Plattformen ist der MetaTrader. Wir nutzen den MetaTrader 5, den Sie unter dem folgenden Link herunterladen können:</p>
+    	<p><a href="https://www.metatrader5.com/de" target="_blank">MetaTrader 5 herunterladen</a></p>
+
+    	<p>Nach der Installation finden Sie standardmäßig auf der linken Seite, in der Navigatorbox, den Punkt "Konten". Falls die Navigatorbox nicht angezeigt wird, gehen Sie unter "Ansicht" oben in der Menüleiste auf den Punkt "Navigator" und können diesen so öffnen.</p>
+
+    	<p>Falls Sie dies gefunden haben, gehen Sie mit dem Mauszeiger über "Konten" und drücken mit der rechten Maustaste auf "Konten".</p>
+    
+    	<img src="../logistic/upload_files/courses/Beginners/connectMT5_1.jpg" alt="Metatrader Konten in Navigator" class="instruction-image">
+
+    	<img src="../logistic/upload_files/courses/Beginners/connectMT5_2.jpg" alt="Konto eröffnen Button" class="instruction-image">
+
+   	 <p>Klicken Sie auf "Konto eröffnen", um sich mit Ihrem Konto Ihres Brokers zu verknüpfen.</p>
+
+    	<img src="../logistic/upload_files/courses/Beginners/connectMT5_3.jpg" alt="Broker wählen in MT5" class="instruction-image">
+
+   	 <p>Nachdem sich diese Seite geöffnet hat, müssen wir RoboForex in der Suchleiste suchen, um den passenden Partner auszuwählen.</p>
+
+   	<img src="../logistic/upload_files/courses/Beginners/connectMT5_4.jpg" alt="RoboForex wählen in MT5" class="instruction-image">
+
+    	<p>Wir wählen RoboForex aus, indem wir es einmal anklicken, bis es blau wird, und können dann auf weiter drücken.</p>
+
+   	<img src="../logistic/upload_files/courses/Beginners/connectMT5_5.jpg" alt="MT5 weiter bei Brokerwahl" class="instruction-image">
+
+    	<p>Es öffnet sich dieses Fenster, und wir beachten die folgenden Einstellungen: Wir wählen "Mit dem aktuellen Handelskonto verbinden" und müssen als Server "RoboForex-ECN" wählen, da wir bei unserem Broker ein Demo-ECN-Konto eröffnet haben.</p>
+
+    	<img src="../logistic/upload_files/courses/Beginners/connectMT5_6.jpg" alt="Daten eingeben, um mit aktuellen Handelskonto zu verbinden" class="instruction-image">
+	
+   	 <p>Für den Benutzernamen gehen wir noch einmal auf RoboForex und schauen unser Konto noch einmal an. Wir kopieren den Code bis ausgeschlossen den Bindestrich und fügen dies als Benutzername im MetaTrader ein. Das Passwort ist das, das Sie sich bei der Erstellung des Kontos ausgesucht haben.</p>
+
+   	 <img src="../logistic/upload_files/courses/Beginners/connectMT5_7.jpg" alt="Aus RoboForex Benutzername kopieren für MT5" class="instruction-image">
+
+    	<p>Nun können wir auf "Fertigstellen" klicken, um unseren MetaTrader 5 erfolgreich mit unserem Broker zu verbinden.</p>
+
+
+<h3 id="kommentar_broker_handelsp">2.3 Kommentar Broker und Handelsplattform</h3>
+<p>Ihnen wurde soeben eine neue Welt geöffnet. Sie werden beim ersten Anblick im MetaTrader5 sehr überfordert sein und wahrscheinlich keine Ahnung haben, was sie da gerade vor sich sehen. Doch jetzt, wo wir alles richtig installiert und verbunden haben, können wir mit dem eigentlichen Kurs beginnen. Fühlen Sie sich frei, falls praxisorientierte Theorie kommt, diese auch selbst umzusetzen, um ein gewisses Verständnis zu bekommen.
+<br>
+Noch klarzustellen ist, dass der MetaTrader5 ein enormes Inventar an Werkzeugen und Möglichkeiten der Einstellung zur Verfügung stellt und wir dieses, bis auf ein paar Grafikeinstellungen, nicht benötigen werden. 
+</p>
+
+<h2 id ="was_trading">3.0 Was ist Trading und was ist Forex?</h2>
+	<h3 id ="begriff_trading">3.1 Begriff Trading klären</h3>
+			<p>Sie sind jetzt an den Punkt angekommen, wo bereits ihr Konto bei Ihrem Broker eingerichtet und ein passendes Handelsprogramm installiert ist. Doch was machen wir da eigentlich, was handeln wir, wie funktioniert das alles und wo ist da der Unterschied zum Investieren?
+			<br>
+			Trading bedeutet auf Deutsch Handel und es ist auch nichts anderes als das. Wir kaufen etwas, mit dem Versuch es später teurer oder günstiger wieder zu verkaufen, um damit Profit abzuschlagen. Ja der Trader kann auch bei fallenden Kursen Geld verdienen, doch hierzu später mehr.
+			</p>
+		
+		<h4 id ="beispiel_tauschhandel">3.1.1 Beispiel einfacher Tauschhandel</h4>
+			<p>Für das bessere Verständnis haben wir ein Beispiel vorbereitet. 
+			Wir befinden uns an einen riesigen Marktplatz, der mit Gold handelt. Wir besitzen noch kein Gold, deswegen möchten wir einen Barren kaufen. In unserer Brieftasche befinden sich 100€. Der momentane Kurs des Barrens liegt bei 100€, also gehen wir zu einem der Verkäufer und kaufen uns einen Barren.
+			</p>
+			<img src="../logistic/upload_files/courses/Beginners/handelbsp1.jpg" alt="Einfach Handel">
+			<p>Nun besitzen wir einen Goldbarren, der momentan einen Wert von 100€ hat. Zwei Tage später gehen wir mit unseren Goldbarren wieder an den Markt, doch das Angebot an Gold ist winzig und die Nachfrage ist hoch, denn auf einmal möchte ein Jeder Gold besitzen. So ist der Goldpreis über die 2 Tage um 30€ gestiegen und wir können diesen wieder verkaufen.</p>
+			<img src="../logistic/upload_files/courses/Beginners/handelbsp2.jpg" alt="Einfach Handel">
+			<p>In diesem Beispiel hätten wir 30€ Profit gemacht und unser Trade wäre erfolgreich aufgegangen.Jetzt wissen wir, dass wir etwas günstig kaufen und teuer wieder verkaufen können, doch wie entsteht eigentlich ein Kurs?</p>
+		
+		<h4 id="beispiel_kursbildung"3.1.2 Beispiel einfache Kursbildung></h4>	
+			<p>In Ihrer Handelskarriere werden sie die beiden Begriffe „Angebot“ und „Nachfrage“ häufiger hören als alle anderen Finanzbegriffe und nicht zu Unrecht, denn in Wahrheit sind diese beiden Zustände der Grund, warum sich der Kurs eines Wertpapiers, Devisenpaares oder wie in unserem Beispiel der Wert des Goldes, sich überhaupt bewegt. Und ich bitte sie korrigieren sie mich, wenn ich falsch liegen sollte, aber es gibt keine Geheimformel wie sich ein Kurs von magischer Hand selbst bildet. Es ist nur mal so, dass wenn das Angebot der Nachfrage überwiegt, dass der Verkäufer den Preis senken muss und somit der Preis sinkt und bei der überhöhten Nachfrage gegenüber dem niedrigen Angebot, der Verkäufer den Preis in die Höhe treiben kann und somit der Preis steigt. 
+			<br> Doch wenden wir das ganze wieder auf unser vorheriges Beispiel an, um die Situation besser zu veranschaulichen.
+			<br><br>Wir befinden uns wieder auf unseren Marktplatz voller Händler. Wir haben 130€ in der Tasche und wir möchten wieder einen Barren kaufen, um diesen bei steigendem Kurs später wieder zu verkaufen. Jetzt ist es nur so, dass heute in der Zeitung gestanden ist, dass Gold die Zukunft ist und deswegen tausende Geschäftsmänner unbedingt, genau heute, auf diesen Marktplatz Gold kaufen möchten. Die Nachfrage ist hoch, nur leider ist das Angebot niedrig, denn nur wenige verkaufen auf diesen Marktplatz heute Gold. Die Händler wissen genau, sie können heute Profit machen. Sie tasten sich langsam nach oben. Der erste Stand verkauft für 132€, der zweite für 137€, der dritte schon für 150€. Der erste und der zweite ziehen mit und verkaufen ebenfalls für 150€ und die Menschen kaufen immer noch. Conclusio: Der Preis von Gold steigt.</p>
+			<img src="../logistic/upload_files/courses/Beginners/handelbsp3.jpg" alt="Marktplatz">
+			<p>Wir befinden uns am nächsten Tag und schauen die Nachrichten. Dort spricht der Moderator und behauptet, Gold soll offiziell verboten werden zu besitzen. Na klar, drastisch wird die Menschenmenge des Vortages auf den Marktplatz stürmen und versuchen das Gold, dass sie gestern gekauft haben, wieder zu verkaufen, doch wir haben ein Problem, es möchte keiner mehr kaufen! Sogar die Händler wollen es loswerden. Was macht man, wenn man einen Gegenstand loswerden möchte, aber ihn niemand haben möchte? Genau, man senkt den Preis. Auf unserem Marktplatz wird der Preis nicht mehr langsam angetastet, sondern es wird rapide der Preis gesenkt, in der Hoffnung, dass es jemand für wenig Geld kaufen würde. Der Preis sinkt. Es herrscht ein Kampf, denn die Person, die am billigsten anbietet, wird das Gold höchstwahrscheinlich noch am ehesten loswerden.</p>
+			<img src="../logistic/upload_files/courses/Beginners/handelbsp4.jpg" alt="Marktplatz">
+			<p>Zwar haben wir hier ein Extrembeispiel verwendet, doch mit dieser Methodik konnten wir Ihnen näherbringen, wie sich ein Kurs bildet. Später kommen wir noch zum Thema Liquidität, Volatilität und noch weiter Begriffe, aber hierfür wäre es jetzt noch zu früh.
+			<br>Wir wissen jetzt, was Trading ist und was hinter der magischen Kursbildung steckt. Nun stellt sich nur mehr die Frage „Was ist Forex“?</p>
+
+
+	<h3 id ="was_forex">3.2 Was ist Forex?</h3>
+		<p>Jetzt wo wir wissen, was Trading – also der Handel- überhaupt ist und in groben Zügen wissen, wie sich ein Kurs bildet, können wir zum eigentlichen Handelsobjekt kommen. Es handelt sich um Foreign Exchange, auch kurz genannt Forex oder auf Deutsch Devisenhandel. Wenn wir von Devisenhandel sprechen, meinen wir damit das Handeln zwischen zwei Währungen, wie zum Beispiel der Tausch von EURO in US-Dollar [EUR/USD]. Gemeinsam bilden die zwei Währungen ein Paar, also ein Währungspaar.  Ich denke, viele werden nicht wissen, dass sie einst schon Forex Trading betrieben haben. Denken sie an eine Wechselstube im Urlaub, wo sie zum Beispiel EURO in einen fremden Kurs eintauschen mussten, wie zum Beispiel Lira, Dollar, Kuna [Kroatien vor dem EURO] usw., zu einem gewissen Kurs. Im Prinzip ist dieser Tausch schon Forex, nur dass wir dies hier betreiben, um Geld zu verdienen und nicht um Geld auszugeben. Wir tauschen unsere Währung gegen eine andere, mit dem Ziel, dass der Kurs unserer Devise steigt.
+		<br>Wenn wir dies auf unser vorheriges Beispiel beziehen, müssen wir nur das Gold gegen eine andere Währung ersetzen und schon haben wir ein schönes Beispiel zur Veranschaulichung.</p>
+		
+		<h4 id="long_pos">3.2.1 Long Position</h4>
+		<p style="color: red;">WICHTIG! BEGRIFF LONG</p>
+    		<p>Wenn wir das Symbol <strong>[EUR/USD]</strong> haben und tauschen, kaufen wir mit USD EUR. Dies nennt man eine <strong>Long Position</strong>. Anders gesagt, man geht Long und hofft darauf, dass der Wechselkurs steigt.</p>
+    		<p>Man kann auch auf fallende Kurse tippen, dies wird aber erst später besprochen.</p>
+		<img src="../logistic/upload_files/courses/Beginners/handelbsp5.jpg" alt="Handel">
+		<p>Wir haben wieder 100$ in unserer Tasche. Der Wechselkurs zwischen EUR/USD ist 1,08114. Das bedeutet, wenn wir uns für 100$ Euros kaufen, bekommen wir dafür 92,49€
+		<br>Wir besitzen jetzt unsere 92,49€, die umgetauscht 100$ wären. Doch jetzt steigt der Wechselkurs des Währungspaares auf 1,10000. Wenn wir jetzt zurücktauschen von EUR auf USD zurücktauschen [1,1 * 92,49€ = 101,739$]. Wir haben somit 1,739$ Profit gemacht.  Ist schon klar, dass der Profit gering ist, doch wenn sie weiterlesen werden sie später noch auf den sogenannten Hebel treffen, der auch aus kleinen Bewegungen enorm Geld schöpft, doch hierzu später mehr.</p>		
+
+		<h4 id="short_pos">3.2.2 Short Position</h4>
+		<p style="color: red;">WICHTIG! BEGRIFF SHORT</p>
+		<p>Doch wie machen wir jetzt bei fallenden Kursen Geld? Stellen Sie sich vor, wir borgen uns virtuell 100€ aus. Irgendwann müssen wir das Geld wieder zurückzahlen. Doch bevor dies geschieht, tauschen wir die 100€- bei einem Wechselkurs von 1,8 gegen 108$. Wenn jetzt der Kurs von 1,8 auf 1,6 herunterfällt, können wir die 100€, die wir uns ausgeborgt haben, billiger zurückzahlen und den Rest behalten = Profit. So haben wir jetzt den Kurs von 1,6 und wir brauchen nur mehr 106$, um dies in 100€ zu wechseln und so unsere Schulden zu begleichen. So bleibt uns ein Profit von 2$</p>
+		
+		<h4 id="risiko_hinw">3.2.3 Risikohinweis Long/Short</h4>
+
+	<h2 id ="begriffe_eigenschaften">4.0 Begriffe und Eigenschaften von Forex</h2>
+	<h3 id ="hebelprodukt">4.1 Hebelprodukt</h3>
+		<p>Forex ist ein Hebelprodukt. Doch was ist das? Hierbei handelt es sich um eine Möglichkeit, mit wenig Geld viel Geld zu machen oder auch schnell zu verlieren. Ein Hebelprodukt funktioniert folgendermaßen: Man hat eine Einlage und einen Hebel. Auf gut Deutsch, wenn ich 500$ auf mein Konto einzahle und einen Hebel von 100 habe, dann kann ich mit <strong>[500$ * 100 = 50 000$]</strong> traden.</p>
+    		<p>Das bedeutet nicht, dass ich 50 000$ besitze oder dass ich so viel verlieren kann. Nein, ich habe nur die Möglichkeit, mit diesem Kapital zu handeln. Aber sobald meine 500$ weg sind, ist es bei den meisten Brokern so, dass diese dann schließen. Dazu später mehr beim Thema Margin. Wenn ich also dauernd nur Geld verliere und bei unserem Beispiel auf 49 500$ bin, ist mein Geld weg. Entweder verbietet der Broker ab jetzt das Handeln und blockiert die Transaktionen, oder er lässt dich Schulden schreiben, die dann nachzuzahlen sind.</p>
+   		 <ul>
+      		  <li>Ich lade 100$ auf mein Konto | Hebel = 100 | Gesamtbetrag, den ich verwalten kann: 10 000$</li>
+      		  <li>Einlage 1000$ | Hebel = 10 | Gesamtbetrag, den ich verwalten kann: 10 000$</li>
+    		</ul>
+		<img src="../logistic/upload_files/courses/Beginners/hebel1.jpg" alt="Hebel">
+		<p>Hebel gibt es typischerweise von 5 – 500, wobei man sagen muss, dass üblicherweise bis 100 für den normalen Nutzer erhältlich ist und dass es nur professionellen Tradern ermöglicht wird, mit solchen hohen Hebeln zu handeln. Trotzdem ist es auch mit einem Hebel von 50 oder 100 möglich, mit wenig Geld, viel Geld zu bewegen und dadurch verliert oder profitiert man eben auch durch kleine Kursschwankungen, da die Positionen so enorm sind. Wir können also für 100$ bei einem Hebel von 100, 10 000$ - bei einem Kurs von 1,08- in 9 259€ eintauschen. Der Kurs steigt jetzt von 1,08 auf 1,09 und wir tauschen unsere Euros wieder in Dollar. So bekommen wir 10 092$ und haben somit 92$ Profit gemacht. Fazit, wir haben mit unseren 100$ durch einen kleinen Kursanstieg 92$ verdient und somit unser Geld fast verdoppelt. Wichtig zum Anmerken ist, dass wenn der Kurs von 1,08 auf 1,07 gegangen wäre, dass wir 92$ Verlust gemacht hätten und somit nur mehr 8$ hätten.</p>
+		
+	<h3 id ="lot">4.2 Was ist ein Lot?</h3>
+		 <p>Wenn wir von einem Lot sprechen, dann meinen wir die Größe der Position. Wir unterscheiden hierbei in genormte Größen:</p>
+    		<ul>
+        		<li><strong>Standard-Lot:</strong> 100.000 Einheiten</li>
+        		<li><strong>Mini-Lot:</strong> 10.000 Einheiten (0,1 eines Standard-Lots)</li>
+        		<li><strong>Micro-Lot:</strong> 1.000 Einheiten (0,01 eines Standard-Lots)</li>
+        		<li><strong>Nano-Lot:</strong> 100 Einheiten (0,001 eines Standard-Lots)</li>
+    		</ul>
+    		<p>Es ist wichtig zu beachten, dass die Nano-Größe so gut wie nie verwendet wird und daher im MetaTrader5 nicht einmal vorhanden ist.</p>
+	
+    		<p><br>Wir handeln jetzt <strong>EUR/USD</strong> und gehen <strong>Long</strong>. Unsere Einlage beträgt 1000$ und wir haben einen Hebel von 100, was 100.000$ entspricht.</p>
+    		<p><br>Wenn wir einen Standard-Lot in EUR umtauschen, tauschen wir unsere gesamten 100.000$ in EUR um. Wenn wir jedoch nur 0,1 Standard-Lot tauschen, also einen Mini-Lot, tauschen wir nur 10.000$ in EUR um.</p>
+		<img src="../logistic/upload_files/courses/Beginners/auftragsfenster1.jpg" alt="Auftragsfenster">
+		<p>Diese Abbildung, die sie soeben gesehen haben, ist das Fenster im MetaTrader5, wo die Positionen gekauft werden, also wo man einen Währungstausch ausübt. Im MetaTrader5 ist es so, dass das Volumen die Lots sind. Dieses wird hier in einen Standard-Lot angegeben, wie vorher schon bei unserem Beispiel. Also wenn wir 1000 Einheiten unserer Währung tauschen möchten, geben wir 0,01 ein.</p>
+
+
+	<h3 id ="pip">4.3 Was ist ein Pip?</h3>
+		<p>Wie bei jeder Größe, hat auch der Kurs im Forexmarkt eine Einheit, die in Pip angegeben werden. Wenn man von Pips spricht, geht man immer von der vierten Kommastelle eines Kurses aus. Die Mehrzahl eines Pip sind die Pips.</p>
+		<img src="../logistic/upload_files/courses/Beginners/pip1.jpg" alt="Pip">
+		<img src="../logistic/upload_files/courses/Beginners/pip2.jpg" alt="Pip">
+		<p>Jetzt wissen wir wie wir auslesen können, wie viele Pips etwas hat. Wenn wir jetzt davon sprechen, dass der Kurs um 1 Pip steigt und unser Kurs steht vor dem Anstieg bei 1,0000, dann erhalten wir nach dem Anstieg um einen Pip, einen Kurs von 1,0001</p>
+		<p>Man könnte sich jetzt ausrechnen, wie viele Pips man gewinnen müsste oder verlieren darf, um zum Beispiel +/- 5 Euro zu machen. Dies wird in diesem Kurs nicht erklärt, da die Kalkulation den Neuling nur aufhalten würde, für eine gewisse Zeit und eventuell fürs Erste kontraproduktiv ist. Eventuell wird dieses Thema in den kommenden Kursen behandelt, doch bis dahin bieten wir Ihnen, bei unserem Handelssystem, in der Benutzeroberfläche einen kostenlosen PIP-Rechner an.</p>
+
+	<h3 id ="handelszeiten">4.4 Handelszeiten</h3>
+		<p>Ein sehr spannendes Thema sind die Handelszeiten der einzelnen Zeitzonen. Zwar ist es so, dass der Forex Handel Montag bis Freitag möglich ist, dennoch kann man diesen in verschiedene Sessions einteilen. Was bedeutet dies genau und was meinen wir mit Session? Eine Session ist der Zeitraum, indem ein bestimmtes Gebiet oder besser gesagt eine gewisse Stadt beginnt zu handeln. So öffnen in der Session der Stadt, die Börse und es herrscht am meisten Liquidität je nach Bedeutsamkeit der Session. Das scheint jetzt eine Information zu sein, die nicht jeder von Anfang an versteht, daher widmen wir diesem Thema natürlich auch ein Beispiel.</p>
+
+		<h4 id="sessions">4.4.1 Beispiel Handelszeiten und Sessions</h4>
+		<p>Zuerst müssen wir das Prinzip der Zeitzonen der Erde verstehen, bevor wir erklären können, warum es verschiedene Sessions gibt. Unsere Welt ist in verschiedenen Zeitzonen eingeteilt, so haben wir gerade in Wien 18 Uhr und in New York hätten wir 12 Uhr, da New York 6 Stunden von der Zeit her hinten liegt.</p>
+		<img src="../logistic/upload_files/courses/Beginners/zeitzonen.jpg" alt="Zeitzonen">	
+	
+		<p>Fast jede große Globalstadt besitzt eine Börse, die während der Öffnungszeiten das meiste Handelsvolumen und Devisenhandel aufweist. Dies liegt daran, dass sowohl Aktien-Spekulanten als auch lokale Trader und Banken während der Handelszeiten aktiv sind. Wenn eine Session beginnt, wird es Tag, und die Banken, Wechselstuben und der Handel sind geöffnet. Nachts schlafen die Menschen und die Börsen sind geschlossen.</p>
+
+    		<p>Für den Devisenhandel gibt es vier wichtige Sessions, die Sie sich leicht merken können:</p>
+    		<ul>
+      		  <li>Sydney Session</li>
+      		  <li>Tokyo Session (auch genannt: Asia Session)</li>
+      		  <li>London Session</li>
+      		  <li>New York Session</li>
+  	       </ul>
+
+    		<p>Hier sind die Handelszeiten der Sessions in den jeweiligen Städten:</p>
+    		<table>
+      		  <thead>
+        	    <tr>
+              		  <th>Session</th>
+                	  <th>Handelszeiten (Ortszeit)</th>
+              		  <th>Handelszeiten (UTC+2)</th>
+           		 </tr>
+        		</thead>
+        	<tbody>
+          	  <tr>
+           	     <td>Sydney Session</td>
+          	      <td>7:00 – 16:00</td>
+           	     <td>20:00 – 5:00</td>
+          	  </tr>
+           	 <tr>
+            	    <td>Tokyo Session</td>
+            	    <td>9:00 – 18:00</td>
+             	   <td>1:00 – 10:00</td>
+          	  </tr>
+            	<tr>
+             	   <td>London Session</td>
+             	   <td>8:00 – 17:00</td>
+              	  <td>9:00 – 18:00</td>
+            	</tr>
+            	<tr>
+             	   <td>New York Session</td>
+             	   <td>8:00 – 17:00</td>
+              	  <td>14:00 – 23:00</td>
+          	  </tr>
+        	</tbody>
+   		 </table>
+
+    <p>Falls Sie sich unsicher sind, wann genau eine Session beginnt, haben Sie zwei Möglichkeiten:</p>
+    <ol>
+        <li>Eine vertrauliche Quelle im Internet finden.</li>
+        <li>Unser Handelssystem-Paket kostenfrei herunterladen und in der Benutzerfläche nachsehen oder unsere kostenfreie Weltuhr herunterladen, die speziell für den Handel entwickelt wurde.</li>
+    </ol>
+
+    <p>Jede Session weist unterschiedliche Liquidität auf. Beispielsweise haben die New York- oder London-Sessions ein höheres Handelsvolumen als die Sydney- oder Asia-Sessions, da New York die größte Börse der Welt besitzt und mehr Menschen in dieser Zeit handeln.</p>
+
+	<h3 id ="wahrungspaare">4.5 Welche Währungspaare gibt es</h3>
+<p>Die unterschiedlichen Paare werden in drei große Kategorien eingeteilt:</p>
+    <ul>
+        <li>Majors</li>
+        <li>Minors</li>
+        <li>Exotics</li>
+    </ul>
+
+    <h4 id ="spread">4.5.1 Was ist der Spread?</h4>
+    <p>Bevor wir klären, was diese Gruppen so speziell macht, müssen wir den Begriff <strong>Spread</strong> noch erläutern. Beim Handel gibt es immer zwei Preise, die sich Ask- und Bid-Preis nennen. Der Ask-Preis ist der Preis, bei dem der Markt bereit wäre zu tauschen. Das bedeutet, wenn ich USD in EUR kaufen möchte, kaufe ich nicht zum aktuellen Kurs, sondern ein bisschen teurer, zum Preis, bei dem der Verkäufer bereit wäre zu tauschen. Wenn ich allerdings meine EUR in USD wieder umwandeln möchte, bekomme ich den Bid-Preis, der aussagt, bei welchem Preis der Käufer bereit wäre zu kaufen. Die Differenz zwischen Bid und Ask ist der Spread, der in Pips angegeben wird.</p>
+
+     <h4 id ="majors">4.5.2 Majors</h4>
+    <p>Die Majors sind globale Hauptwährungspaare, die in der Regel am meisten gehandelt werden und daher durch die hohe Liquidität mit einem sehr niedrigen Spread gehandelt werden, da reichlich Angebot und Nachfrage herrscht. Diese Paare bestehen aus zwei großen Hauptwährungen, wie dem EUR oder dem USD. Es gibt aktuell 7 Majors, die wie folgt lauten:</p>
+    <ul>
+        <li>EUR/USD - Euro/US Dollar</li>
+        <li>USD/JPY - US Dollar/Japanese Yen</li>
+        <li>GBP/USD - British Pound/US Dollar</li>
+        <li>AUD/USD - Australian Dollar/US Dollar</li>
+        <li>USD/CHF - US Dollar/Swiss Franc</li>
+        <li>USD/CAD - US Dollar/Canadian Dollar</li>
+        <li>NZD/USD - New Zealand Dollar/US Dollar</li>
+    </ul>
+    <p>Wir sehen, dass in jedem dieser Paare der USD verankert ist. Wir empfehlen, diese Gruppe zu handeln, da der geringe Spread existiert und schnell getauscht werden kann.</p>
+
+    <h4 id ="minors">4.5.3 Minors</h4>
+    <p>Die Minors werden auch Cross-Paare genannt. Diese Paare bestehen aus zwei Währungen, wobei keine der beiden den USD enthält. Es sind also Währungen aus der Major-Klasse (ohne den USD), die untereinander getauscht werden.</p>
+    <ul>
+        <li>EUR/GBP - Euro/British Pound</li>
+        <li>EUR/AUD - Euro/Australian Dollar</li>
+        <li>GBP/JPY - British Pound/Japanese Yen</li>
+        <li>AUD/JPY - Australian Dollar/Japanese Yen</li>
+        <li>EUR/CAD - Euro/Canadian Dollar</li>
+        <li>NZD/JPY - New Zealand Dollar/Japanese Yen</li>
+        <li>GBP/AUD - British Pound/Australian Dollar</li>
+    </ul>
+    <p>Diese werden nicht so häufig wie die Majors gehandelt, doch es ist möglich, diese Paare effizient zu handeln. Der Spread ist zwar höher, aber meistens nur das doppelte der Majors. Zum Beispiel liegt der Spread der Majors überwiegend zwischen 1 und 3 Pips und der Minors bei 3 bis 7 Pips.</p>
+
+    <h4 id ="exotics">4.5.4 Exotics</h4>
+    <p>Die Exotics beinhalten eine Währung aus der Major-Klasse und eine Währung aus einem Land, die nicht häufig gehandelt wird. Der Name <strong>Exotics</strong> drückt aus, dass dieser Handel relativ illiquide ist (illiquide ist das Gegenteil von liquide). Diese Paare werden sehr selten gehandelt und weisen daher hohe Spreads auf, die von 10 bis 100 Pips reichen können.</p>
+    <ul>
+        <li>USD/TRY - US Dollar/Turkish Lira</li>
+        <li>EUR/TRY - Euro/Turkish Lira</li>
+        <li>USD/SGD - US Dollar/Singapore Dollar</li>
+        <li>EUR/THB - Euro/Thai Baht</li>
+        <li>USD/ZAR - US Dollar/South African Rand</li>
+        <li>USD/HKD - US Dollar/Hong Kong Dollar</li>
+        <li>USD/PLN - US Dollar/Polish Zloty</li>
+    </ul>
+    <p>Wenn Sie sich die rechte Seite des Paares ansehen, werden Sie merken, dass diese Währungen zwar im jeweiligen Land wichtig sind, aber am großen Weltmarkt wenig Bedeutung haben. Dies führt zu einer gewissen Emotionslosigkeit im Handel dieser Paare und macht den Austausch sehr teuer. Daher empfehlen wir, die Exotics gerade als Anfänger wegzulassen und sich erst einmal auf die Majors zu fokussieren.</p>
+
+    <h3 id="margin">4.6 Was ist die Margin?</h3>
+    <p>Die Margin ist eine Mindestanforderung, die benötigt wird, um einen Trade eingehen zu können. Prinzipiell ist dieses Thema sehr wichtig, doch solange man nicht mit übertriebenen Positionen hantiert und nicht sein Konto bis auf den letzten Cent ausreizt, spielt es momentan noch keine große Rolle. Falls Ihr Interesse geweckt wurde, können Sie einfach in Google nach einer passenden Erklärung suchen und sich dies jetzt oder später nach diesem Kurs präzise durchlesen. Wir werden kurz in die Praxis übergehen, um Sie auf den Handel vorzubereiten. Gehen Sie dazu in den MetaTrader5 und navigieren Sie unten zu "Handel". Dort sehen Sie unter "freie Margin", wie viel Ihres Kapitals Sie noch verwenden können.</p>
+
+    <h2 id="handelssys_gbi">5 Handelssystem GreenBumbleInvest Tutorial</h2>
+    <p>Wir haben Ihnen soeben die wichtigsten Grundlagen erklärt. Nun sind Sie bereit, Ihren ersten Trade einzugehen. Doch leider fehlt Ihnen noch das Wissen zur Bestimmung der Kursrichtung und zur Spekulation, wohin der Kurs gehen wird. Wenn Sie der Meinung sind, dass Sie es auch ohne ein automatisches Handelssystem schaffen, endet dieser Kurs hier. Sie sind jedoch herzlich eingeladen, weiterzulesen. Für alle, die Interesse an einem System haben, das für Sie zu jeder Zeit (solange der Rechner/Computer läuft) handelt, bitten wir Sie, noch etwas zu bleiben, um einen kurzen Einblick in die Technik zu erhalten.</p>
+
+    <p>Wir bieten Ihnen ein System aus zwei Komponenten: Den Expert Advisor für den MetaTrader5 und eine Benutzeroberfläche, die es ermöglicht, personalisierte Werte einzustellen und Analysen sowie wichtige Rechnungen durchzuführen. Ein Expert Advisor ist ein Programm für den MetaTrader, das nach Algorithmen handelt. Vorsicht: Diese Algorithmen sind keine Alleskönner und nicht besser als der, der sie geschrieben hat. Dennoch gibt es einige Vorteile: Sie müssen nicht mehr vor dem Rechner sitzen, der Handel erfolgt ohne Emotionen, und das System ist effizient und schnell. Wenn Sie unseren kostenlosen 2-Komponenten Expert Advisor genauer betrachten möchten, können Sie unter "Produkte" auf unserer Website Statistiken auslesen, wie sich dieser geschlagen hat und ob er profitabel ist. Sie erhalten außerdem Einblicke in den Handelsprozess und können das System dort auch gleich herunterladen. Wir empfehlen Ihnen, das System erst mit Ihrem Demokonto zu testen, die Werte gegebenenfalls anzupassen und erst wenn Sie voll überzeugt sind, auf ein Livekonto überzugehen. Die Standardwerte, die wir für unsere Testphasen verwenden, finden Sie ebenfalls dort.</p>
+
+    <h2 id="abschluss">6 Abschluss</h2>
+    <p>Sie haben es geschafft, wir sind am Ende dieses Kurses. Es war mir eine Ehre, diesen Kurs für Sie zu schreiben. Dennoch möchte ich Ihnen ein Zitat mitgeben, das Sie vor der Zerstörung Ihres Kontos bewahren soll: "Nur Unkraut wächst schnell, schöne Blumen brauchen lange." Wenn man das auf das Trading bezieht, meine ich damit, dass Sie nicht hastig, emotional oder schlampig arbeiten sollen. Lernen Sie, die Kontrolle zu bewahren, überdenken Sie jeden Schritt, und wenn Sie wirklich gut werden möchten, bleiben Sie dran und lernen Sie fleißig.</p>
+
+    <h2 id="literatur">7 Literatur</h2>
+<h4>Wichtige Links</h4>
+    <ul>
+        <li><a href="https://my.roboforex.com/en/" target="_blank">RoboForex</a></li>
+        <li><a href="https://www.metatrader5.com/de" target="_blank">MetaTrader5</a></li>
+        <li><a href="https://de.tradingview.com/" target="_blank">Trading View</a></li>
+    </ul>
+
+    <h4>Icons und Images</h4>
+    <ul>
+        <li>
+            <a href="https://www.flaticon.com/de/kostenloses-icon/gold_3309977" target="_blank">
+                <img src="https://image.flaticon.com/icons/jpg/512/3309/3309977.jpg" alt="Gold Icon" style="width: 24px; height: 24px;">
+                Flaticon - Gold Icon
+            </a>
+        </li>
+        <li>
+            <a href="https://www.nachhilfe-team.net/lernen-leicht-gemacht/zeitzonen/" target="_blank">
+                Nachhilfe-Team.net
+            </a>
+        </li>
+    </ul>
+
+</div>
