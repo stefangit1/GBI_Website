@@ -3,7 +3,9 @@
 This project is self-developed PHP web application.  
 Made by Marco Hummel and Stefan Hummel  
 
-GreenBumbleInvest is an Austrian company that focuses on creating a stable network of traders and learners.  The name GreenBumbleInvest officially came to public attention on August 1st, 2024, but the vision of a universal platform for people who are passionate about finance has existed since October 10th, 2023.
+GreenBumbleInvest is an Austrian company that focuses on creating a stable network of traders and learners.  The name GreenBumbleInvest officially came to public attention on August 1st, 2024, but the vision of a universal platform for people who are passionate about finance has existed since October 10th, 2023.  
+
+This website is currently not online.  
 
 ## Content
 - Free pages with unique and self-developed/written products about trading
